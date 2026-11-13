@@ -1,0 +1,23 @@
+# 本地配置、凭据及依赖
+.env
+.env.*
+!.env.example
+.venv/
+node_modules/
+dist/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.DS_Store
+.runtime/
+playwright-report/
+test-results/
+
+# 构建、调试与本机编辑器产物
+target/
+*.tsbuildinfo
+*.log
+.idea/

@@ -1,0 +1,23 @@
+{
+  "contract": "talk2stock-e72aae4-v1",
+  "fixture_version": 1,
+  "source_sql_sha256": "6d3da401054267a58a616ed89cc496a6b43038a485e075c74971e02215e6328f",
+  "backend_image": "talk2stock-erp-backend:latest",
+  "web_image": "talk2stock-erp-web:latest",
+  "data": "synthetic-only",
+  "init_sql_sha256": "70b8deef290ac3821081df306019c52f40acb09662f9c51492b7319a115f7c98",
+  "observed_images": [
+    {
+      "tag": [
+        "talk2stock-erp-backend:latest"
+      ],
+      "id": "sha256:087db90760236927ead90245deb6d91a2875f6882f3ac172e8c7f44dad630442"
+    },
+    {
+      "tag": [
+        "talk2stock-erp-web:latest"
+      ],
+      "id": "sha256:95c003638a280b37f91802dbeac50c5d3d9533dff9c7bcff232e853e3d59e583"
+    }
+  ]
+}

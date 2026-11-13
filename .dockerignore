@@ -1,0 +1,13 @@
+**/.git
+**/.env
+**/.env.*
+**/.runtime
+**/node_modules
+**/.venv
+**/dist
+**/target
+**/__pycache__
+**/.pytest_cache
+**/.ruff_cache
+.agents
+.codex

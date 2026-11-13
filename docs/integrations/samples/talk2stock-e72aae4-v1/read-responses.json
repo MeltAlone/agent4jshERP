@@ -1,0 +1,1830 @@
+{
+  "captured_at": "2026-11-12T13:31:13.808629+00:00",
+  "contract": "talk2stock-e72aae4-v1",
+  "users": {
+    "fixture-owner": {
+      "session": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "user": {
+              "id": 9001,
+              "tenantId": 9001,
+              "loginName": "fixture-owner",
+              "ismanager": 0,
+              "status": 0
+            }
+          }
+        }
+      },
+      "buttons": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "userBtn": [
+              {
+                "btnStr": "",
+                "url": "/material"
+              },
+              {
+                "btnStr": "1,3",
+                "url": "/material/material"
+              },
+              {
+                "btnStr": "",
+                "url": "/systemA"
+              },
+              {
+                "btnStr": "1,3",
+                "url": "/system/vendor"
+              },
+              {
+                "btnStr": "",
+                "url": "/system/depot"
+              },
+              {
+                "btnStr": "",
+                "url": "/bill"
+              },
+              {
+                "btnStr": "",
+                "url": "/report"
+              },
+              {
+                "btnStr": "1,2,3,7",
+                "url": "/bill/purchase_order"
+              },
+              {
+                "btnStr": "",
+                "url": "/report/material_stock"
+              }
+            ]
+          }
+        }
+      },
+      "price": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "priceLimit": ""
+          }
+        }
+      },
+      "role": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "roleType": "全部数据"
+          }
+        }
+      },
+      "depots": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": [
+            {
+              "depotName": "验证仓库二",
+              "isDefault": false,
+              "id": 6002
+            },
+            {
+              "depotName": "验证仓库一",
+              "isDefault": true,
+              "id": 6001
+            }
+          ]
+        }
+      },
+      "order_detail_visibility_probe": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "id": 277,
+            "type": "其它",
+            "subType": "采购订单",
+            "defaultNumber": "CGDD00000001002",
+            "number": "CGDD00000001002",
+            "createTime": "2026-11-12T13:26:55.000+0000",
+            "operTime": "2026-11-12T13:24:50.000+0000",
+            "organId": 4001,
+            "creator": 9002,
+            "accountId": null,
+            "changeAmount": 0.0,
+            "backAmount": 0,
+            "totalPrice": 75.31,
+            "payType": "现付",
+            "billType": null,
+            "remark": "fixture-contract-v1 普通未审核采购订单；无订金、零税。",
+            "fileName": "",
+            "salesMan": null,
+            "accountIdList": "",
+            "accountMoneyList": "",
+            "discount": 0.0,
+            "discountMoney": 0.0,
+            "discountLastMoney": 75.31,
+            "otherMoney": null,
+            "deposit": 0,
+            "lastDeposit": 0.0,
+            "debt": 75.31,
+            "lastDebt": null,
+            "status": "0",
+            "purchaseStatus": "0",
+            "source": "0",
+            "linkNumber": null,
+            "linkApply": null,
+            "tenantId": 9001,
+            "deleteFlag": "0",
+            "projectName": null,
+            "organName": "虚构饮品供应商",
+            "userName": null,
+            "accountName": null,
+            "allocationProjectName": null,
+            "materialsList": "虚构可乐 330ml fixture-330ml ",
+            "salesManStr": null,
+            "operTimeStr": "2026-11-12 21:24:50",
+            "finishDebt": null,
+            "depotHeadType": "采购订单其它",
+            "creatorName": "fixture-buyer",
+            "contacts": null,
+            "telephone": null,
+            "address": null,
+            "finishDeposit": null,
+            "needDebt": null,
+            "materialCount": 2.5,
+            "hasFinancialFlag": null,
+            "hasBackFlag": false,
+            "realNeedDebt": null,
+            "bankName": null,
+            "accountNumber": null,
+            "taxNum": null,
+            "phoneNum": null
+          }
+        }
+      },
+      "orders": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "total": 1,
+            "rows": [
+              {
+                "id": 277,
+                "type": "其它",
+                "subType": "采购订单",
+                "defaultNumber": "CGDD00000001002",
+                "number": "CGDD00000001002",
+                "createTime": "2026-11-12T13:26:55.000+0000",
+                "operTime": "2026-11-12T13:24:50.000+0000",
+                "organId": 4001,
+                "creator": 9002,
+                "accountId": null,
+                "changeAmount": 0.0,
+                "backAmount": 0,
+                "totalPrice": 75.31,
+                "payType": "现付",
+                "billType": null,
+                "remark": "fixture-contract-v1 普通未审核采购订单；无订金、零税。",
+                "fileName": "",
+                "salesMan": null,
+                "accountIdList": "",
+                "accountMoneyList": "",
+                "discount": 0.0,
+                "discountMoney": 0.0,
+                "discountLastMoney": 75.31,
+                "otherMoney": null,
+                "deposit": 0,
+                "lastDeposit": 0.0,
+                "debt": 75.31,
+                "lastDebt": 75.31,
+                "status": "0",
+                "purchaseStatus": "0",
+                "source": "0",
+                "linkNumber": null,
+                "linkApply": null,
+                "tenantId": 9001,
+                "deleteFlag": "0",
+                "projectName": null,
+                "organName": "虚构饮品供应商",
+                "userName": "fixture-buyer",
+                "accountName": null,
+                "allocationProjectName": null,
+                "materialsList": "虚构可乐 330ml fixture-330ml ",
+                "salesManStr": null,
+                "operTimeStr": "2026-11-12 21:24:50",
+                "finishDebt": null,
+                "depotHeadType": null,
+                "creatorName": null,
+                "contacts": null,
+                "telephone": null,
+                "address": null,
+                "finishDeposit": 0,
+                "needDebt": null,
+                "materialCount": 2.5,
+                "hasFinancialFlag": null,
+                "hasBackFlag": false,
+                "realNeedDebt": null,
+                "bankName": null,
+                "accountNumber": null,
+                "taxNum": null,
+                "phoneNum": null
+              }
+            ]
+          }
+        }
+      }
+    },
+    "fixture-buyer": {
+      "session": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "user": {
+              "id": 9002,
+              "tenantId": 9001,
+              "loginName": "fixture-buyer",
+              "ismanager": 1,
+              "status": 0
+            }
+          }
+        }
+      },
+      "buttons": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "userBtn": [
+              {
+                "btnStr": "",
+                "url": "/material"
+              },
+              {
+                "btnStr": "1,3",
+                "url": "/material/material"
+              },
+              {
+                "btnStr": "",
+                "url": "/systemA"
+              },
+              {
+                "btnStr": "1,3",
+                "url": "/system/vendor"
+              },
+              {
+                "btnStr": "",
+                "url": "/system/depot"
+              },
+              {
+                "btnStr": "",
+                "url": "/bill"
+              },
+              {
+                "btnStr": "",
+                "url": "/report"
+              },
+              {
+                "btnStr": "1,2,3,7",
+                "url": "/bill/purchase_order"
+              },
+              {
+                "btnStr": "",
+                "url": "/report/material_stock"
+              }
+            ]
+          }
+        }
+      },
+      "price": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "priceLimit": ""
+          }
+        }
+      },
+      "role": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "roleType": "全部数据"
+          }
+        }
+      },
+      "depots": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": [
+            {
+              "depotName": "验证仓库一",
+              "isDefault": true,
+              "id": 6001
+            }
+          ]
+        }
+      },
+      "order_detail_visibility_probe": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "id": 277,
+            "type": "其它",
+            "subType": "采购订单",
+            "defaultNumber": "CGDD00000001002",
+            "number": "CGDD00000001002",
+            "createTime": "2026-11-12T13:26:55.000+0000",
+            "operTime": "2026-11-12T13:24:50.000+0000",
+            "organId": 4001,
+            "creator": 9002,
+            "accountId": null,
+            "changeAmount": 0.0,
+            "backAmount": 0,
+            "totalPrice": 75.31,
+            "payType": "现付",
+            "billType": null,
+            "remark": "fixture-contract-v1 普通未审核采购订单；无订金、零税。",
+            "fileName": "",
+            "salesMan": null,
+            "accountIdList": "",
+            "accountMoneyList": "",
+            "discount": 0.0,
+            "discountMoney": 0.0,
+            "discountLastMoney": 75.31,
+            "otherMoney": null,
+            "deposit": 0,
+            "lastDeposit": 0.0,
+            "debt": 75.31,
+            "lastDebt": null,
+            "status": "0",
+            "purchaseStatus": "0",
+            "source": "0",
+            "linkNumber": null,
+            "linkApply": null,
+            "tenantId": 9001,
+            "deleteFlag": "0",
+            "projectName": null,
+            "organName": "虚构饮品供应商",
+            "userName": null,
+            "accountName": null,
+            "allocationProjectName": null,
+            "materialsList": "虚构可乐 330ml fixture-330ml ",
+            "salesManStr": null,
+            "operTimeStr": "2026-11-12 21:24:50",
+            "finishDebt": null,
+            "depotHeadType": "采购订单其它",
+            "creatorName": "fixture-buyer",
+            "contacts": null,
+            "telephone": null,
+            "address": null,
+            "finishDeposit": null,
+            "needDebt": null,
+            "materialCount": 2.5,
+            "hasFinancialFlag": null,
+            "hasBackFlag": false,
+            "realNeedDebt": null,
+            "bankName": null,
+            "accountNumber": null,
+            "taxNum": null,
+            "phoneNum": null
+          }
+        }
+      },
+      "orders": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "total": 1,
+            "rows": [
+              {
+                "id": 277,
+                "type": "其它",
+                "subType": "采购订单",
+                "defaultNumber": "CGDD00000001002",
+                "number": "CGDD00000001002",
+                "createTime": "2026-11-12T13:26:55.000+0000",
+                "operTime": "2026-11-12T13:24:50.000+0000",
+                "organId": 4001,
+                "creator": 9002,
+                "accountId": null,
+                "changeAmount": 0.0,
+                "backAmount": 0,
+                "totalPrice": 75.31,
+                "payType": "现付",
+                "billType": null,
+                "remark": "fixture-contract-v1 普通未审核采购订单；无订金、零税。",
+                "fileName": "",
+                "salesMan": null,
+                "accountIdList": "",
+                "accountMoneyList": "",
+                "discount": 0.0,
+                "discountMoney": 0.0,
+                "discountLastMoney": 75.31,
+                "otherMoney": null,
+                "deposit": 0,
+                "lastDeposit": 0.0,
+                "debt": 75.31,
+                "lastDebt": 75.31,
+                "status": "0",
+                "purchaseStatus": "0",
+                "source": "0",
+                "linkNumber": null,
+                "linkApply": null,
+                "tenantId": 9001,
+                "deleteFlag": "0",
+                "projectName": null,
+                "organName": "虚构饮品供应商",
+                "userName": "fixture-buyer",
+                "accountName": null,
+                "allocationProjectName": null,
+                "materialsList": "虚构可乐 330ml fixture-330ml ",
+                "salesManStr": null,
+                "operTimeStr": "2026-11-12 21:24:50",
+                "finishDebt": null,
+                "depotHeadType": null,
+                "creatorName": null,
+                "contacts": null,
+                "telephone": null,
+                "address": null,
+                "finishDeposit": 0,
+                "needDebt": null,
+                "materialCount": 2.5,
+                "hasFinancialFlag": null,
+                "hasBackFlag": false,
+                "realNeedDebt": null,
+                "bankName": null,
+                "accountNumber": null,
+                "taxNum": null,
+                "phoneNum": null
+              }
+            ]
+          }
+        }
+      },
+      "materials": {
+        "http_status": 200,
+        "body": {
+          "total": 4,
+          "rows": [
+            {
+              "standard": "500ml",
+              "otherField1": null,
+              "color": null,
+              "mfrs": null,
+              "otherField3": null,
+              "categoryName": null,
+              "otherField2": null,
+              "imgSmall": "",
+              "imgName": null,
+              "unit": "瓶[基本]",
+              "expand": "",
+              "name": "虚构可乐",
+              "mnemonic": null,
+              "model": "fixture-500ml",
+              "imgLarge": "",
+              "id": 20020,
+              "mBarCode": "FIX900120",
+              "enableSerialNumber": "0",
+              "sku": null,
+              "stock": 120.0,
+              "brand": null,
+              "enableBatchNumber": "0"
+            },
+            {
+              "standard": "500ml",
+              "otherField1": null,
+              "color": null,
+              "mfrs": null,
+              "otherField3": null,
+              "categoryName": null,
+              "otherField2": null,
+              "imgSmall": "",
+              "imgName": null,
+              "unit": "箱[12瓶]",
+              "expand": "",
+              "name": "虚构可乐",
+              "mnemonic": null,
+              "model": "fixture-500ml",
+              "imgLarge": "",
+              "id": 20021,
+              "mBarCode": "FIX900121",
+              "enableSerialNumber": "0",
+              "sku": null,
+              "stock": 10.0,
+              "brand": null,
+              "enableBatchNumber": "0"
+            },
+            {
+              "standard": "330ml",
+              "otherField1": null,
+              "color": null,
+              "mfrs": null,
+              "otherField3": null,
+              "categoryName": null,
+              "otherField2": null,
+              "imgSmall": "",
+              "imgName": null,
+              "unit": "瓶[基本]",
+              "expand": "",
+              "name": "虚构可乐",
+              "mnemonic": null,
+              "model": "fixture-330ml",
+              "imgLarge": "",
+              "id": 20010,
+              "mBarCode": "FIX900110",
+              "enableSerialNumber": "0",
+              "sku": null,
+              "stock": 120.0,
+              "brand": null,
+              "enableBatchNumber": "0"
+            },
+            {
+              "standard": "330ml",
+              "otherField1": null,
+              "color": null,
+              "mfrs": null,
+              "otherField3": null,
+              "categoryName": null,
+              "otherField2": null,
+              "imgSmall": "",
+              "imgName": null,
+              "unit": "箱[12瓶]",
+              "expand": "",
+              "name": "虚构可乐",
+              "mnemonic": null,
+              "model": "fixture-330ml",
+              "imgLarge": "",
+              "id": 20011,
+              "mBarCode": "FIX900111",
+              "enableSerialNumber": "0",
+              "sku": null,
+              "stock": 10.0,
+              "brand": null,
+              "enableBatchNumber": "0"
+            }
+          ]
+        }
+      },
+      "supplier": {
+        "http_status": 200,
+        "body": [
+          {
+            "supplier": "虚构饮品供应商",
+            "id": 4001
+          }
+        ]
+      },
+      "priced_material": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "id": 3001,
+            "categoryId": null,
+            "name": "虚构可乐",
+            "mfrs": null,
+            "model": "fixture-330ml",
+            "standard": "330ml",
+            "brand": null,
+            "mnemonic": null,
+            "color": null,
+            "unit": "",
+            "remark": "纯虚构契约验证商品",
+            "imgName": null,
+            "unitId": 5001,
+            "expiryNum": null,
+            "weight": null,
+            "enabled": true,
+            "otherField1": null,
+            "otherField2": null,
+            "otherField3": null,
+            "enableSerialNumber": "0",
+            "enableBatchNumber": "0",
+            "position": null,
+            "attribute": null,
+            "tenantId": 9001,
+            "deleteFlag": "0",
+            "unitName": "瓶/箱=12瓶",
+            "ratio": null,
+            "categoryName": null,
+            "materialOther": "",
+            "stock": null,
+            "purchaseDecimal": 30.0,
+            "commodityDecimal": 30.0,
+            "wholesaleDecimal": 30.0,
+            "lowDecimal": 0.0,
+            "billPrice": null,
+            "mBarCode": "FIX900111",
+            "commodityUnit": "箱",
+            "meId": null,
+            "initialStock": null,
+            "currentUnitPrice": null,
+            "currentStock": null,
+            "currentStockPrice": null,
+            "currentStockMovePrice": null,
+            "currentWeight": null,
+            "sku": null,
+            "depotId": null,
+            "bigUnitStock": null,
+            "bigUnitInitialStock": null,
+            "imgSmall": null,
+            "imgLarge": null,
+            "taxRate": null,
+            "taxMoney": null,
+            "taxLastMoney": null
+          }
+        }
+      },
+      "material_base": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": [
+            {
+              "id": 3001,
+              "categoryId": null,
+              "name": "虚构可乐",
+              "mfrs": null,
+              "model": "fixture-330ml",
+              "standard": "330ml",
+              "brand": null,
+              "mnemonic": null,
+              "color": null,
+              "unit": "",
+              "remark": "纯虚构契约验证商品",
+              "imgName": null,
+              "unitId": 5001,
+              "expiryNum": null,
+              "weight": null,
+              "enabled": true,
+              "otherField1": null,
+              "otherField2": null,
+              "otherField3": null,
+              "enableSerialNumber": "0",
+              "enableBatchNumber": "0",
+              "position": null,
+              "attribute": null,
+              "tenantId": 9001,
+              "deleteFlag": "0",
+              "unitName": "瓶/箱=12瓶",
+              "ratio": null,
+              "categoryName": null,
+              "materialOther": null,
+              "stock": null,
+              "purchaseDecimal": null,
+              "commodityDecimal": null,
+              "wholesaleDecimal": null,
+              "lowDecimal": null,
+              "billPrice": null,
+              "mBarCode": null,
+              "commodityUnit": null,
+              "meId": null,
+              "initialStock": null,
+              "currentUnitPrice": null,
+              "currentStock": null,
+              "currentStockPrice": null,
+              "currentStockMovePrice": null,
+              "currentWeight": null,
+              "sku": null,
+              "depotId": null,
+              "bigUnitStock": null,
+              "bigUnitInitialStock": null,
+              "imgSmall": null,
+              "imgLarge": null,
+              "taxRate": null,
+              "taxMoney": null,
+              "taxLastMoney": null
+            }
+          ]
+        }
+      },
+      "material_extend": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "id": 3001,
+            "categoryId": null,
+            "name": "虚构可乐",
+            "mfrs": null,
+            "model": "fixture-330ml",
+            "standard": "330ml",
+            "brand": null,
+            "mnemonic": null,
+            "color": null,
+            "unit": "",
+            "remark": "纯虚构契约验证商品",
+            "imgName": null,
+            "unitId": 5001,
+            "expiryNum": null,
+            "weight": null,
+            "enabled": true,
+            "otherField1": null,
+            "otherField2": null,
+            "otherField3": null,
+            "enableSerialNumber": "0",
+            "enableBatchNumber": "0",
+            "position": null,
+            "attribute": null,
+            "tenantId": 9001,
+            "deleteFlag": "0",
+            "unitName": "瓶/箱=12瓶",
+            "ratio": null,
+            "categoryName": null,
+            "materialOther": "",
+            "stock": null,
+            "purchaseDecimal": 30.0,
+            "commodityDecimal": 30.0,
+            "wholesaleDecimal": 30.0,
+            "lowDecimal": 0.0,
+            "billPrice": null,
+            "mBarCode": "FIX900111",
+            "commodityUnit": "箱",
+            "meId": null,
+            "initialStock": null,
+            "currentUnitPrice": null,
+            "currentStock": null,
+            "currentStockPrice": null,
+            "currentStockMovePrice": null,
+            "currentWeight": null,
+            "sku": null,
+            "depotId": null,
+            "bigUnitStock": null,
+            "bigUnitInitialStock": null,
+            "imgSmall": null,
+            "imgLarge": null,
+            "taxRate": null,
+            "taxMoney": null,
+            "taxLastMoney": null
+          }
+        }
+      },
+      "units": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "total": 1,
+            "rows": [
+              {
+                "id": 5001,
+                "name": "瓶/箱=12瓶",
+                "basicUnit": "瓶",
+                "otherUnit": "箱",
+                "otherUnitTwo": null,
+                "otherUnitThree": null,
+                "ratio": 12.0,
+                "ratioTwo": null,
+                "ratioThree": null,
+                "enabled": true,
+                "tenantId": 9001,
+                "deleteFlag": "0"
+              }
+            ]
+          }
+        }
+      },
+      "stock_bottle": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "stock": 120.0
+          }
+        }
+      },
+      "stock_case": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "stock": 10.0
+          }
+        }
+      },
+      "stock_missing": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "stock": 0
+          }
+        }
+      },
+      "supplier_missing": {
+        "http_status": 200,
+        "body": []
+      },
+      "supplier_invalid_id": {
+        "http_status": 200,
+        "body": []
+      }
+    },
+    "fixture-readonly": {
+      "session": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "user": {
+              "id": 9003,
+              "tenantId": 9001,
+              "loginName": "fixture-readonly",
+              "ismanager": 1,
+              "status": 0
+            }
+          }
+        }
+      },
+      "buttons": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "userBtn": [
+              {
+                "btnStr": "",
+                "url": "/material"
+              },
+              {
+                "btnStr": "1,3",
+                "url": "/material/material"
+              },
+              {
+                "btnStr": "",
+                "url": "/systemA"
+              },
+              {
+                "btnStr": "1,3",
+                "url": "/system/vendor"
+              },
+              {
+                "btnStr": "",
+                "url": "/system/depot"
+              },
+              {
+                "btnStr": "",
+                "url": "/bill"
+              },
+              {
+                "btnStr": "",
+                "url": "/report"
+              },
+              {
+                "btnStr": "",
+                "url": "/bill/purchase_order"
+              },
+              {
+                "btnStr": "",
+                "url": "/report/material_stock"
+              }
+            ]
+          }
+        }
+      },
+      "price": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "priceLimit": ""
+          }
+        }
+      },
+      "role": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "roleType": "个人数据"
+          }
+        }
+      },
+      "depots": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": [
+            {
+              "depotName": "验证仓库一",
+              "isDefault": true,
+              "id": 6001
+            }
+          ]
+        }
+      },
+      "order_detail_visibility_probe": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "id": 277,
+            "type": "其它",
+            "subType": "采购订单",
+            "defaultNumber": "CGDD00000001002",
+            "number": "CGDD00000001002",
+            "createTime": "2026-11-12T13:26:55.000+0000",
+            "operTime": "2026-11-12T13:24:50.000+0000",
+            "organId": 4001,
+            "creator": 9002,
+            "accountId": null,
+            "changeAmount": 0.0,
+            "backAmount": 0,
+            "totalPrice": 75.31,
+            "payType": "现付",
+            "billType": null,
+            "remark": "fixture-contract-v1 普通未审核采购订单；无订金、零税。",
+            "fileName": "",
+            "salesMan": null,
+            "accountIdList": "",
+            "accountMoneyList": "",
+            "discount": 0.0,
+            "discountMoney": 0.0,
+            "discountLastMoney": 75.31,
+            "otherMoney": null,
+            "deposit": 0,
+            "lastDeposit": 0.0,
+            "debt": 75.31,
+            "lastDebt": null,
+            "status": "0",
+            "purchaseStatus": "0",
+            "source": "0",
+            "linkNumber": null,
+            "linkApply": null,
+            "tenantId": 9001,
+            "deleteFlag": "0",
+            "projectName": null,
+            "organName": "虚构饮品供应商",
+            "userName": null,
+            "accountName": null,
+            "allocationProjectName": null,
+            "materialsList": "虚构可乐 330ml fixture-330ml ",
+            "salesManStr": null,
+            "operTimeStr": "2026-11-12 21:24:50",
+            "finishDebt": null,
+            "depotHeadType": "采购订单其它",
+            "creatorName": "fixture-buyer",
+            "contacts": null,
+            "telephone": null,
+            "address": null,
+            "finishDeposit": null,
+            "needDebt": null,
+            "materialCount": 2.5,
+            "hasFinancialFlag": null,
+            "hasBackFlag": false,
+            "realNeedDebt": null,
+            "bankName": null,
+            "accountNumber": null,
+            "taxNum": null,
+            "phoneNum": null
+          }
+        }
+      },
+      "orders": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "total": 0,
+            "rows": []
+          }
+        }
+      }
+    },
+    "fixture-masked": {
+      "session": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "user": {
+              "id": 9004,
+              "tenantId": 9001,
+              "loginName": "fixture-masked",
+              "ismanager": 1,
+              "status": 0
+            }
+          }
+        }
+      },
+      "buttons": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "userBtn": [
+              {
+                "btnStr": "",
+                "url": "/material"
+              },
+              {
+                "btnStr": "1,3",
+                "url": "/material/material"
+              },
+              {
+                "btnStr": "",
+                "url": "/systemA"
+              },
+              {
+                "btnStr": "1,3",
+                "url": "/system/vendor"
+              },
+              {
+                "btnStr": "",
+                "url": "/system/depot"
+              },
+              {
+                "btnStr": "",
+                "url": "/bill"
+              },
+              {
+                "btnStr": "",
+                "url": "/report"
+              },
+              {
+                "btnStr": "1,2,3,7",
+                "url": "/bill/purchase_order"
+              },
+              {
+                "btnStr": "",
+                "url": "/report/material_stock"
+              }
+            ]
+          }
+        }
+      },
+      "price": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "priceLimit": "4,7"
+          }
+        }
+      },
+      "role": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "roleType": "全部数据"
+          }
+        }
+      },
+      "depots": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": [
+            {
+              "depotName": "验证仓库一",
+              "isDefault": true,
+              "id": 6001
+            }
+          ]
+        }
+      },
+      "order_detail_visibility_probe": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "id": 277,
+            "type": "其它",
+            "subType": "采购订单",
+            "defaultNumber": "CGDD00000001002",
+            "number": "CGDD00000001002",
+            "createTime": "2026-11-12T13:26:55.000+0000",
+            "operTime": "2026-11-12T13:24:50.000+0000",
+            "organId": 4001,
+            "creator": 9002,
+            "accountId": null,
+            "changeAmount": 0,
+            "backAmount": 0,
+            "totalPrice": 0,
+            "payType": "现付",
+            "billType": null,
+            "remark": "fixture-contract-v1 普通未审核采购订单；无订金、零税。",
+            "fileName": "",
+            "salesMan": null,
+            "accountIdList": "",
+            "accountMoneyList": "",
+            "discount": 0.0,
+            "discountMoney": 0.0,
+            "discountLastMoney": 0,
+            "otherMoney": null,
+            "deposit": 0,
+            "lastDeposit": 0.0,
+            "debt": 0,
+            "lastDebt": null,
+            "status": "0",
+            "purchaseStatus": "0",
+            "source": "0",
+            "linkNumber": null,
+            "linkApply": null,
+            "tenantId": 9001,
+            "deleteFlag": "0",
+            "projectName": null,
+            "organName": "虚构饮品供应商",
+            "userName": null,
+            "accountName": null,
+            "allocationProjectName": null,
+            "materialsList": "虚构可乐 330ml fixture-330ml ",
+            "salesManStr": null,
+            "operTimeStr": "2026-11-12 21:24:50",
+            "finishDebt": null,
+            "depotHeadType": "采购订单其它",
+            "creatorName": "fixture-buyer",
+            "contacts": null,
+            "telephone": null,
+            "address": null,
+            "finishDeposit": null,
+            "needDebt": null,
+            "materialCount": 2.5,
+            "hasFinancialFlag": null,
+            "hasBackFlag": false,
+            "realNeedDebt": null,
+            "bankName": null,
+            "accountNumber": null,
+            "taxNum": null,
+            "phoneNum": null
+          }
+        }
+      },
+      "orders": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "total": 1,
+            "rows": [
+              {
+                "id": 277,
+                "type": "其它",
+                "subType": "采购订单",
+                "defaultNumber": "CGDD00000001002",
+                "number": "CGDD00000001002",
+                "createTime": "2026-11-12T13:26:55.000+0000",
+                "operTime": "2026-11-12T13:24:50.000+0000",
+                "organId": 4001,
+                "creator": 9002,
+                "accountId": null,
+                "changeAmount": 0,
+                "backAmount": 0,
+                "totalPrice": 0,
+                "payType": "现付",
+                "billType": null,
+                "remark": "fixture-contract-v1 普通未审核采购订单；无订金、零税。",
+                "fileName": "",
+                "salesMan": null,
+                "accountIdList": "",
+                "accountMoneyList": "",
+                "discount": 0.0,
+                "discountMoney": 0.0,
+                "discountLastMoney": 0,
+                "otherMoney": null,
+                "deposit": 0,
+                "lastDeposit": 0.0,
+                "debt": 0,
+                "lastDebt": 0,
+                "status": "0",
+                "purchaseStatus": "0",
+                "source": "0",
+                "linkNumber": null,
+                "linkApply": null,
+                "tenantId": 9001,
+                "deleteFlag": "0",
+                "projectName": null,
+                "organName": "虚构饮品供应商",
+                "userName": "fixture-buyer",
+                "accountName": null,
+                "allocationProjectName": null,
+                "materialsList": "虚构可乐 330ml fixture-330ml ",
+                "salesManStr": null,
+                "operTimeStr": "2026-11-12 21:24:50",
+                "finishDebt": null,
+                "depotHeadType": null,
+                "creatorName": null,
+                "contacts": null,
+                "telephone": null,
+                "address": null,
+                "finishDeposit": 0,
+                "needDebt": null,
+                "materialCount": 2.5,
+                "hasFinancialFlag": null,
+                "hasBackFlag": false,
+                "realNeedDebt": null,
+                "bankName": null,
+                "accountNumber": null,
+                "taxNum": null,
+                "phoneNum": null
+              }
+            ]
+          }
+        }
+      },
+      "materials": {
+        "http_status": 200,
+        "body": {
+          "total": 4,
+          "rows": [
+            {
+              "standard": "500ml",
+              "otherField1": null,
+              "color": null,
+              "mfrs": null,
+              "otherField3": null,
+              "categoryName": null,
+              "otherField2": null,
+              "imgSmall": "",
+              "imgName": null,
+              "unit": "瓶[基本]",
+              "expand": "",
+              "name": "虚构可乐",
+              "mnemonic": null,
+              "model": "fixture-500ml",
+              "imgLarge": "",
+              "id": 20020,
+              "mBarCode": "FIX900120",
+              "enableSerialNumber": "0",
+              "sku": null,
+              "stock": 120.0,
+              "brand": null,
+              "enableBatchNumber": "0"
+            },
+            {
+              "standard": "500ml",
+              "otherField1": null,
+              "color": null,
+              "mfrs": null,
+              "otherField3": null,
+              "categoryName": null,
+              "otherField2": null,
+              "imgSmall": "",
+              "imgName": null,
+              "unit": "箱[12瓶]",
+              "expand": "",
+              "name": "虚构可乐",
+              "mnemonic": null,
+              "model": "fixture-500ml",
+              "imgLarge": "",
+              "id": 20021,
+              "mBarCode": "FIX900121",
+              "enableSerialNumber": "0",
+              "sku": null,
+              "stock": 10.0,
+              "brand": null,
+              "enableBatchNumber": "0"
+            },
+            {
+              "standard": "330ml",
+              "otherField1": null,
+              "color": null,
+              "mfrs": null,
+              "otherField3": null,
+              "categoryName": null,
+              "otherField2": null,
+              "imgSmall": "",
+              "imgName": null,
+              "unit": "瓶[基本]",
+              "expand": "",
+              "name": "虚构可乐",
+              "mnemonic": null,
+              "model": "fixture-330ml",
+              "imgLarge": "",
+              "id": 20010,
+              "mBarCode": "FIX900110",
+              "enableSerialNumber": "0",
+              "sku": null,
+              "stock": 120.0,
+              "brand": null,
+              "enableBatchNumber": "0"
+            },
+            {
+              "standard": "330ml",
+              "otherField1": null,
+              "color": null,
+              "mfrs": null,
+              "otherField3": null,
+              "categoryName": null,
+              "otherField2": null,
+              "imgSmall": "",
+              "imgName": null,
+              "unit": "箱[12瓶]",
+              "expand": "",
+              "name": "虚构可乐",
+              "mnemonic": null,
+              "model": "fixture-330ml",
+              "imgLarge": "",
+              "id": 20011,
+              "mBarCode": "FIX900111",
+              "enableSerialNumber": "0",
+              "sku": null,
+              "stock": 10.0,
+              "brand": null,
+              "enableBatchNumber": "0"
+            }
+          ]
+        }
+      },
+      "supplier": {
+        "http_status": 200,
+        "body": [
+          {
+            "supplier": "虚构饮品供应商",
+            "id": 4001
+          }
+        ]
+      },
+      "priced_material": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "id": 3001,
+            "categoryId": null,
+            "name": "虚构可乐",
+            "mfrs": null,
+            "model": "fixture-330ml",
+            "standard": "330ml",
+            "brand": null,
+            "mnemonic": null,
+            "color": null,
+            "unit": "",
+            "remark": "纯虚构契约验证商品",
+            "imgName": null,
+            "unitId": 5001,
+            "expiryNum": null,
+            "weight": null,
+            "enabled": true,
+            "otherField1": null,
+            "otherField2": null,
+            "otherField3": null,
+            "enableSerialNumber": "0",
+            "enableBatchNumber": "0",
+            "position": null,
+            "attribute": null,
+            "tenantId": 9001,
+            "deleteFlag": "0",
+            "unitName": "瓶/箱=12瓶",
+            "ratio": null,
+            "categoryName": null,
+            "materialOther": "",
+            "stock": null,
+            "purchaseDecimal": 30.0,
+            "commodityDecimal": 30.0,
+            "wholesaleDecimal": 30.0,
+            "lowDecimal": 0.0,
+            "billPrice": null,
+            "mBarCode": "FIX900111",
+            "commodityUnit": "箱",
+            "meId": null,
+            "initialStock": null,
+            "currentUnitPrice": null,
+            "currentStock": null,
+            "currentStockPrice": null,
+            "currentStockMovePrice": null,
+            "currentWeight": null,
+            "sku": null,
+            "depotId": null,
+            "bigUnitStock": null,
+            "bigUnitInitialStock": null,
+            "imgSmall": null,
+            "imgLarge": null,
+            "taxRate": null,
+            "taxMoney": null,
+            "taxLastMoney": null
+          }
+        }
+      }
+    },
+    "fixture-other": {
+      "session": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "user": {
+              "id": 9101,
+              "tenantId": 9101,
+              "loginName": "fixture-other",
+              "ismanager": 0,
+              "status": 0
+            }
+          }
+        }
+      },
+      "buttons": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "userBtn": [
+              {
+                "btnStr": "",
+                "url": "/material"
+              },
+              {
+                "btnStr": "1,3",
+                "url": "/material/material"
+              },
+              {
+                "btnStr": "",
+                "url": "/systemA"
+              },
+              {
+                "btnStr": "1,3",
+                "url": "/system/vendor"
+              },
+              {
+                "btnStr": "",
+                "url": "/system/depot"
+              },
+              {
+                "btnStr": "",
+                "url": "/bill"
+              },
+              {
+                "btnStr": "",
+                "url": "/report"
+              },
+              {
+                "btnStr": "1,2,3,7",
+                "url": "/bill/purchase_order"
+              },
+              {
+                "btnStr": "",
+                "url": "/report/material_stock"
+              }
+            ]
+          }
+        }
+      },
+      "price": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "priceLimit": ""
+          }
+        }
+      },
+      "role": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "roleType": "全部数据"
+          }
+        }
+      },
+      "depots": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": [
+            {
+              "depotName": "隔离租户仓库",
+              "isDefault": true,
+              "id": 6101
+            }
+          ]
+        }
+      },
+      "order_detail_visibility_probe": {
+        "http_status": 200,
+        "body": {
+          "code": 500,
+          "data": "获取数据失败"
+        }
+      },
+      "orders": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "total": 0,
+            "rows": []
+          }
+        }
+      },
+      "materials": {
+        "http_status": 200,
+        "body": {
+          "total": 4,
+          "rows": [
+            {
+              "standard": "500ml",
+              "otherField1": null,
+              "color": null,
+              "mfrs": null,
+              "otherField3": null,
+              "categoryName": null,
+              "otherField2": null,
+              "imgSmall": "",
+              "imgName": null,
+              "unit": "瓶[基本]",
+              "expand": "",
+              "name": "虚构可乐",
+              "mnemonic": null,
+              "model": "fixture-500ml",
+              "imgLarge": "",
+              "id": 20120,
+              "mBarCode": "FIX910120",
+              "enableSerialNumber": "0",
+              "sku": null,
+              "stock": 24.0,
+              "brand": null,
+              "enableBatchNumber": "0"
+            },
+            {
+              "standard": "500ml",
+              "otherField1": null,
+              "color": null,
+              "mfrs": null,
+              "otherField3": null,
+              "categoryName": null,
+              "otherField2": null,
+              "imgSmall": "",
+              "imgName": null,
+              "unit": "箱[12瓶]",
+              "expand": "",
+              "name": "虚构可乐",
+              "mnemonic": null,
+              "model": "fixture-500ml",
+              "imgLarge": "",
+              "id": 20121,
+              "mBarCode": "FIX910121",
+              "enableSerialNumber": "0",
+              "sku": null,
+              "stock": 2.0,
+              "brand": null,
+              "enableBatchNumber": "0"
+            },
+            {
+              "standard": "330ml",
+              "otherField1": null,
+              "color": null,
+              "mfrs": null,
+              "otherField3": null,
+              "categoryName": null,
+              "otherField2": null,
+              "imgSmall": "",
+              "imgName": null,
+              "unit": "瓶[基本]",
+              "expand": "",
+              "name": "虚构可乐",
+              "mnemonic": null,
+              "model": "fixture-330ml",
+              "imgLarge": "",
+              "id": 20110,
+              "mBarCode": "FIX910110",
+              "enableSerialNumber": "0",
+              "sku": null,
+              "stock": 24.0,
+              "brand": null,
+              "enableBatchNumber": "0"
+            },
+            {
+              "standard": "330ml",
+              "otherField1": null,
+              "color": null,
+              "mfrs": null,
+              "otherField3": null,
+              "categoryName": null,
+              "otherField2": null,
+              "imgSmall": "",
+              "imgName": null,
+              "unit": "箱[12瓶]",
+              "expand": "",
+              "name": "虚构可乐",
+              "mnemonic": null,
+              "model": "fixture-330ml",
+              "imgLarge": "",
+              "id": 20111,
+              "mBarCode": "FIX910111",
+              "enableSerialNumber": "0",
+              "sku": null,
+              "stock": 2.0,
+              "brand": null,
+              "enableBatchNumber": "0"
+            }
+          ]
+        }
+      },
+      "supplier": {
+        "http_status": 200,
+        "body": []
+      }
+    },
+    "admin": {
+      "session": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "user": {
+              "id": 9999,
+              "tenantId": 0,
+              "loginName": "admin",
+              "ismanager": 0,
+              "status": 0
+            }
+          }
+        }
+      },
+      "buttons": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {}
+        }
+      },
+      "price": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "priceLimit": ""
+          }
+        }
+      },
+      "role": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "roleType": "全部数据"
+          }
+        }
+      },
+      "depots": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": [
+            {
+              "depotName": "验证仓库一",
+              "isDefault": true,
+              "id": 6001
+            }
+          ]
+        }
+      },
+      "order_detail_visibility_probe": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "id": 277,
+            "type": "其它",
+            "subType": "采购订单",
+            "defaultNumber": "CGDD00000001002",
+            "number": "CGDD00000001002",
+            "createTime": "2026-11-12T13:26:55.000+0000",
+            "operTime": "2026-11-12T13:24:50.000+0000",
+            "organId": 4001,
+            "creator": 9002,
+            "accountId": null,
+            "changeAmount": 0.0,
+            "backAmount": 0,
+            "totalPrice": 75.31,
+            "payType": "现付",
+            "billType": null,
+            "remark": "fixture-contract-v1 普通未审核采购订单；无订金、零税。",
+            "fileName": "",
+            "salesMan": null,
+            "accountIdList": "",
+            "accountMoneyList": "",
+            "discount": 0.0,
+            "discountMoney": 0.0,
+            "discountLastMoney": 75.31,
+            "otherMoney": null,
+            "deposit": 0,
+            "lastDeposit": 0.0,
+            "debt": 75.31,
+            "lastDebt": null,
+            "status": "0",
+            "purchaseStatus": "0",
+            "source": "0",
+            "linkNumber": null,
+            "linkApply": null,
+            "tenantId": 9001,
+            "deleteFlag": "0",
+            "projectName": null,
+            "organName": "虚构饮品供应商",
+            "userName": null,
+            "accountName": null,
+            "allocationProjectName": null,
+            "materialsList": "虚构可乐 330ml fixture-330ml ",
+            "salesManStr": null,
+            "operTimeStr": "2026-11-12 21:24:50",
+            "finishDebt": null,
+            "depotHeadType": "采购订单其它",
+            "creatorName": "fixture-buyer",
+            "contacts": null,
+            "telephone": null,
+            "address": null,
+            "finishDeposit": null,
+            "needDebt": null,
+            "materialCount": 2.5,
+            "hasFinancialFlag": null,
+            "hasBackFlag": false,
+            "realNeedDebt": null,
+            "bankName": null,
+            "accountNumber": null,
+            "taxNum": null,
+            "phoneNum": null
+          }
+        }
+      },
+      "orders": {
+        "http_status": 200,
+        "body": {
+          "code": 200,
+          "data": {
+            "total": 1,
+            "rows": [
+              {
+                "id": 277,
+                "type": "其它",
+                "subType": "采购订单",
+                "defaultNumber": "CGDD00000001002",
+                "number": "CGDD00000001002",
+                "createTime": "2026-11-12T13:26:55.000+0000",
+                "operTime": "2026-11-12T13:24:50.000+0000",
+                "organId": 4001,
+                "creator": 9002,
+                "accountId": null,
+                "changeAmount": 0.0,
+                "backAmount": 0,
+                "totalPrice": 75.31,
+                "payType": "现付",
+                "billType": null,
+                "remark": "fixture-contract-v1 普通未审核采购订单；无订金、零税。",
+                "fileName": "",
+                "salesMan": null,
+                "accountIdList": "",
+                "accountMoneyList": "",
+                "discount": 0.0,
+                "discountMoney": 0.0,
+                "discountLastMoney": 75.31,
+                "otherMoney": null,
+                "deposit": 0,
+                "lastDeposit": 0.0,
+                "debt": 75.31,
+                "lastDebt": 75.31,
+                "status": "0",
+                "purchaseStatus": "0",
+                "source": "0",
+                "linkNumber": null,
+                "linkApply": null,
+                "tenantId": 9001,
+                "deleteFlag": "0",
+                "projectName": null,
+                "organName": "虚构饮品供应商",
+                "userName": "fixture-buyer",
+                "accountName": null,
+                "allocationProjectName": null,
+                "materialsList": "虚构可乐 330ml fixture-330ml ",
+                "salesManStr": null,
+                "operTimeStr": "2026-11-12 21:24:50",
+                "finishDebt": null,
+                "depotHeadType": null,
+                "creatorName": null,
+                "contacts": null,
+                "telephone": null,
+                "address": null,
+                "finishDeposit": 0,
+                "needDebt": null,
+                "materialCount": 2.5,
+                "hasFinancialFlag": null,
+                "hasBackFlag": false,
+                "realNeedDebt": null,
+                "bankName": null,
+                "accountNumber": null,
+                "taxNum": null,
+                "phoneNum": null
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "invalid_session": {
+    "http_status": 500,
+    "body": "loginOut"
+  }
+}

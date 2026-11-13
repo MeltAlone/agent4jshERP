@@ -1,0 +1,49 @@
+name: a4j-contract
+services:
+  erp-mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: ${VERIFY_DB_PASSWORD:?Run prepare.py first}
+      MYSQL_DATABASE: jsh_erp
+      TZ: Asia/Shanghai
+    command: ["--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci", "--performance-schema=OFF", "--innodb-buffer-pool-size=128M"]
+    volumes:
+      - mysql-data:/var/lib/mysql
+      - ./.runtime/init.sql:/docker-entrypoint-initdb.d/01-fixture.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", 'MYSQL_PWD="$$MYSQL_ROOT_PASSWORD" mysqladmin ping -h 127.0.0.1 -uroot --silent']
+      interval: 3s
+      timeout: 3s
+      retries: 40
+  erp-redis:
+    image: redis:7
+    command: ["redis-server", "--save", "", "--appendonly", "no", "--requirepass", "${VERIFY_REDIS_PASSWORD:?Run prepare.py first}"]
+    environment:
+      REDISCLI_AUTH: ${VERIFY_REDIS_PASSWORD}
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+  erp-backend:
+    image: ${VERIFY_BACKEND_IMAGE:?Set a locally built compatible ERP backend image}
+    environment:
+      SPRING_DATASOURCE_PASSWORD: ${VERIFY_DB_PASSWORD}
+      SPRING_REDIS_PASSWORD: ${VERIFY_REDIS_PASSWORD}
+      JAVA_TOOL_OPTIONS: "-Xmx384m -Xms128m -XX:+UseSerialGC"
+      TZ: Asia/Shanghai
+    depends_on:
+      erp-mysql:
+        condition: service_healthy
+      erp-redis:
+        condition: service_healthy
+    ports: ["127.0.0.1:19999:9999"]
+    tmpfs: [/opt/jshERP/upload, /opt/jshERP/export]
+  erp-web:
+    image: ${VERIFY_WEB_IMAGE:?Set a locally built compatible ERP web image}
+    depends_on: [erp-backend]
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    ports: ["127.0.0.1:18080:80"]
+volumes:
+  mysql-data:

@@ -1,0 +1,5 @@
+# 仅在本地验证已构建的宿主补丁时使用。
+services:
+  erp-web:
+    volumes:
+      - ./.runtime/host-web/dist:/usr/share/nginx/html:ro

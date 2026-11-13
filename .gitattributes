@@ -1,0 +1,4 @@
+* text=auto eol=lf
+
+# Preserve the exact upstream bytes checked by scripts/check_vendor.py.
+third_party/** -text linguist-vendored

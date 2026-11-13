@@ -1,0 +1,2829 @@
+{
+  "upstream": "https://github.com/jishenghua/jshERP",
+  "commit": "38ad91e197185847d14c33e86219557480f00db4",
+  "contract": "jsh-38ad91e-v1",
+  "license": "Apache-2.0",
+  "public_schema_sha256": "84d477bf5b352e826aa1a9923572cf307a16a4a79c12b52a5fae67c2106e6317",
+  "files": {
+    "LICENSE": {
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "upstream_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    "jshERP-boot/docs/schema.sql": {
+      "sha256": "84d477bf5b352e826aa1a9923572cf307a16a4a79c12b52a5fae67c2106e6317",
+      "upstream_sha256": null
+    },
+    "jshERP-boot/pom.xml": {
+      "sha256": "f7405eb7891ac979d7e94c663c1dba72b2467df352df0b4d1457e2de67f3e6c5",
+      "upstream_sha256": "f7405eb7891ac979d7e94c663c1dba72b2467df352df0b4d1457e2de67f3e6c5"
+    },
+    "jshERP-boot/src/main/assembly/assembly.xml": {
+      "sha256": "e2b16a1048dd6f78c2df42cf57d36814f542fa2e330ee29281a3862ad7f8e4ae",
+      "upstream_sha256": "e2b16a1048dd6f78c2df42cf57d36814f542fa2e330ee29281a3862ad7f8e4ae"
+    },
+    "jshERP-boot/src/main/bin/restart.sh": {
+      "sha256": "2c810de31b00e85eeb9fde50e7e7704c936395a118d0167eee32374b17ffb7af",
+      "upstream_sha256": "2c810de31b00e85eeb9fde50e7e7704c936395a118d0167eee32374b17ffb7af"
+    },
+    "jshERP-boot/src/main/bin/run-manage.sh": {
+      "sha256": "5ccfd2596cc08633a07fee115201f18c0004ca23e4c9c9ac3a947c8a37e0f535",
+      "upstream_sha256": "5ccfd2596cc08633a07fee115201f18c0004ca23e4c9c9ac3a947c8a37e0f535"
+    },
+    "jshERP-boot/src/main/bin/start.bat": {
+      "sha256": "48389988fc03ab8610252cc1e5bd1bb4bd5650e15c86e1c0c86f3f263f2c5b40",
+      "upstream_sha256": "48389988fc03ab8610252cc1e5bd1bb4bd5650e15c86e1c0c86f3f263f2c5b40"
+    },
+    "jshERP-boot/src/main/bin/start.sh": {
+      "sha256": "595d5733e453b5c1837419f5542f60403e3767c60c9d9cdd298b078364670a4d",
+      "upstream_sha256": "595d5733e453b5c1837419f5542f60403e3767c60c9d9cdd298b078364670a4d"
+    },
+    "jshERP-boot/src/main/bin/status.sh": {
+      "sha256": "414cdf75811e16b369f36794f4d23f242407281476079e1f71237d8aefab3cbc",
+      "upstream_sha256": "414cdf75811e16b369f36794f4d23f242407281476079e1f71237d8aefab3cbc"
+    },
+    "jshERP-boot/src/main/bin/stop.sh": {
+      "sha256": "991b021679d49bdf59b5cad09336c576dad496e42bf13e2f1672ebbe4a2d3bf0",
+      "upstream_sha256": "991b021679d49bdf59b5cad09336c576dad496e42bf13e2f1672ebbe4a2d3bf0"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/ErpApplication.java": {
+      "sha256": "aa454647452f3d7556a8e31176e84408525c85a154b090602d4261f540062222",
+      "upstream_sha256": "887242b35cb180f436c2a20ffbad1022628863da5cb6395fb7245e6b0d7bc3ab"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/base/AjaxResult.java": {
+      "sha256": "12c7905d6f3799c2d5a2ffeff40bdf62224d9b040169aeb3f40f13379ed9490a",
+      "upstream_sha256": "12c7905d6f3799c2d5a2ffeff40bdf62224d9b040169aeb3f40f13379ed9490a"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/base/BaseController.java": {
+      "sha256": "c496f70794a9531e1f18f469bd6297aa7a8fde33cb5e9dc8cd6f91dec0a522f1",
+      "upstream_sha256": "c496f70794a9531e1f18f469bd6297aa7a8fde33cb5e9dc8cd6f91dec0a522f1"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/base/PageDomain.java": {
+      "sha256": "988e303daf7980eacf0118a630be74726888e47f884a18c132db98bd288e5401",
+      "upstream_sha256": "988e303daf7980eacf0118a630be74726888e47f884a18c132db98bd288e5401"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/base/TableDataInfo.java": {
+      "sha256": "406084a0a778842c6ecbc559f9b252012ab8be9016b2e0a96663f7fc623dd0c6",
+      "upstream_sha256": "406084a0a778842c6ecbc559f9b252012ab8be9016b2e0a96663f7fc623dd0c6"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/base/TableSupport.java": {
+      "sha256": "af45161789980f3d267fc60aac68a8fe0756d366906bf4bb83c941ea50ed91cc",
+      "upstream_sha256": "af45161789980f3d267fc60aac68a8fe0756d366906bf4bb83c941ea50ed91cc"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/config/PluginBeanConfig.java": {
+      "sha256": "c127f216448ab656e2d2d3d96148ac3376356347d490ca77ddaf477b5c5fe2d6",
+      "upstream_sha256": "c127f216448ab656e2d2d3d96148ac3376356347d490ca77ddaf477b5c5fe2d6"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/config/PluginConfiguration.java": {
+      "sha256": "407fe9808a0af186bff74ad3904bd21a7d16fbdef8e3d3923b4e398ccdeaaa9b",
+      "upstream_sha256": "407fe9808a0af186bff74ad3904bd21a7d16fbdef8e3d3923b4e398ccdeaaa9b"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/config/Swagger2Config.java": {
+      "sha256": "8f774ba8d6a6952a5b3f23257a6881848ee0d36de14af04da01b5dbcd94cbf50",
+      "upstream_sha256": "8f774ba8d6a6952a5b3f23257a6881848ee0d36de14af04da01b5dbcd94cbf50"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/config/TenantConfig.java": {
+      "sha256": "e6f764cd4520ba712ea1ce1c9b7b719164c1ff2af0e1033861349c8ffcd53043",
+      "upstream_sha256": "e6f764cd4520ba712ea1ce1c9b7b719164c1ff2af0e1033861349c8ffcd53043"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/constants/BusinessConstants.java": {
+      "sha256": "350db160e813b10187c4f6b78ce7eaca1c1bbc34b93682cea15366176c8111e8",
+      "upstream_sha256": "350db160e813b10187c4f6b78ce7eaca1c1bbc34b93682cea15366176c8111e8"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/constants/ExceptionConstants.java": {
+      "sha256": "75576cc118d995772c78457b45c6689bd6652650fbdaa70dbc035e8a78d9cfe8",
+      "upstream_sha256": "75576cc118d995772c78457b45c6689bd6652650fbdaa70dbc035e8a78d9cfe8"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/AccountController.java": {
+      "sha256": "b5284b97a8c48a055177150bf334f7d7001dd17099cd8fcb35ce9a512f9c559b",
+      "upstream_sha256": "b5284b97a8c48a055177150bf334f7d7001dd17099cd8fcb35ce9a512f9c559b"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/AccountHeadController.java": {
+      "sha256": "0d0ef06b07e8b60c297e1005f239aac1d446b8e87c02cb5ec4bbcaafb444b520",
+      "upstream_sha256": "0d0ef06b07e8b60c297e1005f239aac1d446b8e87c02cb5ec4bbcaafb444b520"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/AccountItemController.java": {
+      "sha256": "ad4250f1230721bb92d0d414dd65426364cdf6e534f0e1f4e19443fd11401826",
+      "upstream_sha256": "ad4250f1230721bb92d0d414dd65426364cdf6e534f0e1f4e19443fd11401826"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/DepotController.java": {
+      "sha256": "6134068995815801d2213c8a99cbc67b18ec99d2c1f5d49ae56c2dd1c13bceef",
+      "upstream_sha256": "6134068995815801d2213c8a99cbc67b18ec99d2c1f5d49ae56c2dd1c13bceef"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/DepotHeadController.java": {
+      "sha256": "1b45a173d5bd1a56888541da558db65c26c83e9758ed900bbada249dfd0bc55b",
+      "upstream_sha256": "1b45a173d5bd1a56888541da558db65c26c83e9758ed900bbada249dfd0bc55b"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/DepotItemController.java": {
+      "sha256": "dd403479e8b6657061501c2f394e0d0a6aa2d62c6f125fefa607771b24bf7088",
+      "upstream_sha256": "dd403479e8b6657061501c2f394e0d0a6aa2d62c6f125fefa607771b24bf7088"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/FunctionController.java": {
+      "sha256": "8aa9fa3bc776547dd4462658a754f5a9dd7462f1ba9b24ae3962364b2f53d744",
+      "upstream_sha256": "8aa9fa3bc776547dd4462658a754f5a9dd7462f1ba9b24ae3962364b2f53d744"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/InOutItemController.java": {
+      "sha256": "cd538238f613ea8f99ce2f6c8a481538299afc64caf987868668f6b48a735b5b",
+      "upstream_sha256": "cd538238f613ea8f99ce2f6c8a481538299afc64caf987868668f6b48a735b5b"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/LogController.java": {
+      "sha256": "b2ad0cab4e3b3f2f033ef3c93ece72c22ec32bd72dec75063c36afbbdcacafc8",
+      "upstream_sha256": "b2ad0cab4e3b3f2f033ef3c93ece72c22ec32bd72dec75063c36afbbdcacafc8"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/MaterialAttributeController.java": {
+      "sha256": "2cc711785af866abeefb50efd1bafcd9c602c7a94f90a40b2184fdd4db85794a",
+      "upstream_sha256": "2cc711785af866abeefb50efd1bafcd9c602c7a94f90a40b2184fdd4db85794a"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/MaterialCategoryController.java": {
+      "sha256": "13cfa8e4a215e5279771136fdea39ac120df7139bef8f0b4ca52fa8b01d6fc9f",
+      "upstream_sha256": "13cfa8e4a215e5279771136fdea39ac120df7139bef8f0b4ca52fa8b01d6fc9f"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/MaterialController.java": {
+      "sha256": "7726a1fbcfd712e5566414987ee52b44241a0bdb4c819dc7d07321d731899049",
+      "upstream_sha256": "7726a1fbcfd712e5566414987ee52b44241a0bdb4c819dc7d07321d731899049"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/MaterialExtendController.java": {
+      "sha256": "1ac8f94bfe9261ee2a9552fce442b42ac5de0b84ee8d6260eda90855e42918fe",
+      "upstream_sha256": "1ac8f94bfe9261ee2a9552fce442b42ac5de0b84ee8d6260eda90855e42918fe"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/MaterialPropertyController.java": {
+      "sha256": "1c77a424dc3d72a842c5901b9daff801882f8dc69948b1be3178f292920b1822",
+      "upstream_sha256": "1c77a424dc3d72a842c5901b9daff801882f8dc69948b1be3178f292920b1822"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/MsgController.java": {
+      "sha256": "cb7fdcdbe66c2374fc121adbd5416bc60063d04e0c7b7526f7ed3ee6ca2aa359",
+      "upstream_sha256": "cb7fdcdbe66c2374fc121adbd5416bc60063d04e0c7b7526f7ed3ee6ca2aa359"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/OrganizationController.java": {
+      "sha256": "99fb24260541838dbce5ce75f7eefbe95f32e80e18d0708f0efd10d3b384f249",
+      "upstream_sha256": "99fb24260541838dbce5ce75f7eefbe95f32e80e18d0708f0efd10d3b384f249"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/PersonController.java": {
+      "sha256": "e5acadda6fd8e740da48300b3e1cf88d1401e2c7d6592c2a1a6b2c5e0d687ccf",
+      "upstream_sha256": "e5acadda6fd8e740da48300b3e1cf88d1401e2c7d6592c2a1a6b2c5e0d687ccf"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/PlatformConfigController.java": {
+      "sha256": "073e2ff4131194e51b029156dd1a84be63e7f4129cbbe8d9b443ff681a7ae53f",
+      "upstream_sha256": "073e2ff4131194e51b029156dd1a84be63e7f4129cbbe8d9b443ff681a7ae53f"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/PluginController.java": {
+      "sha256": "72a7fcb2d345d2f008891f94313f46fac5803f0217c02f124928e3b40014896c",
+      "upstream_sha256": "72a7fcb2d345d2f008891f94313f46fac5803f0217c02f124928e3b40014896c"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/RoleController.java": {
+      "sha256": "cffb78d6353c240c00ac11928eb2c56a34eb28369477e3eb099b2d61101f1d68",
+      "upstream_sha256": "cffb78d6353c240c00ac11928eb2c56a34eb28369477e3eb099b2d61101f1d68"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/SequenceController.java": {
+      "sha256": "4bf4a1c76c2484fc18b89f8e5d7931042e4a2dd7ce6d93fcc7bcde877c257722",
+      "upstream_sha256": "4bf4a1c76c2484fc18b89f8e5d7931042e4a2dd7ce6d93fcc7bcde877c257722"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/SerialNumberController.java": {
+      "sha256": "b5e89492fcf52ecefff5c07c326bd79684a5bec444d3f9b3ca419849ca0d42fc",
+      "upstream_sha256": "b5e89492fcf52ecefff5c07c326bd79684a5bec444d3f9b3ca419849ca0d42fc"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/SupplierController.java": {
+      "sha256": "16c0a2735520e26af169edacdaf4b1256a3d40c60e01a01122a8f21912852b1e",
+      "upstream_sha256": "16c0a2735520e26af169edacdaf4b1256a3d40c60e01a01122a8f21912852b1e"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/SysDictDataController.java": {
+      "sha256": "690c39b2dd06dc3c37c08f98c80025096019b8e1f43039c4d9136b85c650af1e",
+      "upstream_sha256": "690c39b2dd06dc3c37c08f98c80025096019b8e1f43039c4d9136b85c650af1e"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/SysDictTypeController.java": {
+      "sha256": "da6c17b9826cfb423607eb5f4fed3eb4545d82a1b0ba0b14eab64de238cad439",
+      "upstream_sha256": "da6c17b9826cfb423607eb5f4fed3eb4545d82a1b0ba0b14eab64de238cad439"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/SystemConfigController.java": {
+      "sha256": "bb15d53e72b497983180f681c54119e47fbf237b834c228a33c1f2f4acd2f6e0",
+      "upstream_sha256": "bb15d53e72b497983180f681c54119e47fbf237b834c228a33c1f2f4acd2f6e0"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/TenantController.java": {
+      "sha256": "dc0014679457d988ea9a8a8605de7d0b9c8126b9f4bb658a7bd9b0431e115a73",
+      "upstream_sha256": "dc0014679457d988ea9a8a8605de7d0b9c8126b9f4bb658a7bd9b0431e115a73"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/UnitController.java": {
+      "sha256": "63d2e7894d952e9e889fe3585ad6203e51bf9894f19ded47b617e3fb95df1304",
+      "upstream_sha256": "63d2e7894d952e9e889fe3585ad6203e51bf9894f19ded47b617e3fb95df1304"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/UserBusinessController.java": {
+      "sha256": "88caf75caa9e627e0a37a143c2bb7524cdef42c808c279fce5f24ca8332ac47b",
+      "upstream_sha256": "88caf75caa9e627e0a37a143c2bb7524cdef42c808c279fce5f24ca8332ac47b"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/controller/UserController.java": {
+      "sha256": "afb1b350543031fa4b2f3c8a0570a75f738b471e6d6d54d982c74043e9f18c67",
+      "upstream_sha256": "afb1b350543031fa4b2f3c8a0570a75f738b471e6d6d54d982c74043e9f18c67"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/Account.java": {
+      "sha256": "6a8ba7527b1007a1608c2fe08fcb00142f9af4bff95f570999ce1e5130473bed",
+      "upstream_sha256": "6a8ba7527b1007a1608c2fe08fcb00142f9af4bff95f570999ce1e5130473bed"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/AccountExample.java": {
+      "sha256": "f67c8fc06affdb8c5d4531d27648a091448505a0f93ac36c7f5d677494aaca31",
+      "upstream_sha256": "f67c8fc06affdb8c5d4531d27648a091448505a0f93ac36c7f5d677494aaca31"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/AccountHead.java": {
+      "sha256": "2b95b7624b96b476486c63484388971290aed01b723619e3cdee7accda4ef38d",
+      "upstream_sha256": "2b95b7624b96b476486c63484388971290aed01b723619e3cdee7accda4ef38d"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/AccountHeadExample.java": {
+      "sha256": "add27ca7de3c2da42c952fc7966e4005d6e8e640b74520898654c4f2538afb81",
+      "upstream_sha256": "add27ca7de3c2da42c952fc7966e4005d6e8e640b74520898654c4f2538afb81"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/AccountHeadVo4Body.java": {
+      "sha256": "11633339ca46d022310cc163d81135263a446abc031ad8aec14c58eb6512531b",
+      "upstream_sha256": "11633339ca46d022310cc163d81135263a446abc031ad8aec14c58eb6512531b"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/AccountHeadVo4ListEx.java": {
+      "sha256": "68288dbc6146fbfe2e6a921c50fee651ecfacc7c38c8fdf7d4d124aa64d5200b",
+      "upstream_sha256": "68288dbc6146fbfe2e6a921c50fee651ecfacc7c38c8fdf7d4d124aa64d5200b"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/AccountItem.java": {
+      "sha256": "a6096343d6e6a053988bcaa6ed1ddc7debb82dafd3c77c00d6b0d2869bf98f08",
+      "upstream_sha256": "a6096343d6e6a053988bcaa6ed1ddc7debb82dafd3c77c00d6b0d2869bf98f08"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/AccountItemExample.java": {
+      "sha256": "83d6b56b18d5377cabad0b79f617dccbc90ecc2d5607e4ab43672c1b2eaf7d7e",
+      "upstream_sha256": "83d6b56b18d5377cabad0b79f617dccbc90ecc2d5607e4ab43672c1b2eaf7d7e"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/AccountVo4Sum.java": {
+      "sha256": "1759442f3c6c0959374984031395ebd340a05f17c0ea574a7a235c6c9c86f6d3",
+      "upstream_sha256": "1759442f3c6c0959374984031395ebd340a05f17c0ea574a7a235c6c9c86f6d3"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/BaseEntity.java": {
+      "sha256": "72da393e736decad478d9ed9cf115143c4e3dbc31e2c1e18b03817beb91a1db7",
+      "upstream_sha256": "72da393e736decad478d9ed9cf115143c4e3dbc31e2c1e18b03817beb91a1db7"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/Depot.java": {
+      "sha256": "90909d028bd5e25f453e3f7933da07baedca67c89b722ea18b7fe4f1a9dc620f",
+      "upstream_sha256": "90909d028bd5e25f453e3f7933da07baedca67c89b722ea18b7fe4f1a9dc620f"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/DepotEx.java": {
+      "sha256": "2b2f581866c43ee34652095fef461df1014fa57ebb26d1e84d8ba716d18cce65",
+      "upstream_sha256": "2b2f581866c43ee34652095fef461df1014fa57ebb26d1e84d8ba716d18cce65"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/DepotExample.java": {
+      "sha256": "0c11d5f579144f994a5d3bdd10f7fffd9438260448a33da619a1b18a074ea551",
+      "upstream_sha256": "0c11d5f579144f994a5d3bdd10f7fffd9438260448a33da619a1b18a074ea551"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/DepotHead.java": {
+      "sha256": "d8fbec9e4158279a29b981cfdf367ac77247b7c6689d96f0b720052397b1c4f6",
+      "upstream_sha256": "d8fbec9e4158279a29b981cfdf367ac77247b7c6689d96f0b720052397b1c4f6"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/DepotHeadExample.java": {
+      "sha256": "5ccd641b457b97f93c1467725ed13898d71d42baef4ebf8545b84103a34b8cd0",
+      "upstream_sha256": "5ccd641b457b97f93c1467725ed13898d71d42baef4ebf8545b84103a34b8cd0"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/DepotHeadVo4Body.java": {
+      "sha256": "66c95009cc1af6a881a7836f652b508366a7bb1ac6c247b239d97d9f5dd32f26",
+      "upstream_sha256": "66c95009cc1af6a881a7836f652b508366a7bb1ac6c247b239d97d9f5dd32f26"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/DepotItem.java": {
+      "sha256": "e7a4986c9e22cf6b3c656d341e936a366663cab5340fd399b46b8cdc419d93f2",
+      "upstream_sha256": "e7a4986c9e22cf6b3c656d341e936a366663cab5340fd399b46b8cdc419d93f2"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/DepotItemExample.java": {
+      "sha256": "596505b928be2497d6340c17e2309f519f9ccdfca13fd490629cb62c558077a6",
+      "upstream_sha256": "596505b928be2497d6340c17e2309f519f9ccdfca13fd490629cb62c558077a6"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/DepotItemVo4DetailByTypeAndMId.java": {
+      "sha256": "996181eee91677c51cf4a8964fa9c003d24e61dc94ee1ed24ffc4d2b24982824",
+      "upstream_sha256": "996181eee91677c51cf4a8964fa9c003d24e61dc94ee1ed24ffc4d2b24982824"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/DepotItemVo4Material.java": {
+      "sha256": "3a6c5a76cfc17609456ae3a3aad5a04932b62b8440004065603a81ed3dcb6bc6",
+      "upstream_sha256": "3a6c5a76cfc17609456ae3a3aad5a04932b62b8440004065603a81ed3dcb6bc6"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/DepotItemVo4MaterialAndSum.java": {
+      "sha256": "569e82fd7be420719ac48b83a4ed4ba39516c2ece25ed06e8638c2d8f764c5a9",
+      "upstream_sha256": "569e82fd7be420719ac48b83a4ed4ba39516c2ece25ed06e8638c2d8f764c5a9"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/DepotItemVo4WithInfoEx.java": {
+      "sha256": "88983564797445231637ffb4495ad4275884f56c7a0a7c3ac8bbaa700a5200cb",
+      "upstream_sha256": "88983564797445231637ffb4495ad4275884f56c7a0a7c3ac8bbaa700a5200cb"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/Function.java": {
+      "sha256": "2011e079c97984306ed56d5147b971283c5433327da17b6436e2d6ad4e987a58",
+      "upstream_sha256": "2011e079c97984306ed56d5147b971283c5433327da17b6436e2d6ad4e987a58"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/FunctionEx.java": {
+      "sha256": "1b896e03508990809ecc37c05a77ff6bcbc64f93452a48c5bfc837efe905aabe",
+      "upstream_sha256": "1b896e03508990809ecc37c05a77ff6bcbc64f93452a48c5bfc837efe905aabe"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/FunctionExample.java": {
+      "sha256": "984f0273fa683c5257fa83e0831995ba2c62f5562811dddee7b4c7784f5ac2a4",
+      "upstream_sha256": "984f0273fa683c5257fa83e0831995ba2c62f5562811dddee7b4c7784f5ac2a4"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/InOutItem.java": {
+      "sha256": "c1e191141803a504ba698c36056509d2518ac2da99fac5627ecfec7706ebbd93",
+      "upstream_sha256": "c1e191141803a504ba698c36056509d2518ac2da99fac5627ecfec7706ebbd93"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/InOutItemExample.java": {
+      "sha256": "0ec24ad0e7a1dd1696d917465f2bd2722e8bfd5e2cec385ec4dd8ea1314b06a0",
+      "upstream_sha256": "0ec24ad0e7a1dd1696d917465f2bd2722e8bfd5e2cec385ec4dd8ea1314b06a0"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/Log.java": {
+      "sha256": "200624887bc3104703d55d189697720656a502f0de8a7eac57934162b1b2c231",
+      "upstream_sha256": "200624887bc3104703d55d189697720656a502f0de8a7eac57934162b1b2c231"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/LogExample.java": {
+      "sha256": "5acb2c7d0246a209ed8e6b87705153f6700ae15c663cd9b7366339e284ef08c4",
+      "upstream_sha256": "5acb2c7d0246a209ed8e6b87705153f6700ae15c663cd9b7366339e284ef08c4"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/Material.java": {
+      "sha256": "1640f872ac48230211d357cae98ff889314070b79315e069adc361a4d06c8e56",
+      "upstream_sha256": "1640f872ac48230211d357cae98ff889314070b79315e069adc361a4d06c8e56"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/MaterialAttribute.java": {
+      "sha256": "8174cb0253655446b6c70f0e1ed1e7e9fd40cdbf2d889def4ea5514478ac5b64",
+      "upstream_sha256": "8174cb0253655446b6c70f0e1ed1e7e9fd40cdbf2d889def4ea5514478ac5b64"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/MaterialAttributeExample.java": {
+      "sha256": "97c4c127c008a55704ab107326545e21775727c7db68acc893797f4a43da74c1",
+      "upstream_sha256": "97c4c127c008a55704ab107326545e21775727c7db68acc893797f4a43da74c1"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/MaterialCategory.java": {
+      "sha256": "9f477a190976f32f54a3b4b2c116ade383f288716cfde85d9cd28153b71d420f",
+      "upstream_sha256": "9f477a190976f32f54a3b4b2c116ade383f288716cfde85d9cd28153b71d420f"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/MaterialCategoryExample.java": {
+      "sha256": "5185bffbc1fbb0e74a32a4227a77bd3f3f1f2a13556518c40b26cd21c94757ef",
+      "upstream_sha256": "5185bffbc1fbb0e74a32a4227a77bd3f3f1f2a13556518c40b26cd21c94757ef"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/MaterialCurrentStock.java": {
+      "sha256": "cadec6834faf0dbc63bdee195daa5fa97c442c3812edb8318dc5e51c7995558f",
+      "upstream_sha256": "cadec6834faf0dbc63bdee195daa5fa97c442c3812edb8318dc5e51c7995558f"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/MaterialCurrentStockExample.java": {
+      "sha256": "a771311da1c42e97fe4d7592274d045e92bb06fa1ab7a2e5de087591a2c2fcc2",
+      "upstream_sha256": "a771311da1c42e97fe4d7592274d045e92bb06fa1ab7a2e5de087591a2c2fcc2"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/MaterialExample.java": {
+      "sha256": "f6a9bbb0a3ca610a093a3e48ce0903d9bfc57384eb5e148b1b2b16ff0c12e78d",
+      "upstream_sha256": "f6a9bbb0a3ca610a093a3e48ce0903d9bfc57384eb5e148b1b2b16ff0c12e78d"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/MaterialExtend.java": {
+      "sha256": "2e6712c56438dedb09bdf43ec4b0479ba745524b6c13a866502ed9d8180d64ac",
+      "upstream_sha256": "2e6712c56438dedb09bdf43ec4b0479ba745524b6c13a866502ed9d8180d64ac"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/MaterialExtendExample.java": {
+      "sha256": "41605d014e51f861d351f32fdbab98beb3db95c34f9c00a483c3a77c6e81e2aa",
+      "upstream_sha256": "41605d014e51f861d351f32fdbab98beb3db95c34f9c00a483c3a77c6e81e2aa"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/MaterialInitialStock.java": {
+      "sha256": "34e88792e9be1c841ee4c1c662de81f82224b9fe42030eba4b348c6cac046d84",
+      "upstream_sha256": "34e88792e9be1c841ee4c1c662de81f82224b9fe42030eba4b348c6cac046d84"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/MaterialInitialStockExample.java": {
+      "sha256": "04bc9755b706e9bb2fe2455f765b7916f84414c445d65555e6242186108ce0fc",
+      "upstream_sha256": "04bc9755b706e9bb2fe2455f765b7916f84414c445d65555e6242186108ce0fc"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/MaterialInitialStockWithMaterial.java": {
+      "sha256": "0ee1b51545f71e11e03c943b419e33cca6b83159f63cad3b713006daa5179c38",
+      "upstream_sha256": "0ee1b51545f71e11e03c943b419e33cca6b83159f63cad3b713006daa5179c38"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/MaterialProperty.java": {
+      "sha256": "aa80d2d6ac08446c610853262fd3570dff620a8d7dc5ba7844bad38ff1ce93e7",
+      "upstream_sha256": "aa80d2d6ac08446c610853262fd3570dff620a8d7dc5ba7844bad38ff1ce93e7"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/MaterialPropertyExample.java": {
+      "sha256": "594d5d3b6adea70d320ec84dfd4776f197c760a19a6654b1b76e9090e3704af8",
+      "upstream_sha256": "594d5d3b6adea70d320ec84dfd4776f197c760a19a6654b1b76e9090e3704af8"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/MaterialVo4Unit.java": {
+      "sha256": "7572b94aa0650e254f206a2002ded2621eb5996604de3af75a7644fa164a663a",
+      "upstream_sha256": "7572b94aa0650e254f206a2002ded2621eb5996604de3af75a7644fa164a663a"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/MaterialWithInitStock.java": {
+      "sha256": "8a0ef9e9d2be91f3e1e52f3554fa13606216882d72be331d3921ca0bc35ac83b",
+      "upstream_sha256": "8a0ef9e9d2be91f3e1e52f3554fa13606216882d72be331d3921ca0bc35ac83b"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/Msg.java": {
+      "sha256": "f5bb6aa656363993c1e21dcdbd3743fe80e2f51f945577ff95d21cf5fb7346a1",
+      "upstream_sha256": "f5bb6aa656363993c1e21dcdbd3743fe80e2f51f945577ff95d21cf5fb7346a1"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/MsgEx.java": {
+      "sha256": "5b14c5f53b49d680efc24f5b754ed922f2131bfc5c61c9a84f16510f45177f63",
+      "upstream_sha256": "5b14c5f53b49d680efc24f5b754ed922f2131bfc5c61c9a84f16510f45177f63"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/MsgExample.java": {
+      "sha256": "85994b41c48e1171da761f69c3a901f6c84320fa9ebe1c64155cd48eca4aa7f1",
+      "upstream_sha256": "85994b41c48e1171da761f69c3a901f6c84320fa9ebe1c64155cd48eca4aa7f1"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/OrgaUserRel.java": {
+      "sha256": "31da0a9f61ac53be6f44b9b6eb069066aca1beff552f0b0943037ae9b1143587",
+      "upstream_sha256": "31da0a9f61ac53be6f44b9b6eb069066aca1beff552f0b0943037ae9b1143587"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/OrgaUserRelEx.java": {
+      "sha256": "e44e79c84d14a8d1058f415386eb15adcd8f5c1f3fc480b2f37850333684ec6a",
+      "upstream_sha256": "e44e79c84d14a8d1058f415386eb15adcd8f5c1f3fc480b2f37850333684ec6a"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/OrgaUserRelExample.java": {
+      "sha256": "9e9cfa8ba9b0be9404c8eaa607a7cb57c085778892bc871d3f1ac25aa0673867",
+      "upstream_sha256": "9e9cfa8ba9b0be9404c8eaa607a7cb57c085778892bc871d3f1ac25aa0673867"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/Organization.java": {
+      "sha256": "ceaaad467fe96676a63863c730a3efe34362d4a2036a263d1d98ba94548d16fc",
+      "upstream_sha256": "ceaaad467fe96676a63863c730a3efe34362d4a2036a263d1d98ba94548d16fc"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/OrganizationExample.java": {
+      "sha256": "c73ba24876356d3890885273d9d982a066a8b154dee36e6b0118649aa92cfea9",
+      "upstream_sha256": "c73ba24876356d3890885273d9d982a066a8b154dee36e6b0118649aa92cfea9"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/Person.java": {
+      "sha256": "5ba0b6a20504e45bea643d438f89233d7ad69940ae1178127627e9b7d1e9f751",
+      "upstream_sha256": "5ba0b6a20504e45bea643d438f89233d7ad69940ae1178127627e9b7d1e9f751"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/PersonExample.java": {
+      "sha256": "03ec05318a07f8b2115d74c30c5b0d233d914303eefbbccd37694690b76d8373",
+      "upstream_sha256": "03ec05318a07f8b2115d74c30c5b0d233d914303eefbbccd37694690b76d8373"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/PlatformConfig.java": {
+      "sha256": "a69ef1aa3d3a8be24f1b726af00260f4f79030ee873b6df58e6f61a3ed389adb",
+      "upstream_sha256": "a69ef1aa3d3a8be24f1b726af00260f4f79030ee873b6df58e6f61a3ed389adb"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/PlatformConfigExample.java": {
+      "sha256": "80500e29616e989cc626c86cce7ce96d8d01f7af9d53ed24bf28c99e787b7af3",
+      "upstream_sha256": "80500e29616e989cc626c86cce7ce96d8d01f7af9d53ed24bf28c99e787b7af3"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/Role.java": {
+      "sha256": "8e17726a17a9d6f01883107f34d0f680ae05120ff2bdf1e8dd84de3bcf648200",
+      "upstream_sha256": "8e17726a17a9d6f01883107f34d0f680ae05120ff2bdf1e8dd84de3bcf648200"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/RoleEx.java": {
+      "sha256": "87b6435b5c367367ab1fcf0a5aff300cb37fa5541eff60224ea536cdddf91bff",
+      "upstream_sha256": "87b6435b5c367367ab1fcf0a5aff300cb37fa5541eff60224ea536cdddf91bff"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/RoleExample.java": {
+      "sha256": "33c8c3677632263b4a26ba45c576ae8a274511a204b2423ff691647334866648",
+      "upstream_sha256": "33c8c3677632263b4a26ba45c576ae8a274511a204b2423ff691647334866648"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/SerialNumber.java": {
+      "sha256": "5eed9e955fd99c81a75af1c5696fb3a723afe120e0f4ac9c20881158b9c144aa",
+      "upstream_sha256": "5eed9e955fd99c81a75af1c5696fb3a723afe120e0f4ac9c20881158b9c144aa"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/SerialNumberEx.java": {
+      "sha256": "24b015350d2717053f2223ab9caf67021d86bbbf97e6e7960e1385d34472278c",
+      "upstream_sha256": "24b015350d2717053f2223ab9caf67021d86bbbf97e6e7960e1385d34472278c"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/SerialNumberExample.java": {
+      "sha256": "767f9daf1d88621ecc394351193e1b7b8c3b4f91cd6310e1f1e4a6bd6fffec22",
+      "upstream_sha256": "767f9daf1d88621ecc394351193e1b7b8c3b4f91cd6310e1f1e4a6bd6fffec22"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/Supplier.java": {
+      "sha256": "4fca22955bd49fb0d1fa5cc5b558cc9970824d4b67f628f76228449289be888c",
+      "upstream_sha256": "4fca22955bd49fb0d1fa5cc5b558cc9970824d4b67f628f76228449289be888c"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/SupplierExample.java": {
+      "sha256": "1099d412e1051be2f119b56d2425eb1c2457300df054e2432c2c140b449f15ea",
+      "upstream_sha256": "1099d412e1051be2f119b56d2425eb1c2457300df054e2432c2c140b449f15ea"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/SysDictData.java": {
+      "sha256": "909f2b77c53c06cb112baf7a96441555e1fbb839ecaf817ed9c1d0d87138e819",
+      "upstream_sha256": "909f2b77c53c06cb112baf7a96441555e1fbb839ecaf817ed9c1d0d87138e819"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/SysDictType.java": {
+      "sha256": "73ff42c7db014b90b37c708532136b7d15ae3f13f081b966671e953c79089b32",
+      "upstream_sha256": "73ff42c7db014b90b37c708532136b7d15ae3f13f081b966671e953c79089b32"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/SysLoginModel.java": {
+      "sha256": "ac3dce320cec00fcebf3292838d936720d37b4d73c01f8a0173e75e08185a314",
+      "upstream_sha256": "ac3dce320cec00fcebf3292838d936720d37b4d73c01f8a0173e75e08185a314"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/SystemConfig.java": {
+      "sha256": "e5fd5ba7e1961241ef81a2ec564789113c09cdd2a5b673d4221e5f903a7e8b37",
+      "upstream_sha256": "e5fd5ba7e1961241ef81a2ec564789113c09cdd2a5b673d4221e5f903a7e8b37"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/SystemConfigExample.java": {
+      "sha256": "d739e23b61a45b819415ef92e443ec5e88d9fc2d0e25282600d4423e563003d0",
+      "upstream_sha256": "d739e23b61a45b819415ef92e443ec5e88d9fc2d0e25282600d4423e563003d0"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/Tenant.java": {
+      "sha256": "20903e4fb4be8edf5ddd05dacb6040d6dc14fcdd7b725992337c017aa6c2a085",
+      "upstream_sha256": "20903e4fb4be8edf5ddd05dacb6040d6dc14fcdd7b725992337c017aa6c2a085"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/TenantEx.java": {
+      "sha256": "58a32ae73377296f7dcbcd155e1e3ead3b5ff5b98bdc4512fde15a28b6dd9b34",
+      "upstream_sha256": "58a32ae73377296f7dcbcd155e1e3ead3b5ff5b98bdc4512fde15a28b6dd9b34"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/TenantExample.java": {
+      "sha256": "e886d15eb5f0e6acdc8088749bb4d3896264d6362e44bfd1e81b86230d68f95b",
+      "upstream_sha256": "e886d15eb5f0e6acdc8088749bb4d3896264d6362e44bfd1e81b86230d68f95b"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/Unit.java": {
+      "sha256": "f35551d22fb843bc21eb5b52286ef9619fa81b11871e0ab2d744def901f5311f",
+      "upstream_sha256": "f35551d22fb843bc21eb5b52286ef9619fa81b11871e0ab2d744def901f5311f"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/UnitExample.java": {
+      "sha256": "fb1f973b7262e2d4cb2ca4991ef3b47a23960f3340688d31af819299521da69f",
+      "upstream_sha256": "fb1f973b7262e2d4cb2ca4991ef3b47a23960f3340688d31af819299521da69f"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/User.java": {
+      "sha256": "1708ee626442bc650200910ab8dd6f62a69612d3739599b45b735ab29453b665",
+      "upstream_sha256": "1708ee626442bc650200910ab8dd6f62a69612d3739599b45b735ab29453b665"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/UserBusiness.java": {
+      "sha256": "bb5517a40189b907094a3aa455d7f34314411e0a033818d2c3328b27c214baea",
+      "upstream_sha256": "bb5517a40189b907094a3aa455d7f34314411e0a033818d2c3328b27c214baea"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/UserBusinessExample.java": {
+      "sha256": "c7201f505c8c1ef7fe839ffbb3019808da0a290a519e62649808db25f1fb6cff",
+      "upstream_sha256": "c7201f505c8c1ef7fe839ffbb3019808da0a290a519e62649808db25f1fb6cff"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/UserEx.java": {
+      "sha256": "2ca86a78df67c15044c2a97a0b275c6e9f41e8ae7864c6ae4f0be90d2fb0ce2b",
+      "upstream_sha256": "2ca86a78df67c15044c2a97a0b275c6e9f41e8ae7864c6ae4f0be90d2fb0ce2b"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/entities/UserExample.java": {
+      "sha256": "9f8b1e2b11e0153609798f981d83feeda5c3422d12ea27072048218662826580",
+      "upstream_sha256": "9f8b1e2b11e0153609798f981d83feeda5c3422d12ea27072048218662826580"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/AccountHeadMapper.java": {
+      "sha256": "02a189cd81dbc0988a009da209e361ef30be78590faeabb0ae7293b1768010a1",
+      "upstream_sha256": "02a189cd81dbc0988a009da209e361ef30be78590faeabb0ae7293b1768010a1"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/AccountHeadMapperEx.java": {
+      "sha256": "31bc1092b847a69673b99727bd4081228d2cf4402cb3f4ef5f6a675c23bd3a7d",
+      "upstream_sha256": "31bc1092b847a69673b99727bd4081228d2cf4402cb3f4ef5f6a675c23bd3a7d"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/AccountItemMapper.java": {
+      "sha256": "cb2abe1573d9a7b76133cec5789fb887daa05a9859d98dbb1aa7660a4f4906d4",
+      "upstream_sha256": "cb2abe1573d9a7b76133cec5789fb887daa05a9859d98dbb1aa7660a4f4906d4"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/AccountItemMapperEx.java": {
+      "sha256": "bf05d95e11f2f5d7410b2aa8b9edc4dd83689d27f4bb6b1b93adc9ca4dd49717",
+      "upstream_sha256": "bf05d95e11f2f5d7410b2aa8b9edc4dd83689d27f4bb6b1b93adc9ca4dd49717"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/AccountMapper.java": {
+      "sha256": "fc10d284e933dea425bd172fb058d89221211b27afc3f31eace252cda2dfebe8",
+      "upstream_sha256": "fc10d284e933dea425bd172fb058d89221211b27afc3f31eace252cda2dfebe8"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/AccountMapperEx.java": {
+      "sha256": "379fb56b23498c6e33e95d028150fe94848a8d9c1cec6e0375e2c28a79efdb31",
+      "upstream_sha256": "379fb56b23498c6e33e95d028150fe94848a8d9c1cec6e0375e2c28a79efdb31"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/DepotHeadMapper.java": {
+      "sha256": "22aca963f2a9885505f0b97e44c1ebaed8c67397cbd38ee770f293f51ccffbc6",
+      "upstream_sha256": "22aca963f2a9885505f0b97e44c1ebaed8c67397cbd38ee770f293f51ccffbc6"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/DepotHeadMapperEx.java": {
+      "sha256": "709460a4dd062a3b7c5d9d64fb9facbf1a4f11a74190fc1b12e71d76428de0f5",
+      "upstream_sha256": "709460a4dd062a3b7c5d9d64fb9facbf1a4f11a74190fc1b12e71d76428de0f5"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/DepotItemMapper.java": {
+      "sha256": "89b5a7deedb6ff4a3256a832c800c382c40642826608a30f64710c97bc2f0232",
+      "upstream_sha256": "89b5a7deedb6ff4a3256a832c800c382c40642826608a30f64710c97bc2f0232"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/DepotItemMapperEx.java": {
+      "sha256": "7b722750df2b3391beb3065103c98c9e5ed45d47e4072422169840153651a061",
+      "upstream_sha256": "7b722750df2b3391beb3065103c98c9e5ed45d47e4072422169840153651a061"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/DepotMapper.java": {
+      "sha256": "8cba04b2afa098638453a11512ff6e94c4578855d01edb270a1521376e44bb82",
+      "upstream_sha256": "8cba04b2afa098638453a11512ff6e94c4578855d01edb270a1521376e44bb82"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/DepotMapperEx.java": {
+      "sha256": "25b7eb91744885f64766519c10d2a2d415c070d28203b7ee68c20ba222a6b2eb",
+      "upstream_sha256": "25b7eb91744885f64766519c10d2a2d415c070d28203b7ee68c20ba222a6b2eb"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/FunctionMapper.java": {
+      "sha256": "909b2df4e0b1f0cde33ff07a2717d95500e2e9e440e042e5a419f9c48debacec",
+      "upstream_sha256": "909b2df4e0b1f0cde33ff07a2717d95500e2e9e440e042e5a419f9c48debacec"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/FunctionMapperEx.java": {
+      "sha256": "33fa5727a431eb081de5ece3a5b83ee2f2149f06572df6b473e888396599d469",
+      "upstream_sha256": "33fa5727a431eb081de5ece3a5b83ee2f2149f06572df6b473e888396599d469"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/InOutItemMapper.java": {
+      "sha256": "89ca7de38cfba3d65cce711398d837fab61eb13f2e21a3cd12d796ee5ce5e570",
+      "upstream_sha256": "89ca7de38cfba3d65cce711398d837fab61eb13f2e21a3cd12d796ee5ce5e570"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/InOutItemMapperEx.java": {
+      "sha256": "041d65238a6a273ff04f23dbb8a33e6198d67e251511e84f3e6235266ce09544",
+      "upstream_sha256": "041d65238a6a273ff04f23dbb8a33e6198d67e251511e84f3e6235266ce09544"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/LogMapper.java": {
+      "sha256": "88bef0b73f679fb6784ebf6def52e2139cc43d94919b578ed0fce8e54fbe7147",
+      "upstream_sha256": "88bef0b73f679fb6784ebf6def52e2139cc43d94919b578ed0fce8e54fbe7147"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/LogMapperEx.java": {
+      "sha256": "9110f620e671cd89e60928ce52c99895cd6889d9beafa128b5c999e3d0e2aaab",
+      "upstream_sha256": "9110f620e671cd89e60928ce52c99895cd6889d9beafa128b5c999e3d0e2aaab"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/MaterialAttributeMapper.java": {
+      "sha256": "fa2235fee2528496558bf6f4fb68252c28816e1cdc0eab752636cc54ce7593ea",
+      "upstream_sha256": "fa2235fee2528496558bf6f4fb68252c28816e1cdc0eab752636cc54ce7593ea"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/MaterialAttributeMapperEx.java": {
+      "sha256": "e7e178b4a789f13e7808a8b1170869d4e7724bd3e6107826e661115957fa8f46",
+      "upstream_sha256": "e7e178b4a789f13e7808a8b1170869d4e7724bd3e6107826e661115957fa8f46"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/MaterialCategoryMapper.java": {
+      "sha256": "bd96ad1f6ff10d8069cf8747e3a297acbf5172910a5c33d23d1465efc644cbf9",
+      "upstream_sha256": "bd96ad1f6ff10d8069cf8747e3a297acbf5172910a5c33d23d1465efc644cbf9"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/MaterialCategoryMapperEx.java": {
+      "sha256": "b0b41b8ab49b5e90be9a17fe2f7d6821e4197407075acb1bb6a34798cd87d346",
+      "upstream_sha256": "b0b41b8ab49b5e90be9a17fe2f7d6821e4197407075acb1bb6a34798cd87d346"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/MaterialCurrentStockMapper.java": {
+      "sha256": "b326d6660e99b195e727fa64ba4c950c0ed396db5ce6bb7785a74e840f6c7495",
+      "upstream_sha256": "b326d6660e99b195e727fa64ba4c950c0ed396db5ce6bb7785a74e840f6c7495"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/MaterialCurrentStockMapperEx.java": {
+      "sha256": "3ca63fcce4a81f64dad0558ba1c91c959d2e3bc93ebb2a281a3be4ade8ba2ff5",
+      "upstream_sha256": "3ca63fcce4a81f64dad0558ba1c91c959d2e3bc93ebb2a281a3be4ade8ba2ff5"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/MaterialExtendMapper.java": {
+      "sha256": "e5e43d51e9d2cde04ecb47eb5d0d0dba90da732f6f8edc3eaed791dc161a39ee",
+      "upstream_sha256": "e5e43d51e9d2cde04ecb47eb5d0d0dba90da732f6f8edc3eaed791dc161a39ee"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/MaterialExtendMapperEx.java": {
+      "sha256": "9efe64736a95043b5920fe4e7b67fa954e068a735be4411bd7a1e16cb6a37826",
+      "upstream_sha256": "9efe64736a95043b5920fe4e7b67fa954e068a735be4411bd7a1e16cb6a37826"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/MaterialInitialStockMapper.java": {
+      "sha256": "5cd998e813f05aefee5eecc2f33d036586f7b5baff8ca93ab3996270dfd62d6b",
+      "upstream_sha256": "5cd998e813f05aefee5eecc2f33d036586f7b5baff8ca93ab3996270dfd62d6b"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/MaterialInitialStockMapperEx.java": {
+      "sha256": "a4fd082d0f02c5a5cae0e30d314a6371765f1925b55b823254757a3148451f0e",
+      "upstream_sha256": "a4fd082d0f02c5a5cae0e30d314a6371765f1925b55b823254757a3148451f0e"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/MaterialMapper.java": {
+      "sha256": "81185136dd97894197fef93474c1414a5a9431651dbd0b5dc452746359291917",
+      "upstream_sha256": "81185136dd97894197fef93474c1414a5a9431651dbd0b5dc452746359291917"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/MaterialMapperEx.java": {
+      "sha256": "1051a1f53d172eeadbe7c939f9d14756654e625a6e7d08e204fde16a321d07ca",
+      "upstream_sha256": "1051a1f53d172eeadbe7c939f9d14756654e625a6e7d08e204fde16a321d07ca"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/MaterialPropertyMapper.java": {
+      "sha256": "1528f86194ee841b5c78e7a224ca9b942b2a284a0d4bbf10f3e078df1cbded83",
+      "upstream_sha256": "1528f86194ee841b5c78e7a224ca9b942b2a284a0d4bbf10f3e078df1cbded83"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/MaterialPropertyMapperEx.java": {
+      "sha256": "5cd70ddcd2063ef4590621807e139c2136b30e974f2f941b7f6f1ee6746ab487",
+      "upstream_sha256": "5cd70ddcd2063ef4590621807e139c2136b30e974f2f941b7f6f1ee6746ab487"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/MsgMapper.java": {
+      "sha256": "b5bf6684b35e16c20572d37bc7a13ed50f7d17bfe4f0913018f7e45aacab4941",
+      "upstream_sha256": "b5bf6684b35e16c20572d37bc7a13ed50f7d17bfe4f0913018f7e45aacab4941"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/MsgMapperEx.java": {
+      "sha256": "e9d55e26e01636a55fa1ec60dc5b6c78a58845cf174cb0f17f8286671957b5e9",
+      "upstream_sha256": "e9d55e26e01636a55fa1ec60dc5b6c78a58845cf174cb0f17f8286671957b5e9"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/OrgaUserRelMapper.java": {
+      "sha256": "b83950eee1515aa6fa33853f9878c336202076c3a8808313ae6e4ee8b8ad36ae",
+      "upstream_sha256": "b83950eee1515aa6fa33853f9878c336202076c3a8808313ae6e4ee8b8ad36ae"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/OrgaUserRelMapperEx.java": {
+      "sha256": "c88b2b68903b4ac4c40aecc1beb6afa0a97a9460531e01ebef3f57b50080cfbb",
+      "upstream_sha256": "c88b2b68903b4ac4c40aecc1beb6afa0a97a9460531e01ebef3f57b50080cfbb"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/OrganizationMapper.java": {
+      "sha256": "bbd6a2e299eef7e2f23f3430ad8b8cbf05a64a1fa9ec5eb483738112ace8f2a7",
+      "upstream_sha256": "bbd6a2e299eef7e2f23f3430ad8b8cbf05a64a1fa9ec5eb483738112ace8f2a7"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/OrganizationMapperEx.java": {
+      "sha256": "43e8d5c480bf8b8c912a6a25043b8d63850cea4bda68f1beb335cbf07dfefaac",
+      "upstream_sha256": "43e8d5c480bf8b8c912a6a25043b8d63850cea4bda68f1beb335cbf07dfefaac"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/PersonMapper.java": {
+      "sha256": "4c736c99a5b3837d0067b21dcf69b622c959d5552cfce643030c77f973a0c3c8",
+      "upstream_sha256": "4c736c99a5b3837d0067b21dcf69b622c959d5552cfce643030c77f973a0c3c8"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/PersonMapperEx.java": {
+      "sha256": "02eb6e57056b4ded0abef5bed7e2b0afa450cc58499203755176a94a06083ef3",
+      "upstream_sha256": "02eb6e57056b4ded0abef5bed7e2b0afa450cc58499203755176a94a06083ef3"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/PlatformConfigMapper.java": {
+      "sha256": "3bda69e7bebec7ee4baf44d4ca81e8f2eecba4e6aa62995e1f18f48ad8cfbee7",
+      "upstream_sha256": "3bda69e7bebec7ee4baf44d4ca81e8f2eecba4e6aa62995e1f18f48ad8cfbee7"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/PlatformConfigMapperEx.java": {
+      "sha256": "e81df73f2263c5cc5bfd6ec266d87f01b8f9c935a6a60291808ef28a1101391f",
+      "upstream_sha256": "e81df73f2263c5cc5bfd6ec266d87f01b8f9c935a6a60291808ef28a1101391f"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/RoleMapper.java": {
+      "sha256": "32ad9c3980ee4f66c659f12b399da290ea77eacf50ecdea68ee413b315e32235",
+      "upstream_sha256": "32ad9c3980ee4f66c659f12b399da290ea77eacf50ecdea68ee413b315e32235"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/RoleMapperEx.java": {
+      "sha256": "270c68d159924e73bd3aa1fac5a43e517bf5d9b5507b3bbeddb62fc47344e8b9",
+      "upstream_sha256": "270c68d159924e73bd3aa1fac5a43e517bf5d9b5507b3bbeddb62fc47344e8b9"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/SequenceMapperEx.java": {
+      "sha256": "f0ec89989783e0d5c250c9985861b773b2153645ad9dd6e1eb011e819ae02424",
+      "upstream_sha256": "f0ec89989783e0d5c250c9985861b773b2153645ad9dd6e1eb011e819ae02424"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/SerialNumberMapper.java": {
+      "sha256": "88b67780b65e9eb2ff965eb57727fa82786cae47377f932e163539290f8d6441",
+      "upstream_sha256": "88b67780b65e9eb2ff965eb57727fa82786cae47377f932e163539290f8d6441"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/SerialNumberMapperEx.java": {
+      "sha256": "f52c362f62e0060d4bb13c652f8a00ee9252adb5e89a82b7f0eed9765ab88152",
+      "upstream_sha256": "f52c362f62e0060d4bb13c652f8a00ee9252adb5e89a82b7f0eed9765ab88152"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/SupplierMapper.java": {
+      "sha256": "adbd1ef46259e83c11098acbd3399a5c2537d425591807061c9d18316dd9ad3a",
+      "upstream_sha256": "adbd1ef46259e83c11098acbd3399a5c2537d425591807061c9d18316dd9ad3a"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/SupplierMapperEx.java": {
+      "sha256": "2b153fea4dd1e8f0c285e253acaab9ad69c7ee39369a4730f7ed3484a67bbb5e",
+      "upstream_sha256": "2b153fea4dd1e8f0c285e253acaab9ad69c7ee39369a4730f7ed3484a67bbb5e"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/SysDictDataMapper.java": {
+      "sha256": "fad4f3e640d45ae0173a0958c77447e8f1bb010bed9a8e886ec9eca99d90f1f6",
+      "upstream_sha256": "fad4f3e640d45ae0173a0958c77447e8f1bb010bed9a8e886ec9eca99d90f1f6"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/SysDictTypeMapper.java": {
+      "sha256": "deefd529030f274dff1b128aaa4eafa6ae999ca639e78f408de64d846e766b3d",
+      "upstream_sha256": "deefd529030f274dff1b128aaa4eafa6ae999ca639e78f408de64d846e766b3d"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/SystemConfigMapper.java": {
+      "sha256": "be08958d341146441ba08b64807e694f650a56a706ac54fe65c74a8f751e2b9a",
+      "upstream_sha256": "be08958d341146441ba08b64807e694f650a56a706ac54fe65c74a8f751e2b9a"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/SystemConfigMapperEx.java": {
+      "sha256": "d72051dd9f0b6cfb6f14e015b446130a138b36a99b139f95f7c42fc0bf78cbb8",
+      "upstream_sha256": "d72051dd9f0b6cfb6f14e015b446130a138b36a99b139f95f7c42fc0bf78cbb8"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/TenantMapper.java": {
+      "sha256": "1500c53c2ba5ce5d135d0ee2b19735547dc8281d2c752a49353d81e5a6083aa4",
+      "upstream_sha256": "1500c53c2ba5ce5d135d0ee2b19735547dc8281d2c752a49353d81e5a6083aa4"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/TenantMapperEx.java": {
+      "sha256": "4944a5ed1b0b5b9d7e0bef24d5fc9f665fc5fb9e4bd7f63ad7390986802cdb40",
+      "upstream_sha256": "4944a5ed1b0b5b9d7e0bef24d5fc9f665fc5fb9e4bd7f63ad7390986802cdb40"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/UnitMapper.java": {
+      "sha256": "6c1a84c200813de0e564161ff29241e293801c39ba326e2f53f013f6d0aa8db5",
+      "upstream_sha256": "6c1a84c200813de0e564161ff29241e293801c39ba326e2f53f013f6d0aa8db5"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/UnitMapperEx.java": {
+      "sha256": "9abc3e3c725224983e5a97c15fe7266edafa11322aba9b45594d5c677d47bef5",
+      "upstream_sha256": "9abc3e3c725224983e5a97c15fe7266edafa11322aba9b45594d5c677d47bef5"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/UserBusinessMapper.java": {
+      "sha256": "61483ce736764ed60b85790a9a4ff67b0cecaa215ceb850a21173de2783ca155",
+      "upstream_sha256": "61483ce736764ed60b85790a9a4ff67b0cecaa215ceb850a21173de2783ca155"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/UserBusinessMapperEx.java": {
+      "sha256": "850709c59b2466d7ab72fe898b17f83b7f7255ad56f57169696a39a27277f14c",
+      "upstream_sha256": "850709c59b2466d7ab72fe898b17f83b7f7255ad56f57169696a39a27277f14c"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/UserMapper.java": {
+      "sha256": "524729032e1b31df79e5415a93c54e81f872aa34ff6b008bf61504057bddb86d",
+      "upstream_sha256": "524729032e1b31df79e5415a93c54e81f872aa34ff6b008bf61504057bddb86d"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/mappers/UserMapperEx.java": {
+      "sha256": "16acaf618d7e7358c93eb0fb0f8083e652f21be9105c8c4dd46e0dddf4d1fa13",
+      "upstream_sha256": "16acaf618d7e7358c93eb0fb0f8083e652f21be9105c8c4dd46e0dddf4d1fa13"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/vo/AccountItemVo4List.java": {
+      "sha256": "8c89c22b5ff864051a1551a61b6286c76d4f29f47576556f266154a6befcc2a1",
+      "upstream_sha256": "8c89c22b5ff864051a1551a61b6286c76d4f29f47576556f266154a6befcc2a1"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/vo/AccountVo4InOutList.java": {
+      "sha256": "c5ce77d0addf2e81dcfc704f08d5ee635856dc8ca9c18e0fedee5cf0f5d4f25b",
+      "upstream_sha256": "c5ce77d0addf2e81dcfc704f08d5ee635856dc8ca9c18e0fedee5cf0f5d4f25b"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/vo/AccountVo4List.java": {
+      "sha256": "597b48441abfc5ca6078bbc8154ffa2d5596c3233e9e2123958985e9e86a2780",
+      "upstream_sha256": "597b48441abfc5ca6078bbc8154ffa2d5596c3233e9e2123958985e9e86a2780"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/vo/BillListCacheVo.java": {
+      "sha256": "454e3fef2eff2bb743f7115ee553849279e83f6ad0a94a5f3f79772cc6b27138",
+      "upstream_sha256": "454e3fef2eff2bb743f7115ee553849279e83f6ad0a94a5f3f79772cc6b27138"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/vo/DepotHeadVo4InDetail.java": {
+      "sha256": "548ed7d66ffea095aaa079050e51c3f63aa99dd7d42d8ff286287c91d0ed1346",
+      "upstream_sha256": "548ed7d66ffea095aaa079050e51c3f63aa99dd7d42d8ff286287c91d0ed1346"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/vo/DepotHeadVo4InOutMCount.java": {
+      "sha256": "b0b573e478e9dc4c5acc0a5aa1e4bd73f0ace8efba26ae6cd524fd77a9e750b8",
+      "upstream_sha256": "b0b573e478e9dc4c5acc0a5aa1e4bd73f0ace8efba26ae6cd524fd77a9e750b8"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/vo/DepotHeadVo4List.java": {
+      "sha256": "6db72ede972cba867388b9c39f3cdff0e900bea64c74652c1ff33547a14e1960",
+      "upstream_sha256": "6db72ede972cba867388b9c39f3cdff0e900bea64c74652c1ff33547a14e1960"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/vo/DepotHeadVo4StatementAccount.java": {
+      "sha256": "48f5f561a379691b835450800515ed5fcb8345cdb2ad78428c8396fbcc22cdd7",
+      "upstream_sha256": "48f5f561a379691b835450800515ed5fcb8345cdb2ad78428c8396fbcc22cdd7"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/vo/DepotItemStockWarningCount.java": {
+      "sha256": "77cce24c1cce1a98996314d6bb7f0ed173f729b629d7727eea612314be318f35",
+      "upstream_sha256": "77cce24c1cce1a98996314d6bb7f0ed173f729b629d7727eea612314be318f35"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/vo/DepotItemVo4DetailWithCurrentUnitPrice.java": {
+      "sha256": "d36e15bd133084fc1c6aa759d267ea4c34bf579a6eeff8770a6fa288827d76df",
+      "upstream_sha256": "d36e15bd133084fc1c6aa759d267ea4c34bf579a6eeff8770a6fa288827d76df"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/vo/DepotItemVo4Stock.java": {
+      "sha256": "547be53f363874c695d9e709a4d922cf9b39f0c27ff99d0cc0ae5406ee9cea1c",
+      "upstream_sha256": "547be53f363874c695d9e709a4d922cf9b39f0c27ff99d0cc0ae5406ee9cea1c"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/vo/DepotItemVoBatchNumberList.java": {
+      "sha256": "d97ad12440087e121582648e36dd95f54b2fd5225d6562a9467f406edc97d999",
+      "upstream_sha256": "d97ad12440087e121582648e36dd95f54b2fd5225d6562a9467f406edc97d999"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/vo/FinishDepositVo.java": {
+      "sha256": "a05a039dac3e60fbdf755e6852b9c0147e2fa1737809dc583d58cd107798e7ba",
+      "upstream_sha256": "a05a039dac3e60fbdf755e6852b9c0147e2fa1737809dc583d58cd107798e7ba"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/vo/InOutPriceVo.java": {
+      "sha256": "f8bccc20beb9bbec2b8892f4298c881589ec728163036b226aa6266129291564",
+      "upstream_sha256": "f8bccc20beb9bbec2b8892f4298c881589ec728163036b226aa6266129291564"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/vo/LogVo4List.java": {
+      "sha256": "0738ae4e0187a79f9ecfd61a61414c5b1ba2deae4c1bd8a19cd2337bfe676347",
+      "upstream_sha256": "0738ae4e0187a79f9ecfd61a61414c5b1ba2deae4c1bd8a19cd2337bfe676347"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/vo/MaterialCountVo.java": {
+      "sha256": "27bbcba6dc8e928ae4dbf0a640e874763a1e4787d040cd9b8b4df5aa1e1a377a",
+      "upstream_sha256": "27bbcba6dc8e928ae4dbf0a640e874763a1e4787d040cd9b8b4df5aa1e1a377a"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/vo/MaterialDepotStock.java": {
+      "sha256": "056b37da0d3414a93e8f384c167c043fffeb515cb6e8f2c2faff35575241783d",
+      "upstream_sha256": "056b37da0d3414a93e8f384c167c043fffeb515cb6e8f2c2faff35575241783d"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/vo/MaterialExtendVo4List.java": {
+      "sha256": "088d6062fd92982d748134e3c4d10a2f958deb3933a98e14cbc5a83ad41dc5df",
+      "upstream_sha256": "088d6062fd92982d748134e3c4d10a2f958deb3933a98e14cbc5a83ad41dc5df"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/vo/MaterialVoSearch.java": {
+      "sha256": "79dec927fc9f168419326cb7e95df836b3f3725b90a2d99f5f1a2f7c0f7b9970",
+      "upstream_sha256": "79dec927fc9f168419326cb7e95df836b3f3725b90a2d99f5f1a2f7c0f7b9970"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/vo/MaterialsListVo.java": {
+      "sha256": "f667153107881de82a3996f369556ee0fa8baf69fa4ccee9d049cceee65c869c",
+      "upstream_sha256": "f667153107881de82a3996f369556ee0fa8baf69fa4ccee9d049cceee65c869c"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/vo/NodeAttributes.java": {
+      "sha256": "5ab383a9a7b68915fd9f182bf0195422e277dab28b096fbbe22e0604813725f2",
+      "upstream_sha256": "5ab383a9a7b68915fd9f182bf0195422e277dab28b096fbbe22e0604813725f2"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/vo/SupplierSimple.java": {
+      "sha256": "b4dc3217588e73e5d5b5058db946fdd489a6517f3d9af87186af382f4ff09b98",
+      "upstream_sha256": "b4dc3217588e73e5d5b5058db946fdd489a6517f3d9af87186af382f4ff09b98"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/vo/TreeNode.java": {
+      "sha256": "9d4fce708e7e2b4de2ac10c8647250c19955e00ce78d35cc153a319a325b7a12",
+      "upstream_sha256": "9d4fce708e7e2b4de2ac10c8647250c19955e00ce78d35cc153a319a325b7a12"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/datasource/vo/TreeNodeEx.java": {
+      "sha256": "c884f866a5b93954b4656781f6eb2918759637286f54280cc7dafe182fae8829",
+      "upstream_sha256": "c884f866a5b93954b4656781f6eb2918759637286f54280cc7dafe182fae8829"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/exception/BusinessParamCheckingException.java": {
+      "sha256": "65c5a6475fc44621dea3af94f8c7cc6492a54e880980d7dd0d36c4164b12d399",
+      "upstream_sha256": "65c5a6475fc44621dea3af94f8c7cc6492a54e880980d7dd0d36c4164b12d399"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/exception/BusinessRunTimeException.java": {
+      "sha256": "7f54963e7122275e949151e2f78795f2b269e72195b91bd0acbb13d656f227b7",
+      "upstream_sha256": "7f54963e7122275e949151e2f78795f2b269e72195b91bd0acbb13d656f227b7"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/exception/GlobalExceptionHandler.java": {
+      "sha256": "aa06fe865f522f239b5dd0878029244d89624927a840c629f08d3e2176e8941a",
+      "upstream_sha256": "aa06fe865f522f239b5dd0878029244d89624927a840c629f08d3e2176e8941a"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/exception/JshException.java": {
+      "sha256": "9069fbf1275e41de32b6cade01eac44d07653e9bebcb44c653469fc55f853d07",
+      "upstream_sha256": "9069fbf1275e41de32b6cade01eac44d07653e9bebcb44c653469fc55f853d07"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/exception/UtilException.java": {
+      "sha256": "bcdb4b0ed082a356d7f8bfb804ce7b5ffea14753bdebd1b9d905ea12d57701ba",
+      "upstream_sha256": "bcdb4b0ed082a356d7f8bfb804ce7b5ffea14753bdebd1b9d905ea12d57701ba"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/filter/LogCostFilter.java": {
+      "sha256": "8a2ec374ec86c1f0e594e01ebfd95ce77ea8fe8ddb6843cd7ecdf52c92127dff",
+      "upstream_sha256": "8a2ec374ec86c1f0e594e01ebfd95ce77ea8fe8ddb6843cd7ecdf52c92127dff"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/AccountHeadService.java": {
+      "sha256": "def5bb314ee9185efff5978f73d3f236eb5b5171fc90139181ab82b3211ae1b4",
+      "upstream_sha256": "def5bb314ee9185efff5978f73d3f236eb5b5171fc90139181ab82b3211ae1b4"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/AccountItemService.java": {
+      "sha256": "44cc7ee299d52cd6502b4cd6d340cd0cea829581a7736064ba917e0b6c402f6e",
+      "upstream_sha256": "44cc7ee299d52cd6502b4cd6d340cd0cea829581a7736064ba917e0b6c402f6e"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/AccountService.java": {
+      "sha256": "c36ae38c4540a213ab624fc41bbdea5ccdd23c97006b23e0ccb92dd76e876d11",
+      "upstream_sha256": "c36ae38c4540a213ab624fc41bbdea5ccdd23c97006b23e0ccb92dd76e876d11"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/DepotHeadService.java": {
+      "sha256": "00d920caa516bcd149c7a04ee44a327c81ff0503737c26e445f2ea495b04a097",
+      "upstream_sha256": "00d920caa516bcd149c7a04ee44a327c81ff0503737c26e445f2ea495b04a097"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/DepotItemService.java": {
+      "sha256": "79c957a8e4aa84042a7c64b90cebe6185bda5a05a0b0b966bebfed5472d4d61e",
+      "upstream_sha256": "79c957a8e4aa84042a7c64b90cebe6185bda5a05a0b0b966bebfed5472d4d61e"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/DepotService.java": {
+      "sha256": "006a2ccbd0125aaaa2010a768996547160c3a264fc1aebb8b398cabd2e167574",
+      "upstream_sha256": "006a2ccbd0125aaaa2010a768996547160c3a264fc1aebb8b398cabd2e167574"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/FunctionService.java": {
+      "sha256": "e48d672025f7918af4b273c550c395a8d5aef4fb4bfeaa56d3086b00594beaae",
+      "upstream_sha256": "e48d672025f7918af4b273c550c395a8d5aef4fb4bfeaa56d3086b00594beaae"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/InOutItemService.java": {
+      "sha256": "b9c10cf1a9369d4102569affad007c71693974960984778ebaf2ff22467618fb",
+      "upstream_sha256": "b9c10cf1a9369d4102569affad007c71693974960984778ebaf2ff22467618fb"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/LogService.java": {
+      "sha256": "9eeaf168cc7c326a03cbce1ad4208836d55fa0b4a214644743bf76fdfad0cc7b",
+      "upstream_sha256": "9eeaf168cc7c326a03cbce1ad4208836d55fa0b4a214644743bf76fdfad0cc7b"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/MaterialAttributeService.java": {
+      "sha256": "32bff168d9e5dbdc0d27dbad0a834d6930d7f127677feb4a5a185c8df27d27a2",
+      "upstream_sha256": "32bff168d9e5dbdc0d27dbad0a834d6930d7f127677feb4a5a185c8df27d27a2"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/MaterialCategoryService.java": {
+      "sha256": "aef66f7cbfb17d1363a0d3f8d94d7cee172ff270e1c07bc8441403f17cfe9096",
+      "upstream_sha256": "aef66f7cbfb17d1363a0d3f8d94d7cee172ff270e1c07bc8441403f17cfe9096"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/MaterialExtendService.java": {
+      "sha256": "f172a0d4071347ba9284e32e5e9f36bf7bcddb55a89ea72d88e9e862f498f06b",
+      "upstream_sha256": "f172a0d4071347ba9284e32e5e9f36bf7bcddb55a89ea72d88e9e862f498f06b"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/MaterialPropertyService.java": {
+      "sha256": "1ec90e5ef4c775a52dd094aa68494647fb8eedece24e23e9c8ff4c47bd52b6b4",
+      "upstream_sha256": "1ec90e5ef4c775a52dd094aa68494647fb8eedece24e23e9c8ff4c47bd52b6b4"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/MaterialService.java": {
+      "sha256": "37218a35dacdd94144aa5c29b05fd485ea7999991a91ce0a1aea6e7d2128c97b",
+      "upstream_sha256": "37218a35dacdd94144aa5c29b05fd485ea7999991a91ce0a1aea6e7d2128c97b"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/MsgService.java": {
+      "sha256": "85b547cd494f71b1cf2ccd4fd14c30dce2b30069bb252d22389274dac042cd30",
+      "upstream_sha256": "85b547cd494f71b1cf2ccd4fd14c30dce2b30069bb252d22389274dac042cd30"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/OrgaUserRelService.java": {
+      "sha256": "1404b8e1efab960fb35e6dcce9cf80c548954ce927f294e74ff8083f7ce15581",
+      "upstream_sha256": "1404b8e1efab960fb35e6dcce9cf80c548954ce927f294e74ff8083f7ce15581"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/OrganizationService.java": {
+      "sha256": "fce02a96fecde881577240bd59181ee9d9beae0c99b51de57fad43e4ae25467e",
+      "upstream_sha256": "fce02a96fecde881577240bd59181ee9d9beae0c99b51de57fad43e4ae25467e"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/PersonService.java": {
+      "sha256": "a4a2f7d05bc68abdaf904d82717edd91f5298fc47872207f20e984b3d05e5791",
+      "upstream_sha256": "a4a2f7d05bc68abdaf904d82717edd91f5298fc47872207f20e984b3d05e5791"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/PlatformConfigService.java": {
+      "sha256": "73aba2884816e9274ee9a6e997c5108716c30fc40137cd3169fc76d5af40e53c",
+      "upstream_sha256": "73aba2884816e9274ee9a6e997c5108716c30fc40137cd3169fc76d5af40e53c"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/RedisService.java": {
+      "sha256": "ce90edc3f3d4fd49a27fe7adfc56fc26916db94ec99baa038fc8fac3af3266b1",
+      "upstream_sha256": "ce90edc3f3d4fd49a27fe7adfc56fc26916db94ec99baa038fc8fac3af3266b1"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/RoleService.java": {
+      "sha256": "44a34c679f0680ed78ae86b34350c2e1a673aacd91a1639b0d3e7b714fb20191",
+      "upstream_sha256": "44a34c679f0680ed78ae86b34350c2e1a673aacd91a1639b0d3e7b714fb20191"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/SequenceService.java": {
+      "sha256": "4166849572b7d19dd7aca12b9b8b097c2b18e679195331ee5ecf224217e3d4df",
+      "upstream_sha256": "4166849572b7d19dd7aca12b9b8b097c2b18e679195331ee5ecf224217e3d4df"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/SerialNumberService.java": {
+      "sha256": "2f82be752bb68b45ca273d612b6e53a90cb96745ffb027ad9d0b1a29ed494bcb",
+      "upstream_sha256": "2f82be752bb68b45ca273d612b6e53a90cb96745ffb027ad9d0b1a29ed494bcb"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/SupplierService.java": {
+      "sha256": "45f59afb7345472586be12dfc200d139aff055ceb92345870577334caaccee61",
+      "upstream_sha256": "45f59afb7345472586be12dfc200d139aff055ceb92345870577334caaccee61"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/SysDictDataService.java": {
+      "sha256": "85b340f008b54d40eacc9b2a5ef1c444c21b907d89d9eb0346e5141c339c06ac",
+      "upstream_sha256": "85b340f008b54d40eacc9b2a5ef1c444c21b907d89d9eb0346e5141c339c06ac"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/SysDictTypeService.java": {
+      "sha256": "d98d84c8f1724c37cec89ba69c71601def5e104ee9bee4232b2065c2895ecfe1",
+      "upstream_sha256": "d98d84c8f1724c37cec89ba69c71601def5e104ee9bee4232b2065c2895ecfe1"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/SystemConfigService.java": {
+      "sha256": "99d6c27e7705c724c5c2e03aa681ba259ea3e794d55b18627fc90f605baad886",
+      "upstream_sha256": "99d6c27e7705c724c5c2e03aa681ba259ea3e794d55b18627fc90f605baad886"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/TenantService.java": {
+      "sha256": "2f35404505e33afbdbed4274f3f8d04f136dad348627e7b19d77ab2d975bf688",
+      "upstream_sha256": "2f35404505e33afbdbed4274f3f8d04f136dad348627e7b19d77ab2d975bf688"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/UnitService.java": {
+      "sha256": "2871fa9cb785c9870106f8f50d5c6e01b306417bd251ff2edb3416d8782446ec",
+      "upstream_sha256": "2871fa9cb785c9870106f8f50d5c6e01b306417bd251ff2edb3416d8782446ec"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/UserBusinessService.java": {
+      "sha256": "caffbc2f2094de9366904225fa44a4b7c0b26abdf732a876a35c6654fece8b98",
+      "upstream_sha256": "caffbc2f2094de9366904225fa44a4b7c0b26abdf732a876a35c6654fece8b98"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/service/UserService.java": {
+      "sha256": "95552b925cec2902502f2b1dcd6631164c5497eeb9f48c3104b25e7f553c343a",
+      "upstream_sha256": "95552b925cec2902502f2b1dcd6631164c5497eeb9f48c3104b25e7f553c343a"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/utils/AnnotationUtils.java": {
+      "sha256": "6c2e1c5bf634e5add8f3b66e593ea8ca97882bac0fc73d2047b10fe75601b304",
+      "upstream_sha256": "6c2e1c5bf634e5add8f3b66e593ea8ca97882bac0fc73d2047b10fe75601b304"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/utils/BaseResponseInfo.java": {
+      "sha256": "bb87ed8c2ac03095fbbefb2ed1b1aa0b5938fb2cdae84923b9a5a1a321126ccc",
+      "upstream_sha256": "bb87ed8c2ac03095fbbefb2ed1b1aa0b5938fb2cdae84923b9a5a1a321126ccc"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/utils/ColumnPropertyUtil.java": {
+      "sha256": "06bc49415531bf711f96295268d4b5e072a0c14f7168cb357c3b80a94b2c85f3",
+      "upstream_sha256": "06bc49415531bf711f96295268d4b5e072a0c14f7168cb357c3b80a94b2c85f3"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/utils/ComputerInfo.java": {
+      "sha256": "88801e0e00d79b28f0cd0b653eb60f4b2e43b7451bb037b4b8051503c983c5a8",
+      "upstream_sha256": "88801e0e00d79b28f0cd0b653eb60f4b2e43b7451bb037b4b8051503c983c5a8"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/utils/Constants.java": {
+      "sha256": "9173d19b402f623954dc766e651f84ca16ad3ba203a24b0ac264a8176039946c",
+      "upstream_sha256": "9173d19b402f623954dc766e651f84ca16ad3ba203a24b0ac264a8176039946c"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/utils/Convert.java": {
+      "sha256": "d5630551d46ee6c4e2cc02981f64ed895b3eb3fe003f25d820f9da249a10247b",
+      "upstream_sha256": "d5630551d46ee6c4e2cc02981f64ed895b3eb3fe003f25d820f9da249a10247b"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/utils/DictUtils.java": {
+      "sha256": "f685da8039c7be170b8c5d5a35d759e790907738ae9f696992e3f0c23d959561",
+      "upstream_sha256": "f685da8039c7be170b8c5d5a35d759e790907738ae9f696992e3f0c23d959561"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/utils/ErpInfo.java": {
+      "sha256": "08fbd215eb437c0b614faa79ff41a5ea2fa51292ff1b3df0f206b03c6f38077f",
+      "upstream_sha256": "08fbd215eb437c0b614faa79ff41a5ea2fa51292ff1b3df0f206b03c6f38077f"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/utils/ExcelUtils.java": {
+      "sha256": "1e8e5992e4e3b8e20ffbca2df746d3666946856f2e263baefa350975c6a57c1f",
+      "upstream_sha256": "1e8e5992e4e3b8e20ffbca2df746d3666946856f2e263baefa350975c6a57c1f"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/utils/ExceptionCodeConstants.java": {
+      "sha256": "c454a2e946357a10c3fc0ac1e60a726d425ab82ef6f8b2617713b8f685c56282",
+      "upstream_sha256": "c454a2e946357a10c3fc0ac1e60a726d425ab82ef6f8b2617713b8f685c56282"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/utils/ExtJsonUtils.java": {
+      "sha256": "2eec12b469aadcfa4923e5c706dd0e478b221ac7abe71f52c00477154a4d4485",
+      "upstream_sha256": "2eec12b469aadcfa4923e5c706dd0e478b221ac7abe71f52c00477154a4d4485"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/utils/FileUtils.java": {
+      "sha256": "70d8f1fa11bfb0e98b4f472b986f98dcdf238b0cf3ed873dd14c47311611b741",
+      "upstream_sha256": "70d8f1fa11bfb0e98b4f472b986f98dcdf238b0cf3ed873dd14c47311611b741"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/utils/HttpClient.java": {
+      "sha256": "6419ba7081cc4cb1f89cbd146542205095a5dd25fc7f9d737630ed9fc1dec0bb",
+      "upstream_sha256": "6419ba7081cc4cb1f89cbd146542205095a5dd25fc7f9d737630ed9fc1dec0bb"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/utils/JsonUtils.java": {
+      "sha256": "e9fc3ff8ad46eadb8a3495220ab06ddf851f7f927f1e738aabc14b9409a3b415",
+      "upstream_sha256": "e9fc3ff8ad46eadb8a3495220ab06ddf851f7f927f1e738aabc14b9409a3b415"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/utils/OrderUtils.java": {
+      "sha256": "9fad9b35e0ad9d765c922550e5d599ef4ad12ddee959ff543f5eed5489616b56",
+      "upstream_sha256": "9fad9b35e0ad9d765c922550e5d599ef4ad12ddee959ff543f5eed5489616b56"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/utils/PageQueryInfo.java": {
+      "sha256": "166a40fb71cee7327539122a0a8a99fc74362ed88feb6b0d15b83dfbedcb1c35",
+      "upstream_sha256": "166a40fb71cee7327539122a0a8a99fc74362ed88feb6b0d15b83dfbedcb1c35"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/utils/PageUtils.java": {
+      "sha256": "225e3a02065fefa9af6571c79e5f11a5fe754fe50eab7cd70bf24784e62139b7",
+      "upstream_sha256": "225e3a02065fefa9af6571c79e5f11a5fe754fe50eab7cd70bf24784e62139b7"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/utils/ParamUtils.java": {
+      "sha256": "b41a59bdb0c40a571370da98d9a7e18fbac8426a6a0b0bc7c6484f7fdf65bf08",
+      "upstream_sha256": "b41a59bdb0c40a571370da98d9a7e18fbac8426a6a0b0bc7c6484f7fdf65bf08"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/utils/PinYinUtil.java": {
+      "sha256": "40d8aebb6d11704e33dafae06a3c39ea7ef36fdcc44a62ccdd10d8448aafbb96",
+      "upstream_sha256": "40d8aebb6d11704e33dafae06a3c39ea7ef36fdcc44a62ccdd10d8448aafbb96"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/utils/QueryUtils.java": {
+      "sha256": "53048d0332499f03dcecde7f1c447ea3120dc974b0fb88b633c81a6d10a3e41c",
+      "upstream_sha256": "53048d0332499f03dcecde7f1c447ea3120dc974b0fb88b633c81a6d10a3e41c"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/utils/RandImageUtil.java": {
+      "sha256": "bb2314363faeed48d094ff2be251136f7fbe44b17e8a2910ec238318b576ec28",
+      "upstream_sha256": "bb2314363faeed48d094ff2be251136f7fbe44b17e8a2910ec238318b576ec28"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/utils/RedisLockUtil.java": {
+      "sha256": "73bec5cba83d1884ee58460a51c3d247d60b1fefc3d643058c33e9170bd6b37e",
+      "upstream_sha256": "73bec5cba83d1884ee58460a51c3d247d60b1fefc3d643058c33e9170bd6b37e"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/utils/RegExpTools.java": {
+      "sha256": "88819765e6099511610027bba061a4c1781f3ae6824ab18a2b11bbdc442e9366",
+      "upstream_sha256": "88819765e6099511610027bba061a4c1781f3ae6824ab18a2b11bbdc442e9366"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/utils/ResponseCode.java": {
+      "sha256": "e5fab8d44f50cff6fb1ce1131fddce6d21e1c4e271f896e42fdf67c42880837e",
+      "upstream_sha256": "e5fab8d44f50cff6fb1ce1131fddce6d21e1c4e271f896e42fdf67c42880837e"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/utils/ResponseJsonUtil.java": {
+      "sha256": "4d9dfb1ff2a77cf706da8ee134bb77743a994e59e7377047354caeeacd0bd790",
+      "upstream_sha256": "4d9dfb1ff2a77cf706da8ee134bb77743a994e59e7377047354caeeacd0bd790"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/utils/ServletUtils.java": {
+      "sha256": "12ab5a3030afebd4aca72e4d79dbdf04722ea9b5846882e99b270f87b708cc64",
+      "upstream_sha256": "12ab5a3030afebd4aca72e4d79dbdf04722ea9b5846882e99b270f87b708cc64"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/utils/SqlUtil.java": {
+      "sha256": "29988bd77f1d737c65f2aef44a18d04f8e25d3bd735ed1325b22974b75d1cc97",
+      "upstream_sha256": "29988bd77f1d737c65f2aef44a18d04f8e25d3bd735ed1325b22974b75d1cc97"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/utils/StringUtil.java": {
+      "sha256": "6a2fe6d6d9ec36795023c86725927c1643cd6c106ecc797207968d2e293987da",
+      "upstream_sha256": "6a2fe6d6d9ec36795023c86725927c1643cd6c106ecc797207968d2e293987da"
+    },
+    "jshERP-boot/src/main/java/com/jsh/erp/utils/Tools.java": {
+      "sha256": "0f2976df04fd2d005b37c991f3119d0d0f44ed992ab260f25376adf4e2fbdfe8",
+      "upstream_sha256": "0f2976df04fd2d005b37c991f3119d0d0f44ed992ab260f25376adf4e2fbdfe8"
+    },
+    "jshERP-boot/src/main/resources/application.yml": {
+      "sha256": "b531736937303034e0c18bcd36e532721e38a1f12a6d929735d879629c74fc10",
+      "upstream_sha256": "ccc029fe6b7440c43466e918a9608f1180f279ac553843efbf7ced4f1ef857f5"
+    },
+    "jshERP-boot/src/main/resources/logback-spring.xml": {
+      "sha256": "ecc5f27f690a9ec2fc528a8143cac5ccc958749ee683882367287367a820882a",
+      "upstream_sha256": "10d52f2349b4f2d1afe868911392aa00c1749b1ad672a9d1cead2338817e662e"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/AccountHeadMapper.xml": {
+      "sha256": "62fb69aa0d8a81a62455a9a4621be16d5c0ff732819ea387392d457d9c1e311e",
+      "upstream_sha256": "62fb69aa0d8a81a62455a9a4621be16d5c0ff732819ea387392d457d9c1e311e"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/AccountHeadMapperEx.xml": {
+      "sha256": "cf7f17843da43f8648616dbe9ebb166230bee54440b09014228bd60ceb517229",
+      "upstream_sha256": "cf7f17843da43f8648616dbe9ebb166230bee54440b09014228bd60ceb517229"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/AccountItemMapper.xml": {
+      "sha256": "f1506d457337d1e8c10e361f2e57498b4b83c71535d6423feba1a951757aaceb",
+      "upstream_sha256": "f1506d457337d1e8c10e361f2e57498b4b83c71535d6423feba1a951757aaceb"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/AccountItemMapperEx.xml": {
+      "sha256": "e5b277fad5d39106840bfda7e1a6162daf55b5a67cd3b9f5b38902d54b8cdd8b",
+      "upstream_sha256": "e5b277fad5d39106840bfda7e1a6162daf55b5a67cd3b9f5b38902d54b8cdd8b"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/AccountMapper.xml": {
+      "sha256": "5830ab00824d5f216e0fddc2d39ec25cc86bf7eb859c061dc6ef3cb303eef572",
+      "upstream_sha256": "5830ab00824d5f216e0fddc2d39ec25cc86bf7eb859c061dc6ef3cb303eef572"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/AccountMapperEx.xml": {
+      "sha256": "b5271df22326b0cd4584c57cd36a3ad10b5c1a9df967918d21e493bed4846f47",
+      "upstream_sha256": "b5271df22326b0cd4584c57cd36a3ad10b5c1a9df967918d21e493bed4846f47"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/DepotHeadMapper.xml": {
+      "sha256": "eff37432ad2b5b4f62ea0faaea08a52be45ba2bc22071dadc4663bc58d645148",
+      "upstream_sha256": "eff37432ad2b5b4f62ea0faaea08a52be45ba2bc22071dadc4663bc58d645148"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/DepotHeadMapperEx.xml": {
+      "sha256": "4c45fafcab11568c33747f19767eef4f214cec649e863a5e560d8ece978c2cae",
+      "upstream_sha256": "4c45fafcab11568c33747f19767eef4f214cec649e863a5e560d8ece978c2cae"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/DepotItemMapper.xml": {
+      "sha256": "336f6f891acd70dfc3cd9c268955c5f0264d50b3cdd931d558b61433d0377c30",
+      "upstream_sha256": "336f6f891acd70dfc3cd9c268955c5f0264d50b3cdd931d558b61433d0377c30"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/DepotItemMapperEx.xml": {
+      "sha256": "b693b2fd624c0e5fbafc1b83007f3c17049372e3a1557d2263de78a5ca4f39f2",
+      "upstream_sha256": "b693b2fd624c0e5fbafc1b83007f3c17049372e3a1557d2263de78a5ca4f39f2"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/DepotMapper.xml": {
+      "sha256": "222f9a407bee917a69252db65882f8387927c641c6845f7f5d75b6a511a00f55",
+      "upstream_sha256": "222f9a407bee917a69252db65882f8387927c641c6845f7f5d75b6a511a00f55"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/DepotMapperEx.xml": {
+      "sha256": "5a54e8e6e0cd61e03fd72f21b065a03dbdde4870183689a385c614dcfe988db2",
+      "upstream_sha256": "5a54e8e6e0cd61e03fd72f21b065a03dbdde4870183689a385c614dcfe988db2"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/FunctionMapper.xml": {
+      "sha256": "c99e98ccf7d15eb6536ff2ad513bf21d4f71c1142464e302defcfd28775c77a0",
+      "upstream_sha256": "c99e98ccf7d15eb6536ff2ad513bf21d4f71c1142464e302defcfd28775c77a0"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/FunctionMapperEx.xml": {
+      "sha256": "59ba060636433421b58b4b0bd75a7eee10af92878128d3825430989afc4e2b3f",
+      "upstream_sha256": "59ba060636433421b58b4b0bd75a7eee10af92878128d3825430989afc4e2b3f"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/InOutItemMapper.xml": {
+      "sha256": "ff61f44a496417892d9875b1f05d54e93cec97ceb541c4c9162d385bbe6161d9",
+      "upstream_sha256": "ff61f44a496417892d9875b1f05d54e93cec97ceb541c4c9162d385bbe6161d9"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/InOutItemMapperEx.xml": {
+      "sha256": "4c5c18237ef87598994321aac61ff4fa7797f518645d697ee08d1bce756ed3e3",
+      "upstream_sha256": "4c5c18237ef87598994321aac61ff4fa7797f518645d697ee08d1bce756ed3e3"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/LogMapper.xml": {
+      "sha256": "11625f2b0febc26fc2d893e164b62049ba78731c084a30fc42c3f1feaa7c2efa",
+      "upstream_sha256": "11625f2b0febc26fc2d893e164b62049ba78731c084a30fc42c3f1feaa7c2efa"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/LogMapperEx.xml": {
+      "sha256": "184d17d3216aa295fc0dfdda784553a2dd403b79d6e473f9d0e5608874433e0b",
+      "upstream_sha256": "184d17d3216aa295fc0dfdda784553a2dd403b79d6e473f9d0e5608874433e0b"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/MaterialAttributeMapper.xml": {
+      "sha256": "625d75b070c837cfbae8763f4fa281608e09233df743f91ec8ec10f61cfce10a",
+      "upstream_sha256": "625d75b070c837cfbae8763f4fa281608e09233df743f91ec8ec10f61cfce10a"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/MaterialAttributeMapperEx.xml": {
+      "sha256": "9cceb6bc64df5495f89c9bf39d22c6c31c7a8b8541213813d9377e320d054ce1",
+      "upstream_sha256": "9cceb6bc64df5495f89c9bf39d22c6c31c7a8b8541213813d9377e320d054ce1"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/MaterialCategoryMapper.xml": {
+      "sha256": "c1c55363731f744cc95254abf9d2b702e90d06da9ac7ac01600fd3921e96e945",
+      "upstream_sha256": "c1c55363731f744cc95254abf9d2b702e90d06da9ac7ac01600fd3921e96e945"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/MaterialCategoryMapperEx.xml": {
+      "sha256": "e363d18bb38bc660b7c468b34dbd389c5075a5655f35ecaa65a31b390c832571",
+      "upstream_sha256": "e363d18bb38bc660b7c468b34dbd389c5075a5655f35ecaa65a31b390c832571"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/MaterialCurrentStockMapper.xml": {
+      "sha256": "f6772275740b47d2cf5860885de77f299a50071be3fa780b673b18d9d0464adf",
+      "upstream_sha256": "f6772275740b47d2cf5860885de77f299a50071be3fa780b673b18d9d0464adf"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/MaterialCurrentStockMapperEx.xml": {
+      "sha256": "440ae9971f34aa3ef7daadb73ded28e9963d331bdff288cb83d696118e812a3c",
+      "upstream_sha256": "440ae9971f34aa3ef7daadb73ded28e9963d331bdff288cb83d696118e812a3c"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/MaterialExtendMapper.xml": {
+      "sha256": "d5b8d99d4ad877a66a517111cb30ce895cc0dcffb4cc5cf9208a64d21847a8e0",
+      "upstream_sha256": "d5b8d99d4ad877a66a517111cb30ce895cc0dcffb4cc5cf9208a64d21847a8e0"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/MaterialExtendMapperEx.xml": {
+      "sha256": "7ab4bceae13855a062ac841fc2791b72ba1fe9a48d41a1ce6450a97f987ee65d",
+      "upstream_sha256": "7ab4bceae13855a062ac841fc2791b72ba1fe9a48d41a1ce6450a97f987ee65d"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/MaterialInitialStockMapper.xml": {
+      "sha256": "736f430d5c95a2e947ea8b7d884eb2d47d4ccaf4c42b5f389731279ec68ef504",
+      "upstream_sha256": "736f430d5c95a2e947ea8b7d884eb2d47d4ccaf4c42b5f389731279ec68ef504"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/MaterialInitialStockMapperEx.xml": {
+      "sha256": "e337e92d17d9e998403338c88a1046e37bd3f57d5910253d20fbeac3933237f5",
+      "upstream_sha256": "e337e92d17d9e998403338c88a1046e37bd3f57d5910253d20fbeac3933237f5"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/MaterialMapper.xml": {
+      "sha256": "cf8ca919ed8a875b33266f17b665d23f42d49e95f68704a2baf3c8377f10ee9a",
+      "upstream_sha256": "cf8ca919ed8a875b33266f17b665d23f42d49e95f68704a2baf3c8377f10ee9a"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/MaterialMapperEx.xml": {
+      "sha256": "9ba010a19b7481d010ba36ea9ef08cc67558ab1107e6d0de8f98692f073cdbeb",
+      "upstream_sha256": "9ba010a19b7481d010ba36ea9ef08cc67558ab1107e6d0de8f98692f073cdbeb"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/MaterialPropertyMapper.xml": {
+      "sha256": "ef3ed24e9ae9ace09aa97d58ecb9bbec7bcd5d7790abb8af46a8b5af7c8319b8",
+      "upstream_sha256": "ef3ed24e9ae9ace09aa97d58ecb9bbec7bcd5d7790abb8af46a8b5af7c8319b8"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/MaterialPropertyMapperEx.xml": {
+      "sha256": "6e9de27a66a7077e78cb289744665486529598739897af9fa30812240813f634",
+      "upstream_sha256": "6e9de27a66a7077e78cb289744665486529598739897af9fa30812240813f634"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/MsgMapper.xml": {
+      "sha256": "5607813406eef18c5b7c0dbe9a7eeeefb3cb68a8d008d40ceea6b25a18b65264",
+      "upstream_sha256": "5607813406eef18c5b7c0dbe9a7eeeefb3cb68a8d008d40ceea6b25a18b65264"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/MsgMapperEx.xml": {
+      "sha256": "0be76199048c897415b201da26e15a33ddf2d08255f856091a7d5ebd08e6751a",
+      "upstream_sha256": "0be76199048c897415b201da26e15a33ddf2d08255f856091a7d5ebd08e6751a"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/OrgaUserRelMapper.xml": {
+      "sha256": "2d6dce226745ba2c3f7925b460399cfb4eb12ad1b3e06af59e929a095b6e4d82",
+      "upstream_sha256": "2d6dce226745ba2c3f7925b460399cfb4eb12ad1b3e06af59e929a095b6e4d82"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/OrgaUserRelMapperEx.xml": {
+      "sha256": "f861947fa1a170c1ee9feacb4edf69252949535f994bac862e42d504af4a8079",
+      "upstream_sha256": "f861947fa1a170c1ee9feacb4edf69252949535f994bac862e42d504af4a8079"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/OrganizationMapper.xml": {
+      "sha256": "1c754aef7fe93a3abb8f0b98c858b86ce216b12c99c6652e86846153c6efaa28",
+      "upstream_sha256": "1c754aef7fe93a3abb8f0b98c858b86ce216b12c99c6652e86846153c6efaa28"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/OrganizationMapperEx.xml": {
+      "sha256": "af091f0a997e6fe4d1660a5e0c9537e33cdffd235166703a5dba49bb7962346f",
+      "upstream_sha256": "af091f0a997e6fe4d1660a5e0c9537e33cdffd235166703a5dba49bb7962346f"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/PersonMapper.xml": {
+      "sha256": "903564a0d3ce9c8d0405033186fc38f657f24cf70d5f27c219ebdcb15a5c8ef4",
+      "upstream_sha256": "903564a0d3ce9c8d0405033186fc38f657f24cf70d5f27c219ebdcb15a5c8ef4"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/PersonMapperEx.xml": {
+      "sha256": "2bcd15b1bc2966b8301b37602196942c2f31682f2921aca155aff3c09a35bdfc",
+      "upstream_sha256": "2bcd15b1bc2966b8301b37602196942c2f31682f2921aca155aff3c09a35bdfc"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/PlatformConfigMapper.xml": {
+      "sha256": "b6796f271b187fc17f5846d3ac007c86867b2b02fd169f162ddbb8ce2a2b406d",
+      "upstream_sha256": "b6796f271b187fc17f5846d3ac007c86867b2b02fd169f162ddbb8ce2a2b406d"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/PlatformConfigMapperEx.xml": {
+      "sha256": "32336716562c483930f37ccc60ff8f285afa50128d15a845f0cfc22646a30769",
+      "upstream_sha256": "32336716562c483930f37ccc60ff8f285afa50128d15a845f0cfc22646a30769"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/RoleMapper.xml": {
+      "sha256": "3168eff6d9a54ee03e179f5d2f8f0ba979147491ae00bbc37314a93be6e549c4",
+      "upstream_sha256": "3168eff6d9a54ee03e179f5d2f8f0ba979147491ae00bbc37314a93be6e549c4"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/RoleMapperEx.xml": {
+      "sha256": "56b89b952be09dbd2da522f85234b8d5a375875e4b336d6ed2d63da091c8c97d",
+      "upstream_sha256": "56b89b952be09dbd2da522f85234b8d5a375875e4b336d6ed2d63da091c8c97d"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/SequenceMapperEx.xml": {
+      "sha256": "8f29d16e2edd2182f443d095ef63da7fb7dadc8fe5be078afaa6457242a808e6",
+      "upstream_sha256": "8f29d16e2edd2182f443d095ef63da7fb7dadc8fe5be078afaa6457242a808e6"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/SerialNumberMapper.xml": {
+      "sha256": "df821d6e5d89fa42d3b6318355ada48ea55735c723759e87e6330f9b875db9bd",
+      "upstream_sha256": "df821d6e5d89fa42d3b6318355ada48ea55735c723759e87e6330f9b875db9bd"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/SerialNumberMapperEx.xml": {
+      "sha256": "8ed0f2eab4001407888fdf9c3851ca0460c1bc735e0404ff5c3b147a1f861e7a",
+      "upstream_sha256": "8ed0f2eab4001407888fdf9c3851ca0460c1bc735e0404ff5c3b147a1f861e7a"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/SupplierMapper.xml": {
+      "sha256": "204a3915d80a5aef1b3fca9540f506f62c8277e6bead729a28da5552fd870b92",
+      "upstream_sha256": "204a3915d80a5aef1b3fca9540f506f62c8277e6bead729a28da5552fd870b92"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/SupplierMapperEx.xml": {
+      "sha256": "eb46031de1fb3f3c99bb9d5a673696f96d2378532d7f795615bd2acc96b1b73c",
+      "upstream_sha256": "eb46031de1fb3f3c99bb9d5a673696f96d2378532d7f795615bd2acc96b1b73c"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/SysDictDataMapper.xml": {
+      "sha256": "8c7db9e31bd3fcc88b6d5a308c422122e622cd11fa4e13f33e1e185cb844f110",
+      "upstream_sha256": "8c7db9e31bd3fcc88b6d5a308c422122e622cd11fa4e13f33e1e185cb844f110"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/SysDictTypeMapper.xml": {
+      "sha256": "40a4b78ab58e9106d1a322372f8b729e1fd6eb15faea4642d034e9fb9cc96a1f",
+      "upstream_sha256": "40a4b78ab58e9106d1a322372f8b729e1fd6eb15faea4642d034e9fb9cc96a1f"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/SystemConfigMapper.xml": {
+      "sha256": "a0b8d11cd51ffb420ee4860c984d5de17e6875ffd739eaf8fe0096ee866fd255",
+      "upstream_sha256": "a0b8d11cd51ffb420ee4860c984d5de17e6875ffd739eaf8fe0096ee866fd255"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/SystemConfigMapperEx.xml": {
+      "sha256": "bf2ee4400d82f6089f5377b13f8480c83b024d6c9121b1a108c975e2b11c20eb",
+      "upstream_sha256": "bf2ee4400d82f6089f5377b13f8480c83b024d6c9121b1a108c975e2b11c20eb"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/TenantMapper.xml": {
+      "sha256": "9390337a60698610c3f50181d7b0cccaf3bd0cf00a87669585de7e5d6e097eea",
+      "upstream_sha256": "9390337a60698610c3f50181d7b0cccaf3bd0cf00a87669585de7e5d6e097eea"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/TenantMapperEx.xml": {
+      "sha256": "a6f6f6176853b8323d902e618d5c9f3a93c889d840047237e338ae250d8a8a5d",
+      "upstream_sha256": "a6f6f6176853b8323d902e618d5c9f3a93c889d840047237e338ae250d8a8a5d"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/UnitMapper.xml": {
+      "sha256": "90d5f60735d30139634dc5c600f043ca74a35c66d49d59f1018383349965a3a8",
+      "upstream_sha256": "90d5f60735d30139634dc5c600f043ca74a35c66d49d59f1018383349965a3a8"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/UnitMapperEx.xml": {
+      "sha256": "df23f3717c596b04640879f03de7fed7208c23553eda619cbb27ba50fb3a0a2b",
+      "upstream_sha256": "df23f3717c596b04640879f03de7fed7208c23553eda619cbb27ba50fb3a0a2b"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/UserBusinessMapper.xml": {
+      "sha256": "658892b2b57317b580485c036969f8cd8ef330f0d9cb1183c7fe23c385125790",
+      "upstream_sha256": "658892b2b57317b580485c036969f8cd8ef330f0d9cb1183c7fe23c385125790"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/UserBusinessMapperEx.xml": {
+      "sha256": "ad6e3e4595819ad4503b6f4dcd3e55591ed0807f607756ae6e77724fa20069e3",
+      "upstream_sha256": "ad6e3e4595819ad4503b6f4dcd3e55591ed0807f607756ae6e77724fa20069e3"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/UserMapper.xml": {
+      "sha256": "8928049c7f331d88af2c3303848ddd290a4517c3dc2216d64fc8efe3accf5f89",
+      "upstream_sha256": "8928049c7f331d88af2c3303848ddd290a4517c3dc2216d64fc8efe3accf5f89"
+    },
+    "jshERP-boot/src/main/resources/mapper_xml/UserMapperEx.xml": {
+      "sha256": "20254fef0178f9c795393b49671ddd9c85a49ebb3452aebbe27b1e781d0d9e1b",
+      "upstream_sha256": "20254fef0178f9c795393b49671ddd9c85a49ebb3452aebbe27b1e781d0d9e1b"
+    },
+    "jshERP-web/babel.config.js": {
+      "sha256": "71d242a1f2b0514860253dbd6167f1f1f9d834ffd567b989b2b9809ac930d6a1",
+      "upstream_sha256": "71d242a1f2b0514860253dbd6167f1f1f9d834ffd567b989b2b9809ac930d6a1"
+    },
+    "jshERP-web/package-lock.json": {
+      "sha256": "5abc3367bccc5e309efceb1f7b52dac7cd9153ac65d054297fdfcf76f79dc4a7",
+      "upstream_sha256": null
+    },
+    "jshERP-web/package.json": {
+      "sha256": "a6ba7d4fae5d3ca55cc760727803531a22894191cdaa38322c903ea0dd25423e",
+      "upstream_sha256": "a6ba7d4fae5d3ca55cc760727803531a22894191cdaa38322c903ea0dd25423e"
+    },
+    "jshERP-web/public/doc/apply_item_template.xls": {
+      "sha256": "f792521db425c2ccdc33dba678b1523c868e1d5a3b499b4e5ae455a367a8a2c0",
+      "upstream_sha256": "f792521db425c2ccdc33dba678b1523c868e1d5a3b499b4e5ae455a367a8a2c0"
+    },
+    "jshERP-web/public/doc/buy_sale_item_template.xls": {
+      "sha256": "d7f03354b5b85f78f6bea961464b63a7e387084fd8d0b1bda1c94bb388a6b5af",
+      "upstream_sha256": "d7f03354b5b85f78f6bea961464b63a7e387084fd8d0b1bda1c94bb388a6b5af"
+    },
+    "jshERP-web/public/doc/customer_template.xls": {
+      "sha256": "c5516c2847784536408aa7317f0fd8f591a0c526c19fd2ce0a1a1ac783dcfae9",
+      "upstream_sha256": "c5516c2847784536408aa7317f0fd8f591a0c526c19fd2ce0a1a1ac783dcfae9"
+    },
+    "jshERP-web/public/doc/goods_template.xls": {
+      "sha256": "5bdecc8fab9118cbe96be63ae0a67ed2c49da4c9cab34e236a0d569cf3a6cd35",
+      "upstream_sha256": "5bdecc8fab9118cbe96be63ae0a67ed2c49da4c9cab34e236a0d569cf3a6cd35"
+    },
+    "jshERP-web/public/doc/in_out_item_template.xls": {
+      "sha256": "443f8cc21b2e7778eddeb03a8949261d51b4fe74b04cd31bc904e97eede53d49",
+      "upstream_sha256": "443f8cc21b2e7778eddeb03a8949261d51b4fe74b04cd31bc904e97eede53d49"
+    },
+    "jshERP-web/public/doc/member_template.xls": {
+      "sha256": "9c82f602395d4357a324f939f7b15ad1ef1019558380a83ad1ea4fd0fcc2c83a",
+      "upstream_sha256": "9c82f602395d4357a324f939f7b15ad1ef1019558380a83ad1ea4fd0fcc2c83a"
+    },
+    "jshERP-web/public/doc/order_item_template.xls": {
+      "sha256": "786891f7c1f8b9fec166eb3419718c73d24caad41f8bd12813ea7eeb63e6fcb2",
+      "upstream_sha256": "786891f7c1f8b9fec166eb3419718c73d24caad41f8bd12813ea7eeb63e6fcb2"
+    },
+    "jshERP-web/public/doc/vendor_template.xls": {
+      "sha256": "368bb01b0459468ab1f45dd1a929f8fd1b6ca971e5564a0d06cfa29647117e1e",
+      "upstream_sha256": "368bb01b0459468ab1f45dd1a929f8fd1b6ca971e5564a0d06cfa29647117e1e"
+    },
+    "jshERP-web/public/index.html": {
+      "sha256": "ea311dee521c7292ca77982573ff1d9fcf84f5e94f2d6fe61ebe2db79cf7dff9",
+      "upstream_sha256": "9e2be8820cdcd47b653f839fc1e03fc9ee750f8f425ef56c63eb0e37248fd304"
+    },
+    "jshERP-web/public/static/Android.png": {
+      "sha256": "b5d470de26d56eb99fc1daa11b783c1f233eb366a0022afdb5315cb6fea38ac3",
+      "upstream_sha256": "b5d470de26d56eb99fc1daa11b783c1f233eb366a0022afdb5315cb6fea38ac3"
+    },
+    "jshERP-web/public/static/android-code.png": {
+      "sha256": "464638f476fc1d01355ac59ae4717cdd4932c4478ecf111ba5b7d66e87de0077",
+      "upstream_sha256": "464638f476fc1d01355ac59ae4717cdd4932c4478ecf111ba5b7d66e87de0077"
+    },
+    "jshERP-web/public/static/banner-home.jpg": {
+      "sha256": "a3b681fe326d17e7e3c006c0ea35a5ced8e61d09cac2290e617e492f2568ee2a",
+      "upstream_sha256": "a3b681fe326d17e7e3c006c0ea35a5ced8e61d09cac2290e617e492f2568ee2a"
+    },
+    "jshERP-web/public/static/banner-small.jpg": {
+      "sha256": "5b9b653e9f2b8ff4725a54cb3499a88fc36775cab028d54084fc3cb6095b2aa4",
+      "upstream_sha256": "5b9b653e9f2b8ff4725a54cb3499a88fc36775cab028d54084fc3cb6095b2aa4"
+    },
+    "jshERP-web/public/static/bgimg.png": {
+      "sha256": "395c25d0a3536d6a240d36d3bd760ef5ee4a6e0e045c633db93256db1cbf9b49",
+      "upstream_sha256": "395c25d0a3536d6a240d36d3bd760ef5ee4a6e0e045c633db93256db1cbf9b49"
+    },
+    "jshERP-web/public/static/blue.png": {
+      "sha256": "f2ae084c961859e967b80d7943e330b2883943ba0bb05b3bd70348b2111033d6",
+      "upstream_sha256": "f2ae084c961859e967b80d7943e330b2883943ba0bb05b3bd70348b2111033d6"
+    },
+    "jshERP-web/public/static/color.less": {
+      "sha256": "9b759da3303f89626ae7ef78daebb1e4f03f4cef481eef1bbcc70c735f30657c",
+      "upstream_sha256": "9b759da3303f89626ae7ef78daebb1e4f03f4cef481eef1bbcc70c735f30657c"
+    },
+    "jshERP-web/public/static/favicon.ico": {
+      "sha256": "837b3188c28fef1db3026647b5410591e1ba8d8cdc07b9384ed63be7b052caf7",
+      "upstream_sha256": "837b3188c28fef1db3026647b5410591e1ba8d8cdc07b9384ed63be7b052caf7"
+    },
+    "jshERP-web/public/static/iPhone.png": {
+      "sha256": "02aa6958ceb0667b35159b4a6018df360382b884bc52c1bc7fe8c6c01079fff7",
+      "upstream_sha256": "02aa6958ceb0667b35159b4a6018df360382b884bc52c1bc7fe8c6c01079fff7"
+    },
+    "jshERP-web/public/static/iphone-code.png": {
+      "sha256": "91435e1d0bfb541c499986f298317dddea978f444238d43af4570859a51af93e",
+      "upstream_sha256": "91435e1d0bfb541c499986f298317dddea978f444238d43af4570859a51af93e"
+    },
+    "jshERP-web/public/static/less.min.js": {
+      "sha256": "8772c10968942fc60ca9195b27f764e179be93200f0bb175c02eada650125ab5",
+      "upstream_sha256": "8772c10968942fc60ca9195b27f764e179be93200f0bb175c02eada650125ab5"
+    },
+    "jshERP-web/public/static/mini-program.png": {
+      "sha256": "b556315ce3b44ddd1dbc7dd0ef493ed16ba937014c185f6c1f34e47be37a29ce",
+      "upstream_sha256": "b556315ce3b44ddd1dbc7dd0ef493ed16ba937014c185f6c1f34e47be37a29ce"
+    },
+    "jshERP-web/public/static/rightImg.png": {
+      "sha256": "72b93d143bcaf3e26a45af0b61658ffd5cfc4cceda43c3fe92eee20272b6ae99",
+      "upstream_sha256": "72b93d143bcaf3e26a45af0b61658ffd5cfc4cceda43c3fe92eee20272b6ae99"
+    },
+    "jshERP-web/public/static/screenshot/1.jpg": {
+      "sha256": "2cd8698b9b0f6004d49845510ffd3f19484124d0467d2a79ec6768eb1efc63f1",
+      "upstream_sha256": "2cd8698b9b0f6004d49845510ffd3f19484124d0467d2a79ec6768eb1efc63f1"
+    },
+    "jshERP-web/public/static/screenshot/10.jpg": {
+      "sha256": "544bfc02f15662cc5e8b698b8f7274a37897845c7fbf8b8c2de329541b56dbba",
+      "upstream_sha256": "544bfc02f15662cc5e8b698b8f7274a37897845c7fbf8b8c2de329541b56dbba"
+    },
+    "jshERP-web/public/static/screenshot/2.jpg": {
+      "sha256": "865cb076ecd9ae65ef478ee37fe3abb0efd1ef7a910f45a0ddcd7dca8f238b2c",
+      "upstream_sha256": "865cb076ecd9ae65ef478ee37fe3abb0efd1ef7a910f45a0ddcd7dca8f238b2c"
+    },
+    "jshERP-web/public/static/screenshot/3.jpg": {
+      "sha256": "a4c621ba7d820735433754d281306983ed517f8eba6d8efb171f87b6756b3fc1",
+      "upstream_sha256": "a4c621ba7d820735433754d281306983ed517f8eba6d8efb171f87b6756b3fc1"
+    },
+    "jshERP-web/public/static/screenshot/4.jpg": {
+      "sha256": "ec80b8962fba572e6c5260951dfe042734170fa4bfa780d96023ead6d9d8d20d",
+      "upstream_sha256": "ec80b8962fba572e6c5260951dfe042734170fa4bfa780d96023ead6d9d8d20d"
+    },
+    "jshERP-web/public/static/screenshot/5.jpg": {
+      "sha256": "8bc26f1cca56c4b427e7c475c5a5d18009fdfc9c02b767b3feb434c04a977e90",
+      "upstream_sha256": "8bc26f1cca56c4b427e7c475c5a5d18009fdfc9c02b767b3feb434c04a977e90"
+    },
+    "jshERP-web/public/static/screenshot/6.jpg": {
+      "sha256": "df543565e01170ab77abd4555114d47dcbad822b2468695aba24f70a4e7fd3d1",
+      "upstream_sha256": "df543565e01170ab77abd4555114d47dcbad822b2468695aba24f70a4e7fd3d1"
+    },
+    "jshERP-web/public/static/screenshot/7.jpg": {
+      "sha256": "c26e68f347818cd26a7f1793832fe6dc34cf104baf817cf75a138a12385a9a46",
+      "upstream_sha256": "c26e68f347818cd26a7f1793832fe6dc34cf104baf817cf75a138a12385a9a46"
+    },
+    "jshERP-web/public/static/screenshot/8.jpg": {
+      "sha256": "01078f83d19d4350ebfd0106d0bdd1a2d3bf94b968304a12c396eb00b05c951f",
+      "upstream_sha256": "01078f83d19d4350ebfd0106d0bdd1a2d3bf94b968304a12c396eb00b05c951f"
+    },
+    "jshERP-web/public/static/screenshot/9.jpg": {
+      "sha256": "8bda9b9904949bb713f3c0b6477328727d412b3b7e0481d98776589e03046d9e",
+      "upstream_sha256": "8bda9b9904949bb713f3c0b6477328727d412b3b7e0481d98776589e03046d9e"
+    },
+    "jshERP-web/public/static/translate.js": {
+      "sha256": "14a9864c09efebb5d5d1330c70cd670e26fe49f3c9fd0bb7921ad3d6abde01ec",
+      "upstream_sha256": "14a9864c09efebb5d5d1330c70cd670e26fe49f3c9fd0bb7921ad3d6abde01ec"
+    },
+    "jshERP-web/public/static/weixin-code.png": {
+      "sha256": "cdc6a466dc404d700d8e4acb2acbdeb17a5941d18e7c31542b6c18997e593c51",
+      "upstream_sha256": "cdc6a466dc404d700d8e4acb2acbdeb17a5941d18e7c31542b6c18997e593c51"
+    },
+    "jshERP-web/public/static/weixin.jpg": {
+      "sha256": "62150f9ed6d8695b7bb4e1eade71dd2cc51ff77f6905ee2318767055dc0790aa",
+      "upstream_sha256": "62150f9ed6d8695b7bb4e1eade71dd2cc51ff77f6905ee2318767055dc0790aa"
+    },
+    "jshERP-web/src/App.vue": {
+      "sha256": "e8aad5600e21675ed812953f35c0504b03be5e9f513848efabc244bc06b83f3f",
+      "upstream_sha256": "e8aad5600e21675ed812953f35c0504b03be5e9f513848efabc244bc06b83f3f"
+    },
+    "jshERP-web/src/api/GroupRequest.js": {
+      "sha256": "3a2cce4c2c5312c5f30bcd664e903e2b333c64e9042c8625d86aba2df0d72416",
+      "upstream_sha256": "3a2cce4c2c5312c5f30bcd664e903e2b333c64e9042c8625d86aba2df0d72416"
+    },
+    "jshERP-web/src/api/api.js": {
+      "sha256": "af8bd97e0f9f01fe18a619bd98b6b11ae5a916318aef9a54620b9265c190f814",
+      "upstream_sha256": "af8bd97e0f9f01fe18a619bd98b6b11ae5a916318aef9a54620b9265c190f814"
+    },
+    "jshERP-web/src/api/index.js": {
+      "sha256": "4d0bf88432899ea7df186db5c11ea76c674889bf9780324789957aa5dc9a6e58",
+      "upstream_sha256": "4d0bf88432899ea7df186db5c11ea76c674889bf9780324789957aa5dc9a6e58"
+    },
+    "jshERP-web/src/api/login.js": {
+      "sha256": "3eaebecff37e42c33284f42e54196c731a0ffd8e05cbe2aa9698376cffe86400",
+      "upstream_sha256": "3eaebecff37e42c33284f42e54196c731a0ffd8e05cbe2aa9698376cffe86400"
+    },
+    "jshERP-web/src/api/manage.js": {
+      "sha256": "2959df2299291e6dbba8555e4be74e79e09ac4fa467b67b45a53488c116ab05f",
+      "upstream_sha256": "2959df2299291e6dbba8555e4be74e79e09ac4fa467b67b45a53488c116ab05f"
+    },
+    "jshERP-web/src/assets/checkcode.png": {
+      "sha256": "34bdd80bc33a0c7c7b6882b547b5eabe1dec0d3b6a158c316f2adb089a9261bd",
+      "upstream_sha256": "34bdd80bc33a0c7c7b6882b547b5eabe1dec0d3b6a158c316f2adb089a9261bd"
+    },
+    "jshERP-web/src/assets/dark.svg": {
+      "sha256": "412a3268818b2103153ed59c29a1c3ac2c15d1af7df650b4e5ae0bf98b44a438",
+      "upstream_sha256": "412a3268818b2103153ed59c29a1c3ac2c15d1af7df650b4e5ae0bf98b44a438"
+    },
+    "jshERP-web/src/assets/less/JAreaLinkage.less": {
+      "sha256": "a4a3e8b6bcbe5322501a1d40b65cf158c91bf842fc70b905d8d981292bdb1ddd",
+      "upstream_sha256": "a4a3e8b6bcbe5322501a1d40b65cf158c91bf842fc70b905d8d981292bdb1ddd"
+    },
+    "jshERP-web/src/assets/less/TableExpand.less": {
+      "sha256": "085b55df10527cc24d1f3bf0d926441ef299b63b588c814ec01570c8d3ebba32",
+      "upstream_sha256": "085b55df10527cc24d1f3bf0d926441ef299b63b588c814ec01570c8d3ebba32"
+    },
+    "jshERP-web/src/assets/less/common.less": {
+      "sha256": "fe321cc1a3b35d922b773a255cdf139f23075eb95034b4c5bf09ff721942552f",
+      "upstream_sha256": "fe321cc1a3b35d922b773a255cdf139f23075eb95034b4c5bf09ff721942552f"
+    },
+    "jshERP-web/src/assets/less/index.less": {
+      "sha256": "052e3c62fe3a7e510dd6bafb6711d4d2757e1841883ed27bfa4339c0e3a18a6b",
+      "upstream_sha256": "052e3c62fe3a7e510dd6bafb6711d4d2757e1841883ed27bfa4339c0e3a18a6b"
+    },
+    "jshERP-web/src/assets/light.svg": {
+      "sha256": "5da91eb2d69955e7d4b70fe13d1d767dec1160195f5e0297ca63856de6f24d71",
+      "upstream_sha256": "5da91eb2d69955e7d4b70fe13d1d767dec1160195f5e0297ca63856de6f24d71"
+    },
+    "jshERP-web/src/components/AvatarList/Item.vue": {
+      "sha256": "2b35d87ea25847321971d753f465fe82c3d980d8f8ae1704bc316b5c5235db9a",
+      "upstream_sha256": "2b35d87ea25847321971d753f465fe82c3d980d8f8ae1704bc316b5c5235db9a"
+    },
+    "jshERP-web/src/components/AvatarList/List.vue": {
+      "sha256": "45f45b7434e9540374fb4a7c82db6dbe2d5774455e40ffb99f97df3b9dc89171",
+      "upstream_sha256": "45f45b7434e9540374fb4a7c82db6dbe2d5774455e40ffb99f97df3b9dc89171"
+    },
+    "jshERP-web/src/components/AvatarList/index.js": {
+      "sha256": "1d629a4d97e3c04406275a143cddf5a10c2e57a817f432d43ae6c409af45c31d",
+      "upstream_sha256": "1d629a4d97e3c04406275a143cddf5a10c2e57a817f432d43ae6c409af45c31d"
+    },
+    "jshERP-web/src/components/AvatarList/index.less": {
+      "sha256": "a3f11d4bfeff3da28e1316f36e4d2275d97e7b829fe53abaee15ed75aa1d0842",
+      "upstream_sha256": "a3f11d4bfeff3da28e1316f36e4d2275d97e7b829fe53abaee15ed75aa1d0842"
+    },
+    "jshERP-web/src/components/ChartCard.vue": {
+      "sha256": "66a36977c2f2d1b4d692de2ac9a1b57730e5fa82736db7b50ff8506d2238b56a",
+      "upstream_sha256": "66a36977c2f2d1b4d692de2ac9a1b57730e5fa82736db7b50ff8506d2238b56a"
+    },
+    "jshERP-web/src/components/CountDown/CountDown.vue": {
+      "sha256": "30879f87ae27ca217a2d74f6c53581dd04438a5efc790808fddca58d66189209",
+      "upstream_sha256": "30879f87ae27ca217a2d74f6c53581dd04438a5efc790808fddca58d66189209"
+    },
+    "jshERP-web/src/components/CountDown/index.js": {
+      "sha256": "9c09aa706b0e495651763a7746ed3a9aa8e78e78e8374fa7489d584200a041ec",
+      "upstream_sha256": "9c09aa706b0e495651763a7746ed3a9aa8e78e78e8374fa7489d584200a041ec"
+    },
+    "jshERP-web/src/components/DictData/index.js": {
+      "sha256": "85f8213e419ee44231e8433630eed12cb87367668d7ca3d8735bab6029326491",
+      "upstream_sha256": "85f8213e419ee44231e8433630eed12cb87367668d7ca3d8735bab6029326491"
+    },
+    "jshERP-web/src/components/DictTag/index.vue": {
+      "sha256": "a385677416ac7c14c31eebff697f4a3e1daeac346e1d425d872a7b975b4f28d4",
+      "upstream_sha256": "a385677416ac7c14c31eebff697f4a3e1daeac346e1d425d872a7b975b4f28d4"
+    },
+    "jshERP-web/src/components/Ellipsis/Ellipsis.vue": {
+      "sha256": "33239c7b1bcca549861cab4fc0363097fc0c5a1ecb3144dfac466cf29577e42b",
+      "upstream_sha256": "33239c7b1bcca549861cab4fc0363097fc0c5a1ecb3144dfac466cf29577e42b"
+    },
+    "jshERP-web/src/components/Ellipsis/index.js": {
+      "sha256": "75673eee9dd78b6487c16b60adaa1440c1c4436a773a0ae00f061ec141121b76",
+      "upstream_sha256": "75673eee9dd78b6487c16b60adaa1440c1c4436a773a0ae00f061ec141121b76"
+    },
+    "jshERP-web/src/components/NumberInfo/NumberInfo.vue": {
+      "sha256": "a29f81aa06c8755a0181844804b09b61101e7d8ae1c97490ed1c39423508e117",
+      "upstream_sha256": "a29f81aa06c8755a0181844804b09b61101e7d8ae1c97490ed1c39423508e117"
+    },
+    "jshERP-web/src/components/NumberInfo/index.js": {
+      "sha256": "c3e236efb91587985bccc7b2c176594a09cef9b7f56dfde29db940d41ce0727a",
+      "upstream_sha256": "c3e236efb91587985bccc7b2c176594a09cef9b7f56dfde29db940d41ce0727a"
+    },
+    "jshERP-web/src/components/NumberInfo/index.less": {
+      "sha256": "42470763e09670d167bc5d2f92483a3e8fadeade3ce0d729c39377224beaf60b",
+      "upstream_sha256": "42470763e09670d167bc5d2f92483a3e8fadeade3ce0d729c39377224beaf60b"
+    },
+    "jshERP-web/src/components/Trend/Trend.vue": {
+      "sha256": "3c7e2ccaa0dfba60f0f57858c7807473d7aa205ff0edb0c4616b7950cee539fe",
+      "upstream_sha256": "3c7e2ccaa0dfba60f0f57858c7807473d7aa205ff0edb0c4616b7950cee539fe"
+    },
+    "jshERP-web/src/components/Trend/index.js": {
+      "sha256": "0f5c3167377de0084eb34dec71bb6a2a93c17f52a964d3b1d582bc824ad6a509",
+      "upstream_sha256": "0f5c3167377de0084eb34dec71bb6a2a93c17f52a964d3b1d582bc824ad6a509"
+    },
+    "jshERP-web/src/components/Trend/index.less": {
+      "sha256": "6c4d83a9923aa644774367f1c6cc07bef26c71a04edae79d8925fc55d4d165dd",
+      "upstream_sha256": "6c4d83a9923aa644774367f1c6cc07bef26c71a04edae79d8925fc55d4d165dd"
+    },
+    "jshERP-web/src/components/chart/AreaChartTy.vue": {
+      "sha256": "bfb36f2abfb8bf1e88706b42faa3a8d1b65c01705cf90afc01ba02efd576b604",
+      "upstream_sha256": "bfb36f2abfb8bf1e88706b42faa3a8d1b65c01705cf90afc01ba02efd576b604"
+    },
+    "jshERP-web/src/components/chart/Bar.vue": {
+      "sha256": "ba87f40f9d7855bd8004490f7c1daa76df36b70378ee9e54b7d7ced1ae4b5782",
+      "upstream_sha256": "ba87f40f9d7855bd8004490f7c1daa76df36b70378ee9e54b7d7ced1ae4b5782"
+    },
+    "jshERP-web/src/components/chart/BarAndLine.vue": {
+      "sha256": "b38d2ccb631b77a70bda9283f532d2836c0a79d04dcf38fa31afd7f3d633acd1",
+      "upstream_sha256": "b38d2ccb631b77a70bda9283f532d2836c0a79d04dcf38fa31afd7f3d633acd1"
+    },
+    "jshERP-web/src/components/chart/BarMultid.vue": {
+      "sha256": "96e7080b9cf31e027969b803a4391e86f8a3b8a7b5513eca1f33636051a3b8dd",
+      "upstream_sha256": "96e7080b9cf31e027969b803a4391e86f8a3b8a7b5513eca1f33636051a3b8dd"
+    },
+    "jshERP-web/src/components/chart/DashChartDemo.vue": {
+      "sha256": "ed0df4da75bd9da45f1b807a61e78ec521abec809e46d0f433f1d499868168ed",
+      "upstream_sha256": "ed0df4da75bd9da45f1b807a61e78ec521abec809e46d0f433f1d499868168ed"
+    },
+    "jshERP-web/src/components/chart/IndexBar.vue": {
+      "sha256": "fd218a35ad346ab05409c4227fdb42fec135abc33434f4fb6b27a0f47f9267be",
+      "upstream_sha256": "fd218a35ad346ab05409c4227fdb42fec135abc33434f4fb6b27a0f47f9267be"
+    },
+    "jshERP-web/src/components/chart/LineChartMultid.vue": {
+      "sha256": "292ad054aa9650fb70702d8446a04f92c5f896ccbe1f3b5199ad5e8482eeaf68",
+      "upstream_sha256": "292ad054aa9650fb70702d8446a04f92c5f896ccbe1f3b5199ad5e8482eeaf68"
+    },
+    "jshERP-web/src/components/chart/Liquid.vue": {
+      "sha256": "b21e8397c35de5442351f48114e2f64c1865fc00b21cf3f944bc3d05cd532b91",
+      "upstream_sha256": "b21e8397c35de5442351f48114e2f64c1865fc00b21cf3f944bc3d05cd532b91"
+    },
+    "jshERP-web/src/components/chart/MiniArea.vue": {
+      "sha256": "c4c0b5623f9167eabc1fdb2b64afd7735da811516d9d9a30dc10b6fd925337a7",
+      "upstream_sha256": "c4c0b5623f9167eabc1fdb2b64afd7735da811516d9d9a30dc10b6fd925337a7"
+    },
+    "jshERP-web/src/components/chart/MiniBar.vue": {
+      "sha256": "543a3a694a7d6f4421dde6ef4ca21b2cf4e59d58930255cf593b56a94f7283a8",
+      "upstream_sha256": "543a3a694a7d6f4421dde6ef4ca21b2cf4e59d58930255cf593b56a94f7283a8"
+    },
+    "jshERP-web/src/components/chart/MiniProgress.vue": {
+      "sha256": "cf1524ef064b1c5caf2129b114cdcc5de77e019bd67b5ed9f1683dcf55aa21db",
+      "upstream_sha256": "cf1524ef064b1c5caf2129b114cdcc5de77e019bd67b5ed9f1683dcf55aa21db"
+    },
+    "jshERP-web/src/components/chart/Pie.vue": {
+      "sha256": "0903679d090315189bb998296cc9913c00cce350bc13d62fadeeb94827e68638",
+      "upstream_sha256": "0903679d090315189bb998296cc9913c00cce350bc13d62fadeeb94827e68638"
+    },
+    "jshERP-web/src/components/chart/Radar.vue": {
+      "sha256": "6f705d63dda8d48111791e39522cb3306012e17b2702147c01cd7eb5080c3945",
+      "upstream_sha256": "6f705d63dda8d48111791e39522cb3306012e17b2702147c01cd7eb5080c3945"
+    },
+    "jshERP-web/src/components/chart/RankList.vue": {
+      "sha256": "63a9ddc783bbf729576693225612c1b68117fdaa777e0f10a623fb0b698b259a",
+      "upstream_sha256": "63a9ddc783bbf729576693225612c1b68117fdaa777e0f10a623fb0b698b259a"
+    },
+    "jshERP-web/src/components/chart/StackBar.vue": {
+      "sha256": "b5064e9385098600c236950af5034df0cf7d94e84d899726fe3a59306019846b",
+      "upstream_sha256": "b5064e9385098600c236950af5034df0cf7d94e84d899726fe3a59306019846b"
+    },
+    "jshERP-web/src/components/chart/TransferBar.vue": {
+      "sha256": "a35afbce61859fc31843246b00697b7bed85a11969eb68bc80a25acbbf252076",
+      "upstream_sha256": "a35afbce61859fc31843246b00697b7bed85a11969eb68bc80a25acbbf252076"
+    },
+    "jshERP-web/src/components/chart/Trend.vue": {
+      "sha256": "a4432bc24da3bbee4401fde96b21880f1626bc853610c809e65154e4865a89ea",
+      "upstream_sha256": "a4432bc24da3bbee4401fde96b21880f1626bc853610c809e65154e4865a89ea"
+    },
+    "jshERP-web/src/components/chart/chart.less": {
+      "sha256": "07b734913b189ce60fde3922a67a4ccb087f4a76da6583f3775e295304312cb5",
+      "upstream_sha256": "07b734913b189ce60fde3922a67a4ccb087f4a76da6583f3775e295304312cb5"
+    },
+    "jshERP-web/src/components/chart/chart.scss": {
+      "sha256": "07b734913b189ce60fde3922a67a4ccb087f4a76da6583f3775e295304312cb5",
+      "upstream_sha256": "07b734913b189ce60fde3922a67a4ccb087f4a76da6583f3775e295304312cb5"
+    },
+    "jshERP-web/src/components/chart/mixins/ChartMixins.js": {
+      "sha256": "d55101ad76480e7c0219f2f78661d061cc31249604e94e13e35a9ea478799674",
+      "upstream_sha256": "d55101ad76480e7c0219f2f78661d061cc31249604e94e13e35a9ea478799674"
+    },
+    "jshERP-web/src/components/index.less": {
+      "sha256": "08df8415cdf360a888482c151e269de142c78abbff945f274c1fe618be4b4a0e",
+      "upstream_sha256": "08df8415cdf360a888482c151e269de142c78abbff945f274c1fe618be4b4a0e"
+    },
+    "jshERP-web/src/components/jeecg/JAreaLinkage.vue": {
+      "sha256": "daf4262c1a5e4f09292fe72da8599f68f8c523ebcd5e45bf50fe5e3121bd7144",
+      "upstream_sha256": "daf4262c1a5e4f09292fe72da8599f68f8c523ebcd5e45bf50fe5e3121bd7144"
+    },
+    "jshERP-web/src/components/jeecg/JCategorySelect.vue": {
+      "sha256": "f32d919eecfa04f815a6b51714d73dc290792327922d7b3667ff10172c0cbf60",
+      "upstream_sha256": "f32d919eecfa04f815a6b51714d73dc290792327922d7b3667ff10172c0cbf60"
+    },
+    "jshERP-web/src/components/jeecg/JCheckbox.vue": {
+      "sha256": "ef6d7dd11ca9d622b42a99ba98f365619bb57464b9cd8c6818cc6021d925e663",
+      "upstream_sha256": "ef6d7dd11ca9d622b42a99ba98f365619bb57464b9cd8c6818cc6021d925e663"
+    },
+    "jshERP-web/src/components/jeecg/JCodeEditor.vue": {
+      "sha256": "3a354fc5f34b6a5fd8f23cac2e66627cfdf65c30290903eed14d16e4bda02f00",
+      "upstream_sha256": "3a354fc5f34b6a5fd8f23cac2e66627cfdf65c30290903eed14d16e4bda02f00"
+    },
+    "jshERP-web/src/components/jeecg/JCron.vue": {
+      "sha256": "7567040a1431248ef6f3fac7c7adfb02c6837bd5a6e9ce9e1720d05d9f6d6081",
+      "upstream_sha256": "7567040a1431248ef6f3fac7c7adfb02c6837bd5a6e9ce9e1720d05d9f6d6081"
+    },
+    "jshERP-web/src/components/jeecg/JDate.vue": {
+      "sha256": "3f023fc3b7d63622aca0a25214a2c3205f2a4b2442e05f1297d9c49e9dea50ab",
+      "upstream_sha256": "3f023fc3b7d63622aca0a25214a2c3205f2a4b2442e05f1297d9c49e9dea50ab"
+    },
+    "jshERP-web/src/components/jeecg/JEditableTable.vue": {
+      "sha256": "d80936ce5ff37cc7ad5d803a309520f0b98d483f20c3e9998e008b8f22dc0fe3",
+      "upstream_sha256": "d80936ce5ff37cc7ad5d803a309520f0b98d483f20c3e9998e008b8f22dc0fe3"
+    },
+    "jshERP-web/src/components/jeecg/JEllipsis.vue": {
+      "sha256": "74a0270ff567fb7e8cc61460e9241b533e2915ee40335141ff633d18295aa801",
+      "upstream_sha256": "74a0270ff567fb7e8cc61460e9241b533e2915ee40335141ff633d18295aa801"
+    },
+    "jshERP-web/src/components/jeecg/JFormContainer.vue": {
+      "sha256": "3d5916def0b66cb6a4aa0f3ded9839c111c66dc529899f075e5cdc8d5c3e87d1",
+      "upstream_sha256": "3d5916def0b66cb6a4aa0f3ded9839c111c66dc529899f075e5cdc8d5c3e87d1"
+    },
+    "jshERP-web/src/components/jeecg/JGraphicCode.vue": {
+      "sha256": "c5bb437199a34d0f86b810f2714499c663dc629aa0ccb6b59e87ffbb14e49997",
+      "upstream_sha256": "c5bb437199a34d0f86b810f2714499c663dc629aa0ccb6b59e87ffbb14e49997"
+    },
+    "jshERP-web/src/components/jeecg/JImageUpload.vue": {
+      "sha256": "c2cec83766faf3119100fce4cd3cc57316182a44879b0e3a4a999df384eb4f64",
+      "upstream_sha256": "c2cec83766faf3119100fce4cd3cc57316182a44879b0e3a4a999df384eb4f64"
+    },
+    "jshERP-web/src/components/jeecg/JImportModal.vue": {
+      "sha256": "27aa8f511bdfcea10124d678bfdf8527ed5ff45de217bccc33e1443b96952027",
+      "upstream_sha256": "27aa8f511bdfcea10124d678bfdf8527ed5ff45de217bccc33e1443b96952027"
+    },
+    "jshERP-web/src/components/jeecg/JInput.vue": {
+      "sha256": "60087375ecc1ca336f9e54a09066dce845063ad98cc9dd4affbce6dac308f539",
+      "upstream_sha256": "60087375ecc1ca336f9e54a09066dce845063ad98cc9dd4affbce6dac308f539"
+    },
+    "jshERP-web/src/components/jeecg/JModal/index.vue": {
+      "sha256": "dacc7bf70bece376d888fa18990f1ff76d838d5d787f7c8c436258a1f5b21f91",
+      "upstream_sha256": "dacc7bf70bece376d888fa18990f1ff76d838d5d787f7c8c436258a1f5b21f91"
+    },
+    "jshERP-web/src/components/jeecg/JSelectMultiple.vue": {
+      "sha256": "f77bb491d11b93a957c8e65afe473c3c94d35484033e8999e17b1395b9954f97",
+      "upstream_sha256": "f77bb491d11b93a957c8e65afe473c3c94d35484033e8999e17b1395b9954f97"
+    },
+    "jshERP-web/src/components/jeecg/JSlider.vue": {
+      "sha256": "066103451213f1050e44f0175f3e4fab35ce8d6e74d9bc636cc7b3716f16d894",
+      "upstream_sha256": "066103451213f1050e44f0175f3e4fab35ce8d6e74d9bc636cc7b3716f16d894"
+    },
+    "jshERP-web/src/components/jeecg/JSuperQuery.vue": {
+      "sha256": "cc8e8b919ab9d198e40974a8819eda0d52db198612839a0502924470544a1532",
+      "upstream_sha256": "cc8e8b919ab9d198e40974a8819eda0d52db198612839a0502924470544a1532"
+    },
+    "jshERP-web/src/components/jeecg/JSwitch.vue": {
+      "sha256": "8de1e7baeb9552dba370a6796dfe909fd7cc04756d3404c31327ce07802a19e2",
+      "upstream_sha256": "8de1e7baeb9552dba370a6796dfe909fd7cc04756d3404c31327ce07802a19e2"
+    },
+    "jshERP-web/src/components/jeecg/JTreeDict.vue": {
+      "sha256": "98879d35cf8cd7b513513ac8665699447375406bc2fb9f1802e2469875a83f44",
+      "upstream_sha256": "98879d35cf8cd7b513513ac8665699447375406bc2fb9f1802e2469875a83f44"
+    },
+    "jshERP-web/src/components/jeecg/JTreeSelect.vue": {
+      "sha256": "236370f0a2c9bcc8d9ba06d7213bf332416b25a7425f2629df93e6c0cacc2934",
+      "upstream_sha256": "236370f0a2c9bcc8d9ba06d7213bf332416b25a7425f2629df93e6c0cacc2934"
+    },
+    "jshERP-web/src/components/jeecg/JTreeTable.vue": {
+      "sha256": "3ed6fd4d3bf0e71ec51ddf728b2b4cdc3538de06310205c8a9e4a81604fb028c",
+      "upstream_sha256": "3ed6fd4d3bf0e71ec51ddf728b2b4cdc3538de06310205c8a9e4a81604fb028c"
+    },
+    "jshERP-web/src/components/jeecg/JUpload.vue": {
+      "sha256": "256ecab8c9a1b417ee13f1fff174ff16f339b895e0da2c7a730988d12001ba0d",
+      "upstream_sha256": "256ecab8c9a1b417ee13f1fff174ff16f339b895e0da2c7a730988d12001ba0d"
+    },
+    "jshERP-web/src/components/jeecg/index.js": {
+      "sha256": "e9809cbc62be7ba355f397d434c54a247813f53ba6dfa9ada5f9b8e2dccb8859",
+      "upstream_sha256": "e9809cbc62be7ba355f397d434c54a247813f53ba6dfa9ada5f9b8e2dccb8859"
+    },
+    "jshERP-web/src/components/jeecg/minipop/JFilePop.vue": {
+      "sha256": "4871f2425de9d419d7a990b1e651291b0ccaa2fbdd50917d1e52f6a8a3496e5f",
+      "upstream_sha256": "4871f2425de9d419d7a990b1e651291b0ccaa2fbdd50917d1e52f6a8a3496e5f"
+    },
+    "jshERP-web/src/components/jeecg/minipop/JInputPop.vue": {
+      "sha256": "3c4e87fe8a0b1f272c8aabd52daea64c4a4e3c473d5f10af086125bbc60c1f01",
+      "upstream_sha256": "3c4e87fe8a0b1f272c8aabd52daea64c4a4e3c473d5f10af086125bbc60c1f01"
+    },
+    "jshERP-web/src/components/jeecg/modal/JCronModal.vue": {
+      "sha256": "18b0055a65af620c7c8f88f27198b1f1708b61029a4c3c240f4f278f0c43d0c5",
+      "upstream_sha256": "18b0055a65af620c7c8f88f27198b1f1708b61029a4c3c240f4f278f0c43d0c5"
+    },
+    "jshERP-web/src/components/jeecgbiz/JSelectBizComponent/JSelectBizComponentModal.vue": {
+      "sha256": "9fa903d044d29a9da7f9a5746c641b8b48df9558b413bbc2df71bd5d64254be9",
+      "upstream_sha256": "9fa903d044d29a9da7f9a5746c641b8b48df9558b413bbc2df71bd5d64254be9"
+    },
+    "jshERP-web/src/components/jeecgbiz/JSelectBizComponent/index.vue": {
+      "sha256": "0b4fea2447624698585ec06ea855cabd78d8cbf5b792ecc655f6352f0cbaca0b",
+      "upstream_sha256": "0b4fea2447624698585ec06ea855cabd78d8cbf5b792ecc655f6352f0cbaca0b"
+    },
+    "jshERP-web/src/components/jeecgbiz/JSelectDepart.vue": {
+      "sha256": "5bbacbe1eb0543843ba5557190caa88b879237a278e6804006a04c34dcc68abe",
+      "upstream_sha256": "5bbacbe1eb0543843ba5557190caa88b879237a278e6804006a04c34dcc68abe"
+    },
+    "jshERP-web/src/components/jeecgbiz/JSelectList.vue": {
+      "sha256": "f34f01fc9319f39e52c0902a4aee36557ea69d7247a6a3ee67a8bde5d494753d",
+      "upstream_sha256": "f34f01fc9319f39e52c0902a4aee36557ea69d7247a6a3ee67a8bde5d494753d"
+    },
+    "jshERP-web/src/components/jeecgbiz/JSelectMultiUser.vue": {
+      "sha256": "1b496597562330a6eadb3f8f2b37c100a82953405466505f29653e565182ade1",
+      "upstream_sha256": "1b496597562330a6eadb3f8f2b37c100a82953405466505f29653e565182ade1"
+    },
+    "jshERP-web/src/components/jeecgbiz/JSelectPosition.vue": {
+      "sha256": "ccb6f5937ef1ffb22ac7acbbd54e0606c3e5a5b2ef186bab145fb27e836b3be9",
+      "upstream_sha256": "ccb6f5937ef1ffb22ac7acbbd54e0606c3e5a5b2ef186bab145fb27e836b3be9"
+    },
+    "jshERP-web/src/components/jeecgbiz/JSelectRole.vue": {
+      "sha256": "be6e372f88f89494affc450fedd3ea63a76ae3c409344af12fc9869ea3ce14df",
+      "upstream_sha256": "be6e372f88f89494affc450fedd3ea63a76ae3c409344af12fc9869ea3ce14df"
+    },
+    "jshERP-web/src/components/jeecgbiz/JSelectUserByDep.vue": {
+      "sha256": "ad66b0e58c6fcf1b2819d2a431e265e0e9129234a9be30f5007cdd4794a19bbe",
+      "upstream_sha256": "ad66b0e58c6fcf1b2819d2a431e265e0e9129234a9be30f5007cdd4794a19bbe"
+    },
+    "jshERP-web/src/components/jeecgbiz/modal/JSelectBatchModal.vue": {
+      "sha256": "3bde6e8b33b7781a1b35bdd7f15e7c0166320e82f90a81c934befd53cec0071c",
+      "upstream_sha256": "3bde6e8b33b7781a1b35bdd7f15e7c0166320e82f90a81c934befd53cec0071c"
+    },
+    "jshERP-web/src/components/jeecgbiz/modal/JSelectDepartModal.vue": {
+      "sha256": "bf0029667cdfa813f9bd166dfe5bbe0c5e6aca37f38a91f82ad9253a13dcc035",
+      "upstream_sha256": "bf0029667cdfa813f9bd166dfe5bbe0c5e6aca37f38a91f82ad9253a13dcc035"
+    },
+    "jshERP-web/src/components/jeecgbiz/modal/JSelectMaterialModal.vue": {
+      "sha256": "337a445a6f65140f461c3a2e31d231f952c60e28c0f5594a20b9e390ded57287",
+      "upstream_sha256": "337a445a6f65140f461c3a2e31d231f952c60e28c0f5594a20b9e390ded57287"
+    },
+    "jshERP-web/src/components/jeecgbiz/modal/JSelectSnAddModal.vue": {
+      "sha256": "0b34cbe341d30145c33a7cba48bbb6a02c2a8be0cb249f569fe3a95aeeb5ddd6",
+      "upstream_sha256": "0b34cbe341d30145c33a7cba48bbb6a02c2a8be0cb249f569fe3a95aeeb5ddd6"
+    },
+    "jshERP-web/src/components/jeecgbiz/modal/JSelectSnModal.vue": {
+      "sha256": "f3c0592dd534baed47ddff7222c46dd347d368b7005c1ac805f2214e3206e136",
+      "upstream_sha256": "f3c0592dd534baed47ddff7222c46dd347d368b7005c1ac805f2214e3206e136"
+    },
+    "jshERP-web/src/components/jeecgbiz/modal/JSelectUserByDepModal.vue": {
+      "sha256": "0ef647f70933a0a3ca58e665db031aeb32d5e1cf6656d674992b3103d5a2e76a",
+      "upstream_sha256": "0ef647f70933a0a3ca58e665db031aeb32d5e1cf6656d674992b3103d5a2e76a"
+    },
+    "jshERP-web/src/components/jeecgbiz/modal/SelectUserListModal.vue": {
+      "sha256": "4ec412f3454a42a45d42a9f291a1360123c436449d9b1de888feb568411464e9",
+      "upstream_sha256": "4ec412f3454a42a45d42a9f291a1360123c436449d9b1de888feb568411464e9"
+    },
+    "jshERP-web/src/components/layouts/BasicLayout.vue": {
+      "sha256": "8e49733581e19b911dec63171827541d95ec4add89fa233a31956074410909c2",
+      "upstream_sha256": "8e49733581e19b911dec63171827541d95ec4add89fa233a31956074410909c2"
+    },
+    "jshERP-web/src/components/layouts/BlankLayout.vue": {
+      "sha256": "510a280086cdf28a97edc4177c593839b9bbea57d52a1f0f5966c0667d21a550",
+      "upstream_sha256": "510a280086cdf28a97edc4177c593839b9bbea57d52a1f0f5966c0667d21a550"
+    },
+    "jshERP-web/src/components/layouts/IframeFReportView.vue": {
+      "sha256": "5b84c9c737c322cb9d7222170d7b13d700750da472068a44c882c7dd94db8f78",
+      "upstream_sha256": "5b84c9c737c322cb9d7222170d7b13d700750da472068a44c882c7dd94db8f78"
+    },
+    "jshERP-web/src/components/layouts/IframePageView.vue": {
+      "sha256": "69b51532af1100ecbf2e2c570d0098876f4059819b47090af9d8723010817da3",
+      "upstream_sha256": "69b51532af1100ecbf2e2c570d0098876f4059819b47090af9d8723010817da3"
+    },
+    "jshERP-web/src/components/layouts/PageView.vue": {
+      "sha256": "c2d26cdf095472417122d4fc804e68da3180bd693f1477206bf2b203075ec669",
+      "upstream_sha256": "c2d26cdf095472417122d4fc804e68da3180bd693f1477206bf2b203075ec669"
+    },
+    "jshERP-web/src/components/layouts/RouteView.vue": {
+      "sha256": "bcd2a19041abbb0e765512bce2f770b0e31d98ef18f3917db9d0c6bfd4eeae8c",
+      "upstream_sha256": "bcd2a19041abbb0e765512bce2f770b0e31d98ef18f3917db9d0c6bfd4eeae8c"
+    },
+    "jshERP-web/src/components/layouts/TabLayout.vue": {
+      "sha256": "48b1f76ed926f8b9cbf4ed59e5d5391ec72badf097aa67c8202da5bc23bcbe0b",
+      "upstream_sha256": "48b1f76ed926f8b9cbf4ed59e5d5391ec72badf097aa67c8202da5bc23bcbe0b"
+    },
+    "jshERP-web/src/components/layouts/UserLayout.vue": {
+      "sha256": "7f52096b3d77d5af3072e3f19c41692cf2749d343d561fe30d7dc06f4f538387",
+      "upstream_sha256": "7f52096b3d77d5af3072e3f19c41692cf2749d343d561fe30d7dc06f4f538387"
+    },
+    "jshERP-web/src/components/layouts/index.js": {
+      "sha256": "aea5f57b4d6cac7c3ea4ae1d0b0a64a39b002e379d85698b7e5ce424d2102fc6",
+      "upstream_sha256": "aea5f57b4d6cac7c3ea4ae1d0b0a64a39b002e379d85698b7e5ce424d2102fc6"
+    },
+    "jshERP-web/src/components/menu/Contextmenu.vue": {
+      "sha256": "b7648b5194b299456e536aa89803511c2023927cbb5808803a421f7214c39de3",
+      "upstream_sha256": "b7648b5194b299456e536aa89803511c2023927cbb5808803a421f7214c39de3"
+    },
+    "jshERP-web/src/components/menu/SideMenu.vue": {
+      "sha256": "b411069061815ddc6ed9a961187fde955863e2faed07f4c1c07b222693c4599e",
+      "upstream_sha256": "b411069061815ddc6ed9a961187fde955863e2faed07f4c1c07b222693c4599e"
+    },
+    "jshERP-web/src/components/menu/index.js": {
+      "sha256": "7faa5ce8cf446966d5656a4a42461ff01c139251082347bdcd3ecc814e631f13",
+      "upstream_sha256": "7faa5ce8cf446966d5656a4a42461ff01c139251082347bdcd3ecc814e631f13"
+    },
+    "jshERP-web/src/components/page/GlobalFooter.vue": {
+      "sha256": "70f5aa8832d8c834f8c788dfcf12afbe78654b84932e1fa6e8139020d21a62db",
+      "upstream_sha256": "70f5aa8832d8c834f8c788dfcf12afbe78654b84932e1fa6e8139020d21a62db"
+    },
+    "jshERP-web/src/components/page/GlobalHeader.vue": {
+      "sha256": "e909745d154912f10d6aa7e02a7bbf486eb0d5339b8e3a990abf4a5b5cb03d00",
+      "upstream_sha256": "e909745d154912f10d6aa7e02a7bbf486eb0d5339b8e3a990abf4a5b5cb03d00"
+    },
+    "jshERP-web/src/components/page/GlobalLayout.vue": {
+      "sha256": "c773552a202537356748ad7929b9292ec60c4406727b6dffc24dbd9b6db30f7d",
+      "upstream_sha256": "c773552a202537356748ad7929b9292ec60c4406727b6dffc24dbd9b6db30f7d"
+    },
+    "jshERP-web/src/components/page/JumpInfo.vue": {
+      "sha256": "3c9de34c1bef137a2b7fa6d47a5010b73316e87ed6bceb52f90ac2f357e7f2a1",
+      "upstream_sha256": "3c9de34c1bef137a2b7fa6d47a5010b73316e87ed6bceb52f90ac2f357e7f2a1"
+    },
+    "jshERP-web/src/components/page/PageHeader.vue": {
+      "sha256": "aeca3ef9b9df246a136074d78553b38da3f8bbd188af2cfd8af7ba137c3c3cee",
+      "upstream_sha256": "aeca3ef9b9df246a136074d78553b38da3f8bbd188af2cfd8af7ba137c3c3cee"
+    },
+    "jshERP-web/src/components/page/PageLayout.vue": {
+      "sha256": "f07a57c05fec83491903a0e89e42aff9148ed7f361e0c928e38ad3e29a9817ff",
+      "upstream_sha256": "f07a57c05fec83491903a0e89e42aff9148ed7f361e0c928e38ad3e29a9817ff"
+    },
+    "jshERP-web/src/components/page/SHeaderNotice.vue": {
+      "sha256": "4535ae71b96aec4188f7c2a924a9c4fbc15830e3aeddc86b68cb49fef94d517b",
+      "upstream_sha256": "4535ae71b96aec4188f7c2a924a9c4fbc15830e3aeddc86b68cb49fef94d517b"
+    },
+    "jshERP-web/src/components/setting/SettingDrawer.vue": {
+      "sha256": "ac8b7f5a244263df6ddf985868935405cee9eae2b50f39b3659e06ee1197243c",
+      "upstream_sha256": "ac8b7f5a244263df6ddf985868935405cee9eae2b50f39b3659e06ee1197243c"
+    },
+    "jshERP-web/src/components/setting/SettingItem.vue": {
+      "sha256": "b3ca52d9033b5be9b01e57d645bf677280adcccc98c4210967ed4ecf91631078",
+      "upstream_sha256": "b3ca52d9033b5be9b01e57d645bf677280adcccc98c4210967ed4ecf91631078"
+    },
+    "jshERP-web/src/components/table/StandardTable.vue": {
+      "sha256": "a291a0cf583ea41389a8a4875ec3091970c60ef009abbc9eb02a102a8660dd15",
+      "upstream_sha256": "a291a0cf583ea41389a8a4875ec3091970c60ef009abbc9eb02a102a8660dd15"
+    },
+    "jshERP-web/src/components/table/index.js": {
+      "sha256": "edb50a5a46b396fc5840a49149aa1495b3c317865c565ede318d81a2ed9395de",
+      "upstream_sha256": "edb50a5a46b396fc5840a49149aa1495b3c317865c565ede318d81a2ed9395de"
+    },
+    "jshERP-web/src/components/tools/BillExcelIframe.vue": {
+      "sha256": "1b5ec6fcc5c90badc7f31c3864df70ea2e82c68551fd5b96bd140312ad270ec0",
+      "upstream_sha256": "1b5ec6fcc5c90badc7f31c3864df70ea2e82c68551fd5b96bd140312ad270ec0"
+    },
+    "jshERP-web/src/components/tools/Breadcrumb.vue": {
+      "sha256": "847aed9729216e112de83d937293250d23129c3c15016f5baf2fb8246681884e",
+      "upstream_sha256": "847aed9729216e112de83d937293250d23129c3c15016f5baf2fb8246681884e"
+    },
+    "jshERP-web/src/components/tools/DepartSelect.vue": {
+      "sha256": "c34ae8fc5151bb9f55588160f8fdedc7a4e62d7f716254dd5d29fdf57ef34d3c",
+      "upstream_sha256": "c34ae8fc5151bb9f55588160f8fdedc7a4e62d7f716254dd5d29fdf57ef34d3c"
+    },
+    "jshERP-web/src/components/tools/DetailList.vue": {
+      "sha256": "59e5f0515b879861fefc57a43c1bbe0ef766cb30d0eff0a1765e77ae09bec9fb",
+      "upstream_sha256": "59e5f0515b879861fefc57a43c1bbe0ef766cb30d0eff0a1765e77ae09bec9fb"
+    },
+    "jshERP-web/src/components/tools/DynamicNotice.vue": {
+      "sha256": "6a61b976809358ec399a3c0c14eb6c092cc7f5206961ff974ce8eec8543e4aea",
+      "upstream_sha256": "6a61b976809358ec399a3c0c14eb6c092cc7f5206961ff974ce8eec8543e4aea"
+    },
+    "jshERP-web/src/components/tools/FooterToolBar.vue": {
+      "sha256": "d25f5349da499dbee5b454096b6b64edaceb2e6ac4fd9dadb6ca4c5372f62d52",
+      "upstream_sha256": "d25f5349da499dbee5b454096b6b64edaceb2e6ac4fd9dadb6ca4c5372f62d52"
+    },
+    "jshERP-web/src/components/tools/HeadInfo.vue": {
+      "sha256": "39be9a1a9dea99831e0535dac441f1a8f685c09927207a97a3316dc5635911f0",
+      "upstream_sha256": "39be9a1a9dea99831e0535dac441f1a8f685c09927207a97a3316dc5635911f0"
+    },
+    "jshERP-web/src/components/tools/HeaderNotice.vue": {
+      "sha256": "2d1a1718b2703ff387411ccdb01da6439e6a4a18c1f63ea041bbfb288cd7caaf",
+      "upstream_sha256": "2d1a1718b2703ff387411ccdb01da6439e6a4a18c1f63ea041bbfb288cd7caaf"
+    },
+    "jshERP-web/src/components/tools/ImportFileModal.vue": {
+      "sha256": "2de697561c438df18e31c41e878048530cc65393486fec6d799759f047426de9",
+      "upstream_sha256": "2de697561c438df18e31c41e878048530cc65393486fec6d799759f047426de9"
+    },
+    "jshERP-web/src/components/tools/Logo.vue": {
+      "sha256": "517946594420226833fbea5d60216e3f52316e7d09b84bada9630494977693e9",
+      "upstream_sha256": "517946594420226833fbea5d60216e3f52316e7d09b84bada9630494977693e9"
+    },
+    "jshERP-web/src/components/tools/ShowAnnouncement.vue": {
+      "sha256": "d3b670579615b3e60db8b83854cc0625904f0fa8798103437079c1c4ab0f82a0",
+      "upstream_sha256": "d3b670579615b3e60db8b83854cc0625904f0fa8798103437079c1c4ab0f82a0"
+    },
+    "jshERP-web/src/components/tools/TwoStepCaptcha.vue": {
+      "sha256": "2571bb879ac89db8ca69b266564fc0ed9048204145d262fafd0376846b4007f0",
+      "upstream_sha256": "2571bb879ac89db8ca69b266564fc0ed9048204145d262fafd0376846b4007f0"
+    },
+    "jshERP-web/src/components/tools/UserMenu.vue": {
+      "sha256": "1d5eae8924ad2c47156fcbebb97f98b05c531703f282ad9f8d3c1bda35b72919",
+      "upstream_sha256": "1d5eae8924ad2c47156fcbebb97f98b05c531703f282ad9f8d3c1bda35b72919"
+    },
+    "jshERP-web/src/components/tools/UserPassword.vue": {
+      "sha256": "1bf1ea4299870aa560315e4581dc186bc472b64f1fc22ba1b52808c0124942b0",
+      "upstream_sha256": "1bf1ea4299870aa560315e4581dc186bc472b64f1fc22ba1b52808c0124942b0"
+    },
+    "jshERP-web/src/components/tools/WorkflowIframe.vue": {
+      "sha256": "98fef3f72f6f58f4cd7d68cf58e8547c58cacadd4d718d86a521764b0e441698",
+      "upstream_sha256": "98fef3f72f6f58f4cd7d68cf58e8547c58cacadd4d718d86a521764b0e441698"
+    },
+    "jshERP-web/src/components/tools/setting.js": {
+      "sha256": "52d231f1af383982a4e3c584c82d2cd07050f3daef5538abd07496fad6f13278",
+      "upstream_sha256": "52d231f1af383982a4e3c584c82d2cd07050f3daef5538abd07496fad6f13278"
+    },
+    "jshERP-web/src/config/router.config.js": {
+      "sha256": "f8efc1547811dac5f54b5f2849cc1087d24de9bf81836df9bce77d86d16130c3",
+      "upstream_sha256": "f8efc1547811dac5f54b5f2849cc1087d24de9bf81836df9bce77d86d16130c3"
+    },
+    "jshERP-web/src/defaultSettings.js": {
+      "sha256": "c03169286796adce991e4128089567a5d9a7dba97e655d3ae292f0a967d6f4ce",
+      "upstream_sha256": "c03169286796adce991e4128089567a5d9a7dba97e655d3ae292f0a967d6f4ce"
+    },
+    "jshERP-web/src/main.js": {
+      "sha256": "4e247d6bb3491fa05150d6858537e35eb7a8781bac14a420287e2b1d3812c35c",
+      "upstream_sha256": "4e247d6bb3491fa05150d6858537e35eb7a8781bac14a420287e2b1d3812c35c"
+    },
+    "jshERP-web/src/mixins/JEditableTableMixin.js": {
+      "sha256": "54629951f797b1c2115607b969a410245fe71ab069fe8adc3dd83655ec215093",
+      "upstream_sha256": "54629951f797b1c2115607b969a410245fe71ab069fe8adc3dd83655ec215093"
+    },
+    "jshERP-web/src/mixins/JeecgListMixin.js": {
+      "sha256": "eaec79c236ce05e3ddd314a54f0a765a4fcf0e8778dcde9508bd4afd37405398",
+      "upstream_sha256": "eaec79c236ce05e3ddd314a54f0a765a4fcf0e8778dcde9508bd4afd37405398"
+    },
+    "jshERP-web/src/permission.js": {
+      "sha256": "495891c82e91e8304f1fbe96cd753e0ec2d4bc0558135b19ef77efc5293539e7",
+      "upstream_sha256": "125cacbf9715e07988013224697945907cfd6f3bcdacf2d0e25d9fa585ab143d"
+    },
+    "jshERP-web/src/router/README.md": {
+      "sha256": "88817270ba2a33857f53d9b9bd86250d0f055f54d5caca2da77e95c240da04f6",
+      "upstream_sha256": "88817270ba2a33857f53d9b9bd86250d0f055f54d5caca2da77e95c240da04f6"
+    },
+    "jshERP-web/src/router/index.js": {
+      "sha256": "6c349c89803aa8d31c9ae7c40e6fd5ba819645f4dcb52658f2ed5830d651018a",
+      "upstream_sha256": "6c349c89803aa8d31c9ae7c40e6fd5ba819645f4dcb52658f2ed5830d651018a"
+    },
+    "jshERP-web/src/store/getters.js": {
+      "sha256": "bf6c0e9c1149ba0304d32f23fa925d214d4ba73642f78bf98eca7a3a5fc1f65c",
+      "upstream_sha256": "bf6c0e9c1149ba0304d32f23fa925d214d4ba73642f78bf98eca7a3a5fc1f65c"
+    },
+    "jshERP-web/src/store/index.js": {
+      "sha256": "a5eee6f21246e175bf0f22015a80ad032d58e2988698f366b9568f9141e5787e",
+      "upstream_sha256": "a5eee6f21246e175bf0f22015a80ad032d58e2988698f366b9568f9141e5787e"
+    },
+    "jshERP-web/src/store/modules/app.js": {
+      "sha256": "6ae8e302e9f2beb4c8c9df5d47d07cf9ab8f904c4963dd77188abd16d8b5ebf0",
+      "upstream_sha256": "6ae8e302e9f2beb4c8c9df5d47d07cf9ab8f904c4963dd77188abd16d8b5ebf0"
+    },
+    "jshERP-web/src/store/modules/dict.js": {
+      "sha256": "6dc6e7488992fabc3753f2ca132b5e335b10a2a3b9b4745b01ad3beb2552cf10",
+      "upstream_sha256": "6dc6e7488992fabc3753f2ca132b5e335b10a2a3b9b4745b01ad3beb2552cf10"
+    },
+    "jshERP-web/src/store/modules/enhance.js": {
+      "sha256": "81dc17502b4cbd7efa67da2b5bc8ee54155085cca3302d41f6d8f16fcbcb2a7b",
+      "upstream_sha256": "81dc17502b4cbd7efa67da2b5bc8ee54155085cca3302d41f6d8f16fcbcb2a7b"
+    },
+    "jshERP-web/src/store/modules/permission.js": {
+      "sha256": "38135e08e81fea5f1d9e818a153ca91e8514afef5368ae04843e4495dec8bffb",
+      "upstream_sha256": "38135e08e81fea5f1d9e818a153ca91e8514afef5368ae04843e4495dec8bffb"
+    },
+    "jshERP-web/src/store/modules/user.js": {
+      "sha256": "d588b4df69b9f08e2b1b681689e144dbe9dc7d373c182a7b5ddad665adec9c82",
+      "upstream_sha256": "d588b4df69b9f08e2b1b681689e144dbe9dc7d373c182a7b5ddad665adec9c82"
+    },
+    "jshERP-web/src/store/mutation-types.js": {
+      "sha256": "7acd9c063a583a59e42f79f8124961bec6b7dc9724dd1771a189362b94b9833a",
+      "upstream_sha256": "7acd9c063a583a59e42f79f8124961bec6b7dc9724dd1771a189362b94b9833a"
+    },
+    "jshERP-web/src/utils/JEditableTableUtil.js": {
+      "sha256": "a492277229b4168b306ca0b5d7d0858b996fae0837693ca6c9743f6ead0bb237",
+      "upstream_sha256": "a492277229b4168b306ca0b5d7d0858b996fae0837693ca6c9743f6ead0bb237"
+    },
+    "jshERP-web/src/utils/LunarFullCalendarUtil.js": {
+      "sha256": "3534b9abf6928629caed2d97c8e44be1e8230d7d894fb313c5f2f6e66592aae4",
+      "upstream_sha256": "3534b9abf6928629caed2d97c8e44be1e8230d7d894fb313c5f2f6e66592aae4"
+    },
+    "jshERP-web/src/utils/auth.js": {
+      "sha256": "78e55cc0028e23300711a9d580ef345936ba0efccac5a575a34890ca372c1794",
+      "upstream_sha256": "78e55cc0028e23300711a9d580ef345936ba0efccac5a575a34890ca372c1794"
+    },
+    "jshERP-web/src/utils/authFilter.js": {
+      "sha256": "dfb2e8028191644707ced213219d1aeaf988fac11cb0a872d75027151a3d7f06",
+      "upstream_sha256": "dfb2e8028191644707ced213219d1aeaf988fac11cb0a872d75027151a3d7f06"
+    },
+    "jshERP-web/src/utils/axios.js": {
+      "sha256": "e323c801a03bb806d929589280837d20523218b5dbc94ec21156e7eeae535868",
+      "upstream_sha256": "e323c801a03bb806d929589280837d20523218b5dbc94ec21156e7eeae535868"
+    },
+    "jshERP-web/src/utils/commonUploadFile.js": {
+      "sha256": "53d256d9a63806e9296a5a4d53df2e8b20dca56ff6014015b657abeb301e21e6",
+      "upstream_sha256": "53d256d9a63806e9296a5a4d53df2e8b20dca56ff6014015b657abeb301e21e6"
+    },
+    "jshERP-web/src/utils/desform/CustomExpression.js": {
+      "sha256": "22acce7d1463b79d6c6cdb57e381c077b27bcc51bef7a785a1caf9b20542e65a",
+      "upstream_sha256": "22acce7d1463b79d6c6cdb57e381c077b27bcc51bef7a785a1caf9b20542e65a"
+    },
+    "jshERP-web/src/utils/device.js": {
+      "sha256": "bf0190afffa8cd6ece048d045e37c5b42798d941b457a725c9bb8a82ce653a5e",
+      "upstream_sha256": "bf0190afffa8cd6ece048d045e37c5b42798d941b457a725c9bb8a82ce653a5e"
+    },
+    "jshERP-web/src/utils/dict/Dict.js": {
+      "sha256": "2218a39dd5441403211867d990b5c512537e6d5647b5f014d92ba80f595bd560",
+      "upstream_sha256": "2218a39dd5441403211867d990b5c512537e6d5647b5f014d92ba80f595bd560"
+    },
+    "jshERP-web/src/utils/dict/DictConverter.js": {
+      "sha256": "ac4d4719ac37de92a74ba885e5494f6b8849ed9424e0ba5422e66288226c884d",
+      "upstream_sha256": "ac4d4719ac37de92a74ba885e5494f6b8849ed9424e0ba5422e66288226c884d"
+    },
+    "jshERP-web/src/utils/dict/DictData.js": {
+      "sha256": "fded09537e670d69d406fa93917959ea70d917da51362912aa1faf7430832139",
+      "upstream_sha256": "fded09537e670d69d406fa93917959ea70d917da51362912aa1faf7430832139"
+    },
+    "jshERP-web/src/utils/dict/DictMeta.js": {
+      "sha256": "657ebd8c5599e0e11857a59eacf0e09edb5397d787ce7694d21c8fa48e39a82f",
+      "upstream_sha256": "657ebd8c5599e0e11857a59eacf0e09edb5397d787ce7694d21c8fa48e39a82f"
+    },
+    "jshERP-web/src/utils/dict/DictOptions.js": {
+      "sha256": "1ef8cc81424379b8ddbf56ae6b673845076d43ff5a2a0df0d42b88620bf7c330",
+      "upstream_sha256": "1ef8cc81424379b8ddbf56ae6b673845076d43ff5a2a0df0d42b88620bf7c330"
+    },
+    "jshERP-web/src/utils/dict/index.js": {
+      "sha256": "78ccc2831a0e6bd55495173845199249fc04b466bbe216f7187a69138acae641",
+      "upstream_sha256": "78ccc2831a0e6bd55495173845199249fc04b466bbe216f7187a69138acae641"
+    },
+    "jshERP-web/src/utils/encryption/aesEncrypt.js": {
+      "sha256": "990a9eb48e69d343488baba3d2ffc512d970651d5629be3ec7c8a665e99ad41e",
+      "upstream_sha256": "990a9eb48e69d343488baba3d2ffc512d970651d5629be3ec7c8a665e99ad41e"
+    },
+    "jshERP-web/src/utils/filter.js": {
+      "sha256": "582848373d0a7ee3a5ec6bee899705646214ecfb1ab9e1d11feb93789f190b39",
+      "upstream_sha256": "582848373d0a7ee3a5ec6bee899705646214ecfb1ab9e1d11feb93789f190b39"
+    },
+    "jshERP-web/src/utils/hasPermission.js": {
+      "sha256": "fa55b5a6cc35038d2438fa95f01f337751ee801b0419ecf88600d09e62df7859",
+      "upstream_sha256": "fa55b5a6cc35038d2438fa95f01f337751ee801b0419ecf88600d09e62df7859"
+    },
+    "jshERP-web/src/utils/mixin.js": {
+      "sha256": "945ffa6f4f544df01190f9eefcc65a7b55c3c455c3b6f31471f5d80f2ba63be4",
+      "upstream_sha256": "945ffa6f4f544df01190f9eefcc65a7b55c3c455c3b6f31471f5d80f2ba63be4"
+    },
+    "jshERP-web/src/utils/permissions.js": {
+      "sha256": "6e642364d628c2f5405991c9b497a8b9e4757d36786909ac16f4105815a2a21d",
+      "upstream_sha256": "6e642364d628c2f5405991c9b497a8b9e4757d36786909ac16f4105815a2a21d"
+    },
+    "jshERP-web/src/utils/props-util.js": {
+      "sha256": "c2aee0c67f500eeaedbb05f3a00bf17c01cd0151e40edef3dbec139be1f328fc",
+      "upstream_sha256": "c2aee0c67f500eeaedbb05f3a00bf17c01cd0151e40edef3dbec139be1f328fc"
+    },
+    "jshERP-web/src/utils/request.js": {
+      "sha256": "d8f23808bc9c43e52ccd39e8e54cb07a9e1d48ac4d7f4aa9933b86ff46651ee8",
+      "upstream_sha256": "d8f23808bc9c43e52ccd39e8e54cb07a9e1d48ac4d7f4aa9933b86ff46651ee8"
+    },
+    "jshERP-web/src/utils/storage.js": {
+      "sha256": "cd442d689148b23054ec89f6a3c4a856481d7b0e50ddc361d4180d637e9f4090",
+      "upstream_sha256": "cd442d689148b23054ec89f6a3c4a856481d7b0e50ddc361d4180d637e9f4090"
+    },
+    "jshERP-web/src/utils/util.js": {
+      "sha256": "f36630460eb126146d190ce9d4c5301fdd297bf23288ae33b48ec9d7339e48b4",
+      "upstream_sha256": "f36630460eb126146d190ce9d4c5301fdd297bf23288ae33b48ec9d7339e48b4"
+    },
+    "jshERP-web/src/utils/validate.js": {
+      "sha256": "16f616876e65066d38b18b5c68f3122e07245ccf7ab392cdbd82299173777d98",
+      "upstream_sha256": "16f616876e65066d38b18b5c68f3122e07245ccf7ab392cdbd82299173777d98"
+    },
+    "jshERP-web/src/utils/vueBus.js": {
+      "sha256": "25b5ece72b069b0d9fccece2b05838f9bf8bf38ca40e5c4b4550686fe9e95a7d",
+      "upstream_sha256": "25b5ece72b069b0d9fccece2b05838f9bf8bf38ca40e5c4b4550686fe9e95a7d"
+    },
+    "jshERP-web/src/views/bill/AllocationOutList.vue": {
+      "sha256": "8d1c9016745b99e4bc4f8dea7f1b4bd504e17dab0565075d8e0c0eeb70d49d17",
+      "upstream_sha256": "8d1c9016745b99e4bc4f8dea7f1b4bd504e17dab0565075d8e0c0eeb70d49d17"
+    },
+    "jshERP-web/src/views/bill/AssembleList.vue": {
+      "sha256": "ddfebbc93dfcf09fa6ca3f13b538cb42b2401e632e9f969ea2b557ba0ffeb3b8",
+      "upstream_sha256": "ddfebbc93dfcf09fa6ca3f13b538cb42b2401e632e9f969ea2b557ba0ffeb3b8"
+    },
+    "jshERP-web/src/views/bill/DisassembleList.vue": {
+      "sha256": "895a44d69860d5ffc3c3dd88ef178b7e45a28dac93fea450d78452aecf073200",
+      "upstream_sha256": "895a44d69860d5ffc3c3dd88ef178b7e45a28dac93fea450d78452aecf073200"
+    },
+    "jshERP-web/src/views/bill/OtherInList.vue": {
+      "sha256": "788cf36911c9b15538ae0d12672eccda0f93edd03aecee5dc74fb3907be9a22b",
+      "upstream_sha256": "788cf36911c9b15538ae0d12672eccda0f93edd03aecee5dc74fb3907be9a22b"
+    },
+    "jshERP-web/src/views/bill/OtherOutList.vue": {
+      "sha256": "2e81431d36ad0b8d0f0410371811d5ac9ebc729f07c67da6a989db703d92c0f3",
+      "upstream_sha256": "2e81431d36ad0b8d0f0410371811d5ac9ebc729f07c67da6a989db703d92c0f3"
+    },
+    "jshERP-web/src/views/bill/PurchaseApplyList.vue": {
+      "sha256": "d0aeb595b09212944bfe781f220beb5d58021a195cf33a2e7c0d90d3eabc91d3",
+      "upstream_sha256": "d0aeb595b09212944bfe781f220beb5d58021a195cf33a2e7c0d90d3eabc91d3"
+    },
+    "jshERP-web/src/views/bill/PurchaseBackList.vue": {
+      "sha256": "d42661b47825e45f62568525eb9fc1aa6d1bb7f3a379d5fd829d092b59d00214",
+      "upstream_sha256": "d42661b47825e45f62568525eb9fc1aa6d1bb7f3a379d5fd829d092b59d00214"
+    },
+    "jshERP-web/src/views/bill/PurchaseInList.vue": {
+      "sha256": "894d186215f49af5fa0f290bca2068cef6b4f77c5a8bec684f426bbb1c8a9c11",
+      "upstream_sha256": "894d186215f49af5fa0f290bca2068cef6b4f77c5a8bec684f426bbb1c8a9c11"
+    },
+    "jshERP-web/src/views/bill/PurchaseOrderList.vue": {
+      "sha256": "768a4fe766234f3a351d43c22991445f972ed106cf9be623dd144e8a1699b14c",
+      "upstream_sha256": "768a4fe766234f3a351d43c22991445f972ed106cf9be623dd144e8a1699b14c"
+    },
+    "jshERP-web/src/views/bill/RetailBackList.vue": {
+      "sha256": "234a3a27f5ffc6fc56ec78470c3e9e810174ed96c454fd029aab2e01878e4af2",
+      "upstream_sha256": "234a3a27f5ffc6fc56ec78470c3e9e810174ed96c454fd029aab2e01878e4af2"
+    },
+    "jshERP-web/src/views/bill/RetailOutList.vue": {
+      "sha256": "341158b41149aa65b943d9bd8b545605e98ae8c67f084d3351b6ff383f5347fc",
+      "upstream_sha256": "341158b41149aa65b943d9bd8b545605e98ae8c67f084d3351b6ff383f5347fc"
+    },
+    "jshERP-web/src/views/bill/SaleBackList.vue": {
+      "sha256": "faf0f346b52e7f1c9ea6741d078b95505ab1e4656d806d9029616ef0d37b8efa",
+      "upstream_sha256": "faf0f346b52e7f1c9ea6741d078b95505ab1e4656d806d9029616ef0d37b8efa"
+    },
+    "jshERP-web/src/views/bill/SaleOrderList.vue": {
+      "sha256": "69e72dae8adce920fea6fd7dc95e9341bd6db0c04ccf1452ecfb7d03843a969c",
+      "upstream_sha256": "69e72dae8adce920fea6fd7dc95e9341bd6db0c04ccf1452ecfb7d03843a969c"
+    },
+    "jshERP-web/src/views/bill/SaleOutList.vue": {
+      "sha256": "0579379da48e73b6cabdb43126e34cc1fa6438aece93286e30c361b983682169",
+      "upstream_sha256": "0579379da48e73b6cabdb43126e34cc1fa6438aece93286e30c361b983682169"
+    },
+    "jshERP-web/src/views/bill/dialog/BatchSetDepot.vue": {
+      "sha256": "95e6ce61e68d66ec8b4ff7ee3a024d6408da39462472dc9c7eea6d01b4def956",
+      "upstream_sha256": "95e6ce61e68d66ec8b4ff7ee3a024d6408da39462472dc9c7eea6d01b4def956"
+    },
+    "jshERP-web/src/views/bill/dialog/BatchWaitBillList.vue": {
+      "sha256": "b73186e2af72b4724c95cc18267e3655d5c523911071a88d512d449ae858206a",
+      "upstream_sha256": "b73186e2af72b4724c95cc18267e3655d5c523911071a88d512d449ae858206a"
+    },
+    "jshERP-web/src/views/bill/dialog/BillDetail.vue": {
+      "sha256": "df3b8f4cbc10e50b845401944a37f0a97870956638c67fb4ad383525f48c5dc7",
+      "upstream_sha256": "df3b8f4cbc10e50b845401944a37f0a97870956638c67fb4ad383525f48c5dc7"
+    },
+    "jshERP-web/src/views/bill/dialog/BillPrintIframe.vue": {
+      "sha256": "84b6fd769ff90d76e931f86d4910b65cd42ad6903bad2f1cbb74d02de2444fca",
+      "upstream_sha256": "84b6fd769ff90d76e931f86d4910b65cd42ad6903bad2f1cbb74d02de2444fca"
+    },
+    "jshERP-web/src/views/bill/dialog/BillPrintProIframe.vue": {
+      "sha256": "b2d3fbd93e2589e0220e2eba077ace79aa95525f73f414893cad794c689ff2e4",
+      "upstream_sha256": "b2d3fbd93e2589e0220e2eba077ace79aa95525f73f414893cad794c689ff2e4"
+    },
+    "jshERP-web/src/views/bill/dialog/HistoryBillList.vue": {
+      "sha256": "87c3e0b6146fdfafd1fc77d964f7b9e192c813f1981a0d8975dce91823f9cb2c",
+      "upstream_sha256": "87c3e0b6146fdfafd1fc77d964f7b9e192c813f1981a0d8975dce91823f9cb2c"
+    },
+    "jshERP-web/src/views/bill/dialog/ImportItemModal.vue": {
+      "sha256": "9e1a5ff88b4e384ff77d96b74aed331a939605af4b07d02bab5dc640c55f081b",
+      "upstream_sha256": "9e1a5ff88b4e384ff77d96b74aed331a939605af4b07d02bab5dc640c55f081b"
+    },
+    "jshERP-web/src/views/bill/dialog/LinkBillList.vue": {
+      "sha256": "d74bc8a15fdb1ebd160b803401d571b7d4fb3db6af2a9ae8b78e8e03d9cfa149",
+      "upstream_sha256": "d74bc8a15fdb1ebd160b803401d571b7d4fb3db6af2a9ae8b78e8e03d9cfa149"
+    },
+    "jshERP-web/src/views/bill/dialog/ManyAccountModal.vue": {
+      "sha256": "c53d14b209b64b756a2c25dbfaf951812d4040e3de52d6e78835cfa61bce565c",
+      "upstream_sha256": "c53d14b209b64b756a2c25dbfaf951812d4040e3de52d6e78835cfa61bce565c"
+    },
+    "jshERP-web/src/views/bill/dialog/QuickEditModal.vue": {
+      "sha256": "ef1ccc922f0b2a99e4bf520fd5470f4eeceb25414d8af2af9ffc20b68127c0e6",
+      "upstream_sha256": "ef1ccc922f0b2a99e4bf520fd5470f4eeceb25414d8af2af9ffc20b68127c0e6"
+    },
+    "jshERP-web/src/views/bill/dialog/WaitBillList.vue": {
+      "sha256": "e24b1b9cbd4a31e257449d20cf1e312342cfd17a53ecb49ad72730b9cbcbfc31",
+      "upstream_sha256": "e24b1b9cbd4a31e257449d20cf1e312342cfd17a53ecb49ad72730b9cbcbfc31"
+    },
+    "jshERP-web/src/views/bill/mixins/BillListMixin.js": {
+      "sha256": "017e20e71f4aa6f1e0c450e0ae579e6c61850203637dab2a7353a0202168e55c",
+      "upstream_sha256": "017e20e71f4aa6f1e0c450e0ae579e6c61850203637dab2a7353a0202168e55c"
+    },
+    "jshERP-web/src/views/bill/mixins/BillModalMixin.js": {
+      "sha256": "c8105f14b52e6c20fefa6b58aa19f2b5fe05bb135055f2dcd588c2c7e2007a0e",
+      "upstream_sha256": "c8105f14b52e6c20fefa6b58aa19f2b5fe05bb135055f2dcd588c2c7e2007a0e"
+    },
+    "jshERP-web/src/views/bill/modules/AllocationOutModal.vue": {
+      "sha256": "0b5301e767a4fa33459eabb199bb4971fa776fe33884d6328de294b4edea0a32",
+      "upstream_sha256": "0b5301e767a4fa33459eabb199bb4971fa776fe33884d6328de294b4edea0a32"
+    },
+    "jshERP-web/src/views/bill/modules/AssembleModal.vue": {
+      "sha256": "3a947b18e0354d3f3b50cb437a6bbef4132d6d63e4a617d2f7efb681d74b2fe7",
+      "upstream_sha256": "3a947b18e0354d3f3b50cb437a6bbef4132d6d63e4a617d2f7efb681d74b2fe7"
+    },
+    "jshERP-web/src/views/bill/modules/DisassembleModal.vue": {
+      "sha256": "4467faafb97091c160791187d5233e264bca650b9903993c617ae971e5888120",
+      "upstream_sha256": "4467faafb97091c160791187d5233e264bca650b9903993c617ae971e5888120"
+    },
+    "jshERP-web/src/views/bill/modules/OtherInModal.vue": {
+      "sha256": "daf639ec5695b6a5e7aea0485a3daa13b8a82208d2e95df7bab0f16acee6bbde",
+      "upstream_sha256": "daf639ec5695b6a5e7aea0485a3daa13b8a82208d2e95df7bab0f16acee6bbde"
+    },
+    "jshERP-web/src/views/bill/modules/OtherOutModal.vue": {
+      "sha256": "6771e2fecf61cab7dede0e6aa4caaa2caedaa9d655dbe8ca75236283993f9550",
+      "upstream_sha256": "6771e2fecf61cab7dede0e6aa4caaa2caedaa9d655dbe8ca75236283993f9550"
+    },
+    "jshERP-web/src/views/bill/modules/PurchaseApplyModal.vue": {
+      "sha256": "0244e57c6654d9f8d4cb031e079c05f1ea86731835432476312a6b60124d7d0f",
+      "upstream_sha256": "0244e57c6654d9f8d4cb031e079c05f1ea86731835432476312a6b60124d7d0f"
+    },
+    "jshERP-web/src/views/bill/modules/PurchaseBackModal.vue": {
+      "sha256": "203cbe121ac30d083c877184dfbd7652c52a0af59e2d48fb0bf4e1e52a50af2f",
+      "upstream_sha256": "203cbe121ac30d083c877184dfbd7652c52a0af59e2d48fb0bf4e1e52a50af2f"
+    },
+    "jshERP-web/src/views/bill/modules/PurchaseInModal.vue": {
+      "sha256": "68ced273e9d6dd24dcb9bd6150de277aba3f59c88399fcffcc295f1d01a5f5fb",
+      "upstream_sha256": "68ced273e9d6dd24dcb9bd6150de277aba3f59c88399fcffcc295f1d01a5f5fb"
+    },
+    "jshERP-web/src/views/bill/modules/PurchaseOrderModal.vue": {
+      "sha256": "e270a1c1681f889dcad6ba5e649786b0eacf0a20fd76501d72c80a7759abd87b",
+      "upstream_sha256": "e270a1c1681f889dcad6ba5e649786b0eacf0a20fd76501d72c80a7759abd87b"
+    },
+    "jshERP-web/src/views/bill/modules/RetailBackModal.vue": {
+      "sha256": "2afd5c70fcdcb890d1f72871d9ba21451cceb3f1660f17d025e743646de81bff",
+      "upstream_sha256": "2afd5c70fcdcb890d1f72871d9ba21451cceb3f1660f17d025e743646de81bff"
+    },
+    "jshERP-web/src/views/bill/modules/RetailOutModal.vue": {
+      "sha256": "e3d79df19e32997669bd16a91f6ad5655a8a2f7cf08250e156c3d242d69b9744",
+      "upstream_sha256": "e3d79df19e32997669bd16a91f6ad5655a8a2f7cf08250e156c3d242d69b9744"
+    },
+    "jshERP-web/src/views/bill/modules/SaleBackModal.vue": {
+      "sha256": "ca05ff93b4ef95c11e0cc7d5938857bd68fc65c1815d509ca21559cfc7e54ae9",
+      "upstream_sha256": "ca05ff93b4ef95c11e0cc7d5938857bd68fc65c1815d509ca21559cfc7e54ae9"
+    },
+    "jshERP-web/src/views/bill/modules/SaleOrderModal.vue": {
+      "sha256": "80c2e8757ed05e59b9f67c347cf492f408a5e2468e961b60f1b5a033ab6a3754",
+      "upstream_sha256": "80c2e8757ed05e59b9f67c347cf492f408a5e2468e961b60f1b5a033ab6a3754"
+    },
+    "jshERP-web/src/views/bill/modules/SaleOutModal.vue": {
+      "sha256": "dcc203a95b50c9908cb2ea2248e49233d2dc40a1c0e4d1813b11a3f5bbd246f5",
+      "upstream_sha256": "dcc203a95b50c9908cb2ea2248e49233d2dc40a1c0e4d1813b11a3f5bbd246f5"
+    },
+    "jshERP-web/src/views/dashboard/Analysis.vue": {
+      "sha256": "c4d2acc2a573b1d10ff04e13a283cd0a9ec06cd8404966f81150a6731a36185b",
+      "upstream_sha256": "c4d2acc2a573b1d10ff04e13a283cd0a9ec06cd8404966f81150a6731a36185b"
+    },
+    "jshERP-web/src/views/dashboard/IndexChart.vue": {
+      "sha256": "5ca7bdd5523ee83acf5cea1d99d51bf738bb35cab2b929960aa6bdc4c86b12e8",
+      "upstream_sha256": "5ca7bdd5523ee83acf5cea1d99d51bf738bb35cab2b929960aa6bdc4c86b12e8"
+    },
+    "jshERP-web/src/views/exception/403.vue": {
+      "sha256": "072e73ce03d571533790c684f80d2f03c625027777685cb538cc9f574d9d01cf",
+      "upstream_sha256": "072e73ce03d571533790c684f80d2f03c625027777685cb538cc9f574d9d01cf"
+    },
+    "jshERP-web/src/views/exception/404.vue": {
+      "sha256": "aa3594e594245d0f98560dd7185aef559a43b7b4b8a7cf0aabb99bf1bfb42a77",
+      "upstream_sha256": "aa3594e594245d0f98560dd7185aef559a43b7b4b8a7cf0aabb99bf1bfb42a77"
+    },
+    "jshERP-web/src/views/exception/500.vue": {
+      "sha256": "7da145b69dd583d1242454ca1acef349ccfab09bc46d629feffbdf20b70fd3e7",
+      "upstream_sha256": "7da145b69dd583d1242454ca1acef349ccfab09bc46d629feffbdf20b70fd3e7"
+    },
+    "jshERP-web/src/views/exception/ExceptionPage.vue": {
+      "sha256": "aa13eb3efe6a86edd9886e076e68c958d7c2641e0788d081e03df8abf53bbf47",
+      "upstream_sha256": "aa13eb3efe6a86edd9886e076e68c958d7c2641e0788d081e03df8abf53bbf47"
+    },
+    "jshERP-web/src/views/exception/type.js": {
+      "sha256": "c5d6f9d5f89ea4e68cd8884ccafebc7ba4783eb8e91831c2d95533e1a6997b0d",
+      "upstream_sha256": "c5d6f9d5f89ea4e68cd8884ccafebc7ba4783eb8e91831c2d95533e1a6997b0d"
+    },
+    "jshERP-web/src/views/financial/AdvanceInList.vue": {
+      "sha256": "2d48757cc8b4a9bb836011e5a3993ff89e113ec2918227fa4f694eea7aa2c75a",
+      "upstream_sha256": "2d48757cc8b4a9bb836011e5a3993ff89e113ec2918227fa4f694eea7aa2c75a"
+    },
+    "jshERP-web/src/views/financial/GiroList.vue": {
+      "sha256": "1978b1771c54999efb85504e175fbb92364604c35b41d0f27f4c8aad9213f6a8",
+      "upstream_sha256": "1978b1771c54999efb85504e175fbb92364604c35b41d0f27f4c8aad9213f6a8"
+    },
+    "jshERP-web/src/views/financial/ItemInList.vue": {
+      "sha256": "99bf71a08ceb56c8d94fcdf16f7e9435462296a3a86c4cdb63948fb990a5dbe8",
+      "upstream_sha256": "99bf71a08ceb56c8d94fcdf16f7e9435462296a3a86c4cdb63948fb990a5dbe8"
+    },
+    "jshERP-web/src/views/financial/ItemOutList.vue": {
+      "sha256": "722c3f8e13fada5b0e44203a2c507be809bdbaee1714dc38d96e5c3f09933f57",
+      "upstream_sha256": "722c3f8e13fada5b0e44203a2c507be809bdbaee1714dc38d96e5c3f09933f57"
+    },
+    "jshERP-web/src/views/financial/MoneyInList.vue": {
+      "sha256": "6bc918a877c8c8e48b0f4283c3d65c82271dee8cf2dabb304e6a4003d226dd01",
+      "upstream_sha256": "6bc918a877c8c8e48b0f4283c3d65c82271dee8cf2dabb304e6a4003d226dd01"
+    },
+    "jshERP-web/src/views/financial/MoneyOutList.vue": {
+      "sha256": "96bc29f04f96ec6d7c40790d98be3680e2eaff7c43c83d4ec5344a9b1239ce65",
+      "upstream_sha256": "96bc29f04f96ec6d7c40790d98be3680e2eaff7c43c83d4ec5344a9b1239ce65"
+    },
+    "jshERP-web/src/views/financial/dialog/DebtBillList.vue": {
+      "sha256": "e582a43ce89b8738cfb5aa148d71ba1d3309b2f7d1e52fbc98fbf7e5bc279415",
+      "upstream_sha256": "e582a43ce89b8738cfb5aa148d71ba1d3309b2f7d1e52fbc98fbf7e5bc279415"
+    },
+    "jshERP-web/src/views/financial/dialog/FinancialDetail.vue": {
+      "sha256": "3f19204c7002afe6931bd1aecb61cad674af038406d03d8bf403e5698e7d9b61",
+      "upstream_sha256": "3f19204c7002afe6931bd1aecb61cad674af038406d03d8bf403e5698e7d9b61"
+    },
+    "jshERP-web/src/views/financial/dialog/WaitNeedList.vue": {
+      "sha256": "1b590658fa931b338a8e75e95ced30791b5a3ae3b06dd61686b445c5250726b3",
+      "upstream_sha256": "1b590658fa931b338a8e75e95ced30791b5a3ae3b06dd61686b445c5250726b3"
+    },
+    "jshERP-web/src/views/financial/mixins/FinancialListMixin.js": {
+      "sha256": "e1bc7ba6c8b8a492b0c4473eb4d2f02636a0d46136ddb95006580a91b3597801",
+      "upstream_sha256": "e1bc7ba6c8b8a492b0c4473eb4d2f02636a0d46136ddb95006580a91b3597801"
+    },
+    "jshERP-web/src/views/financial/mixins/FinancialModalMixin.js": {
+      "sha256": "3cee9104adcd843f6cb5452a51776bf0a82c4e283e60fc2e47178897d4eb01a3",
+      "upstream_sha256": "3cee9104adcd843f6cb5452a51776bf0a82c4e283e60fc2e47178897d4eb01a3"
+    },
+    "jshERP-web/src/views/financial/modules/AdvanceInModal.vue": {
+      "sha256": "038a7ac474d22aad4bd69c1f9d1496d529940f64cd6a82b8639b40c7e11debff",
+      "upstream_sha256": "038a7ac474d22aad4bd69c1f9d1496d529940f64cd6a82b8639b40c7e11debff"
+    },
+    "jshERP-web/src/views/financial/modules/GiroModal.vue": {
+      "sha256": "c07d5f2a391205cb33d4b7f321768f7a790461833b73f7bfde1bafec74dd0ec7",
+      "upstream_sha256": "c07d5f2a391205cb33d4b7f321768f7a790461833b73f7bfde1bafec74dd0ec7"
+    },
+    "jshERP-web/src/views/financial/modules/ItemInModal.vue": {
+      "sha256": "b40df0d712084e07305a0c7e46638567d7ba343e0e7408b5e3c649dc0e823de6",
+      "upstream_sha256": "b40df0d712084e07305a0c7e46638567d7ba343e0e7408b5e3c649dc0e823de6"
+    },
+    "jshERP-web/src/views/financial/modules/ItemOutModal.vue": {
+      "sha256": "ec5d7d1d6ad3f0927152779ce827e128d2e5d851764a3e367e453b71e3a124c4",
+      "upstream_sha256": "ec5d7d1d6ad3f0927152779ce827e128d2e5d851764a3e367e453b71e3a124c4"
+    },
+    "jshERP-web/src/views/financial/modules/MoneyInModal.vue": {
+      "sha256": "7d133a99628af226cab24dfe620aec07c89a23e18539ad601042ceb7a02e789b",
+      "upstream_sha256": "7d133a99628af226cab24dfe620aec07c89a23e18539ad601042ceb7a02e789b"
+    },
+    "jshERP-web/src/views/financial/modules/MoneyOutModal.vue": {
+      "sha256": "558be9bb55e523318bb64113c7e52b9c9a15f0260d78ac7e35c2be7621efe6e7",
+      "upstream_sha256": "558be9bb55e523318bb64113c7e52b9c9a15f0260d78ac7e35c2be7621efe6e7"
+    },
+    "jshERP-web/src/views/material/MaterialAttributeList.vue": {
+      "sha256": "c306ad994c82975f83ddb64461c4f771dda5424f0066986179cbf5bc4f720a00",
+      "upstream_sha256": "c306ad994c82975f83ddb64461c4f771dda5424f0066986179cbf5bc4f720a00"
+    },
+    "jshERP-web/src/views/material/MaterialCategoryList.vue": {
+      "sha256": "39f5ae1ccb8bc82084374fe1099a50e4e9104a7a15ef3da604ac68c8abb20274",
+      "upstream_sha256": "39f5ae1ccb8bc82084374fe1099a50e4e9104a7a15ef3da604ac68c8abb20274"
+    },
+    "jshERP-web/src/views/material/MaterialList.vue": {
+      "sha256": "8f7ce0bd5fa01274b44674dca729aaab66a936b1090ba650b5161c992f2ec5c8",
+      "upstream_sha256": "8f7ce0bd5fa01274b44674dca729aaab66a936b1090ba650b5161c992f2ec5c8"
+    },
+    "jshERP-web/src/views/material/MaterialPropertyList.vue": {
+      "sha256": "b96f309e38363420338d53b3e3179a1ce3304d92ac2e5663f3185d4fb7afc916",
+      "upstream_sha256": "b96f309e38363420338d53b3e3179a1ce3304d92ac2e5663f3185d4fb7afc916"
+    },
+    "jshERP-web/src/views/material/modules/BatchSetInfoModal.vue": {
+      "sha256": "0826197e795d2dc6afdf0dffe0101357082504d1b545cad17ae77ac3c37b3a7d",
+      "upstream_sha256": "0826197e795d2dc6afdf0dffe0101357082504d1b545cad17ae77ac3c37b3a7d"
+    },
+    "jshERP-web/src/views/material/modules/BatchSetPriceModal.vue": {
+      "sha256": "34128f807366b11626fb4b79e5f16c19a3f6607c2a9310a66ba9749337d080df",
+      "upstream_sha256": "34128f807366b11626fb4b79e5f16c19a3f6607c2a9310a66ba9749337d080df"
+    },
+    "jshERP-web/src/views/material/modules/BatchSetStockModal.vue": {
+      "sha256": "23f7d7aad872209adc57b8e00a401a786cb84fb57df128ba1626323bf90504a1",
+      "upstream_sha256": "23f7d7aad872209adc57b8e00a401a786cb84fb57df128ba1626323bf90504a1"
+    },
+    "jshERP-web/src/views/material/modules/MaterialAttributeModal.vue": {
+      "sha256": "74b1e6d29c18f6dfd7c1b49a7e295a3974ca35c52889c6620ef806500988b488",
+      "upstream_sha256": "74b1e6d29c18f6dfd7c1b49a7e295a3974ca35c52889c6620ef806500988b488"
+    },
+    "jshERP-web/src/views/material/modules/MaterialCategoryModal.vue": {
+      "sha256": "ac1e42da6214fb36345ac8111363afd5d02c7a556359b50cafa209423b9640cd",
+      "upstream_sha256": "ac1e42da6214fb36345ac8111363afd5d02c7a556359b50cafa209423b9640cd"
+    },
+    "jshERP-web/src/views/material/modules/MaterialModal.vue": {
+      "sha256": "ca756380dc64c4b97a10a5265c15fcb04b5d338df2bb66733f32ae7aca7a5eaf",
+      "upstream_sha256": "ca756380dc64c4b97a10a5265c15fcb04b5d338df2bb66733f32ae7aca7a5eaf"
+    },
+    "jshERP-web/src/views/material/modules/MaterialPropertyModal.vue": {
+      "sha256": "24248a67b73f9dca2b72a82a5e56c6e3025e84f3d284c313717a1f3f410f79b1",
+      "upstream_sha256": "24248a67b73f9dca2b72a82a5e56c6e3025e84f3d284c313717a1f3f410f79b1"
+    },
+    "jshERP-web/src/views/report/AccountReport.vue": {
+      "sha256": "5986fab7242d80f60b8d840036ceaf665722f5e8f4e218d45459c88d1c9ae549",
+      "upstream_sha256": "5986fab7242d80f60b8d840036ceaf665722f5e8f4e218d45459c88d1c9ae549"
+    },
+    "jshERP-web/src/views/report/AllocationDetail.vue": {
+      "sha256": "a832d291e01666430a3d069c087577d8180a6735e62d4ffcc92d530518d2e5b5",
+      "upstream_sha256": "a832d291e01666430a3d069c087577d8180a6735e62d4ffcc92d530518d2e5b5"
+    },
+    "jshERP-web/src/views/report/BuyInReport.vue": {
+      "sha256": "a8d1aef2c8455fa5d53dbf439b4a2131a6dd1408369ae76036da24dcff732ef7",
+      "upstream_sha256": "a8d1aef2c8455fa5d53dbf439b4a2131a6dd1408369ae76036da24dcff732ef7"
+    },
+    "jshERP-web/src/views/report/CustomerAccount.vue": {
+      "sha256": "99f1d1fdd5a0d536ec8710602b117634f7a424e318e8bafa83dfd149f14aeea5",
+      "upstream_sha256": "99f1d1fdd5a0d536ec8710602b117634f7a424e318e8bafa83dfd149f14aeea5"
+    },
+    "jshERP-web/src/views/report/InDetail.vue": {
+      "sha256": "ef4c840c9417dc414408ecf5d5aab6970cf4b08214ac6b2d25a8b60423d5e9fb",
+      "upstream_sha256": "ef4c840c9417dc414408ecf5d5aab6970cf4b08214ac6b2d25a8b60423d5e9fb"
+    },
+    "jshERP-web/src/views/report/InMaterialCount.vue": {
+      "sha256": "f304803ee1580af44dea72a60196ee52cad4f8fb4160db0de793dfb001fe12bd",
+      "upstream_sha256": "f304803ee1580af44dea72a60196ee52cad4f8fb4160db0de793dfb001fe12bd"
+    },
+    "jshERP-web/src/views/report/InOutStockReport.vue": {
+      "sha256": "33283b5fbb848a00d5e1f8d46c673555b341f8b6a7c121fbc8e906e3a390cdf0",
+      "upstream_sha256": "33283b5fbb848a00d5e1f8d46c673555b341f8b6a7c121fbc8e906e3a390cdf0"
+    },
+    "jshERP-web/src/views/report/MaterialStock.vue": {
+      "sha256": "5c25b140f583091ba06d9a6fbed868032c60d6095b359b3d85ae32975a5aedeb",
+      "upstream_sha256": "5c25b140f583091ba06d9a6fbed868032c60d6095b359b3d85ae32975a5aedeb"
+    },
+    "jshERP-web/src/views/report/OutDetail.vue": {
+      "sha256": "b9e86b3ac16cd85b985a053fe3991c81aeae21c0dd530893169556672668f484",
+      "upstream_sha256": "b9e86b3ac16cd85b985a053fe3991c81aeae21c0dd530893169556672668f484"
+    },
+    "jshERP-web/src/views/report/OutMaterialCount.vue": {
+      "sha256": "e2d8139b44cf55d6e6cc2a9d35da1adda313412d825d54b4f8d0e720ffd715da",
+      "upstream_sha256": "e2d8139b44cf55d6e6cc2a9d35da1adda313412d825d54b4f8d0e720ffd715da"
+    },
+    "jshERP-web/src/views/report/RetailOutReport.vue": {
+      "sha256": "6dd06fca1fe3d84f3340f89e5e9ecb0caadcf0824766b64fafd5d55345c91ce9",
+      "upstream_sha256": "6dd06fca1fe3d84f3340f89e5e9ecb0caadcf0824766b64fafd5d55345c91ce9"
+    },
+    "jshERP-web/src/views/report/SaleOutReport.vue": {
+      "sha256": "c76f89b0adfe5d3475561c3b66b6d54331ae33096982bcdd096c7fab3d45a7cb",
+      "upstream_sha256": "c76f89b0adfe5d3475561c3b66b6d54331ae33096982bcdd096c7fab3d45a7cb"
+    },
+    "jshERP-web/src/views/report/StockWarningReport.vue": {
+      "sha256": "eadf3f822f2269d0d0ecd1266ad66be01fa171060219bafd6be357e15a0772d6",
+      "upstream_sha256": "eadf3f822f2269d0d0ecd1266ad66be01fa171060219bafd6be357e15a0772d6"
+    },
+    "jshERP-web/src/views/report/VendorAccount.vue": {
+      "sha256": "97438b23ee470725df4b3a7aa565d2588540907f3bda8793e5f47a9207f80467",
+      "upstream_sha256": "97438b23ee470725df4b3a7aa565d2588540907f3bda8793e5f47a9207f80467"
+    },
+    "jshERP-web/src/views/report/modules/AccountInOutList.vue": {
+      "sha256": "facec2c95a4cb71c4c9bf82391afdde36b0bee75dcf3fc4c317df79d8324e1ce",
+      "upstream_sha256": "facec2c95a4cb71c4c9bf82391afdde36b0bee75dcf3fc4c317df79d8324e1ce"
+    },
+    "jshERP-web/src/views/report/modules/DebtAccountList.vue": {
+      "sha256": "776868295c2611dec0da72ea8e1fb79dd5aca8deb738dae55c9953a39698f723",
+      "upstream_sha256": "776868295c2611dec0da72ea8e1fb79dd5aca8deb738dae55c9953a39698f723"
+    },
+    "jshERP-web/src/views/report/modules/HistoryFinancialList.vue": {
+      "sha256": "b39142e1826531e78c1ce1b1a7c1e1af5791e776a34837b332243b80f08b646a",
+      "upstream_sha256": "b39142e1826531e78c1ce1b1a7c1e1af5791e776a34837b332243b80f08b646a"
+    },
+    "jshERP-web/src/views/report/modules/MaterialDepotStockList.vue": {
+      "sha256": "1e95a8d6f3cd55230b9fe821e2bd4460b9885893a1a69159a04bac01d3917225",
+      "upstream_sha256": "1e95a8d6f3cd55230b9fe821e2bd4460b9885893a1a69159a04bac01d3917225"
+    },
+    "jshERP-web/src/views/report/modules/MaterialDepotStockListWithTime.vue": {
+      "sha256": "533172ff757c91f428658a499d1906919b0d1aad55ddddbc1e2ef1a18c8b67d8",
+      "upstream_sha256": "533172ff757c91f428658a499d1906919b0d1aad55ddddbc1e2ef1a18c8b67d8"
+    },
+    "jshERP-web/src/views/report/modules/MaterialInOutList.vue": {
+      "sha256": "a04b29c0fa040196e85e274600b95a95b6b0ea0cca04b940dcc2c5e1ab7bdf07",
+      "upstream_sha256": "a04b29c0fa040196e85e274600b95a95b6b0ea0cca04b940dcc2c5e1ab7bdf07"
+    },
+    "jshERP-web/src/views/report/modules/StockPriceInOutList.vue": {
+      "sha256": "c17b21c5a08515ea4ec85fb522d959287a55188b378664587f3459262c7c04b3",
+      "upstream_sha256": "c17b21c5a08515ea4ec85fb522d959287a55188b378664587f3459262c7c04b3"
+    },
+    "jshERP-web/src/views/system/AccountList.vue": {
+      "sha256": "7c3c44a3d4476d131844d5c6daa630765eb357ffbe93e5e813a6a6a4ebe5230d",
+      "upstream_sha256": "7c3c44a3d4476d131844d5c6daa630765eb357ffbe93e5e813a6a6a4ebe5230d"
+    },
+    "jshERP-web/src/views/system/CustomerList.vue": {
+      "sha256": "904e081bbb2f87b394b150ba08cb584f7ce8907495d15ece3ad28db1371f0783",
+      "upstream_sha256": "904e081bbb2f87b394b150ba08cb584f7ce8907495d15ece3ad28db1371f0783"
+    },
+    "jshERP-web/src/views/system/DepotList.vue": {
+      "sha256": "9a6120c762a1ae5f697a8dec258c0af83b7f8853d9410b7f518fdb5b5e31fcca",
+      "upstream_sha256": "9a6120c762a1ae5f697a8dec258c0af83b7f8853d9410b7f518fdb5b5e31fcca"
+    },
+    "jshERP-web/src/views/system/DictList.vue": {
+      "sha256": "14760b704fb9b1cb883b89b4ddd40c97f0a40cc0aa85c02be24526a42f409914",
+      "upstream_sha256": "14760b704fb9b1cb883b89b4ddd40c97f0a40cc0aa85c02be24526a42f409914"
+    },
+    "jshERP-web/src/views/system/FunctionList.vue": {
+      "sha256": "ddbcf075f50b425d32c2aac3918eb6f77061307f1afc3698cbbe2ab06413eb96",
+      "upstream_sha256": "ddbcf075f50b425d32c2aac3918eb6f77061307f1afc3698cbbe2ab06413eb96"
+    },
+    "jshERP-web/src/views/system/InOutItemList.vue": {
+      "sha256": "8300765cfe87b501f526c13af8ffc7c2650eb87f7098f7fcca41f628ff2abbec",
+      "upstream_sha256": "8300765cfe87b501f526c13af8ffc7c2650eb87f7098f7fcca41f628ff2abbec"
+    },
+    "jshERP-web/src/views/system/LogList.vue": {
+      "sha256": "a4ede278de0089cf03adaa55810797f913a4129b9c70c8c74d7bddb8fff7b647",
+      "upstream_sha256": "a4ede278de0089cf03adaa55810797f913a4129b9c70c8c74d7bddb8fff7b647"
+    },
+    "jshERP-web/src/views/system/MemberList.vue": {
+      "sha256": "8539628b35c101694581019a3612ba39c69a5399c18f327976e954edc730f7f7",
+      "upstream_sha256": "8539628b35c101694581019a3612ba39c69a5399c18f327976e954edc730f7f7"
+    },
+    "jshERP-web/src/views/system/MsgList.vue": {
+      "sha256": "05112ef32ac4533ae60b5f723e5b2b2688a9876d4f5bbf2ea6c8d677142a5724",
+      "upstream_sha256": "05112ef32ac4533ae60b5f723e5b2b2688a9876d4f5bbf2ea6c8d677142a5724"
+    },
+    "jshERP-web/src/views/system/OrganizationList.vue": {
+      "sha256": "4141666056d94167c6e0ddd4f4c66e159edd145140513fac43be5aa1abbf7eca",
+      "upstream_sha256": "4141666056d94167c6e0ddd4f4c66e159edd145140513fac43be5aa1abbf7eca"
+    },
+    "jshERP-web/src/views/system/PersonList.vue": {
+      "sha256": "c709d69706ab6bf3268533e4d6a80da200dce8211eb204e0ea551bcbd5060f22",
+      "upstream_sha256": "c709d69706ab6bf3268533e4d6a80da200dce8211eb204e0ea551bcbd5060f22"
+    },
+    "jshERP-web/src/views/system/PlatformConfigList.vue": {
+      "sha256": "a44beab10d3a6d61f4715c52bb2a5991e36f690b33c89aa5713a49d2831a8e64",
+      "upstream_sha256": "a44beab10d3a6d61f4715c52bb2a5991e36f690b33c89aa5713a49d2831a8e64"
+    },
+    "jshERP-web/src/views/system/PluginList.vue": {
+      "sha256": "ee41124cfbd54adf5b32f380023f540cfebc4cc69c48d18ec555c3c2e8e13afc",
+      "upstream_sha256": "ee41124cfbd54adf5b32f380023f540cfebc4cc69c48d18ec555c3c2e8e13afc"
+    },
+    "jshERP-web/src/views/system/RoleList.vue": {
+      "sha256": "593e9981b024243136e2b9222216facb8e2b5d6bfde28fec0a8ed4ad30590379",
+      "upstream_sha256": "593e9981b024243136e2b9222216facb8e2b5d6bfde28fec0a8ed4ad30590379"
+    },
+    "jshERP-web/src/views/system/SystemConfigList.vue": {
+      "sha256": "c2c9c38df0153d87c8f13a29263428d0ac6cf7de8af8d43a0746bb13d0be88c4",
+      "upstream_sha256": "c2c9c38df0153d87c8f13a29263428d0ac6cf7de8af8d43a0746bb13d0be88c4"
+    },
+    "jshERP-web/src/views/system/TenantList.vue": {
+      "sha256": "65bc60eee4cd4d0f70345b5d764bc959c02b2e6b9011baaab628e61922e55dcb",
+      "upstream_sha256": "65bc60eee4cd4d0f70345b5d764bc959c02b2e6b9011baaab628e61922e55dcb"
+    },
+    "jshERP-web/src/views/system/UnitList.vue": {
+      "sha256": "b70eebd09939093e4daae5ee28ddbae21fce7d44aa3f04d3c25bff4f6e34eb5a",
+      "upstream_sha256": "b70eebd09939093e4daae5ee28ddbae21fce7d44aa3f04d3c25bff4f6e34eb5a"
+    },
+    "jshERP-web/src/views/system/UserList.vue": {
+      "sha256": "43c9a4b4b2015db0b14a43741d7d4d214f469a243c703e90eb79e8a98fd31ada",
+      "upstream_sha256": "43c9a4b4b2015db0b14a43741d7d4d214f469a243c703e90eb79e8a98fd31ada"
+    },
+    "jshERP-web/src/views/system/VendorList.vue": {
+      "sha256": "f4e9a372a7b19a950e6fc3ea193c40d686bd92d2578a2c116c2875a7b70934cc",
+      "upstream_sha256": "f4e9a372a7b19a950e6fc3ea193c40d686bd92d2578a2c116c2875a7b70934cc"
+    },
+    "jshERP-web/src/views/system/modules/AccountModal.vue": {
+      "sha256": "9f5ff92de6e4c0077f685c40e06b658ab9069346ec4d751a967c62df767a99b7",
+      "upstream_sha256": "9f5ff92de6e4c0077f685c40e06b658ab9069346ec4d751a967c62df767a99b7"
+    },
+    "jshERP-web/src/views/system/modules/CustomerModal.vue": {
+      "sha256": "ab6fd4a19e0ac936f3c4f1896becfb86edd1bf94b9453b14fc78dac2bccea8e8",
+      "upstream_sha256": "ab6fd4a19e0ac936f3c4f1896becfb86edd1bf94b9453b14fc78dac2bccea8e8"
+    },
+    "jshERP-web/src/views/system/modules/CustomerUserModal.vue": {
+      "sha256": "81fb35c17b8d071094658bff655805ce2724d6cbd90920ce2597d189e4f45419",
+      "upstream_sha256": "81fb35c17b8d071094658bff655805ce2724d6cbd90920ce2597d189e4f45419"
+    },
+    "jshERP-web/src/views/system/modules/DepotModal.vue": {
+      "sha256": "fe7730b673932c928d9153787df1bd5053f096a99017ced8e2dfc582127e68c2",
+      "upstream_sha256": "fe7730b673932c928d9153787df1bd5053f096a99017ced8e2dfc582127e68c2"
+    },
+    "jshERP-web/src/views/system/modules/DepotUserModal.vue": {
+      "sha256": "cb0013c3f514984986524e29364ed95414621a7d01f67fc9c7b83971b056ff4a",
+      "upstream_sha256": "cb0013c3f514984986524e29364ed95414621a7d01f67fc9c7b83971b056ff4a"
+    },
+    "jshERP-web/src/views/system/modules/DictDataListModal.vue": {
+      "sha256": "d9161ddee94c09cdf186741913fbd18e6f16541877d3332051c600b45284f886",
+      "upstream_sha256": "d9161ddee94c09cdf186741913fbd18e6f16541877d3332051c600b45284f886"
+    },
+    "jshERP-web/src/views/system/modules/DictDataModal.vue": {
+      "sha256": "2b67da03b37a8857eeea552ffa3e9e30b3c088b6ce44ab734850b570c10fbf8d",
+      "upstream_sha256": "2b67da03b37a8857eeea552ffa3e9e30b3c088b6ce44ab734850b570c10fbf8d"
+    },
+    "jshERP-web/src/views/system/modules/DictTypeModal.vue": {
+      "sha256": "06e120c8e14e583f52bedf4cadca9b69773f1cb2e6c3fe206b7f8bb797b39a3b",
+      "upstream_sha256": "06e120c8e14e583f52bedf4cadca9b69773f1cb2e6c3fe206b7f8bb797b39a3b"
+    },
+    "jshERP-web/src/views/system/modules/FunctionModal.vue": {
+      "sha256": "97723c18a06777401dcb21fbd5b3ca3eb3b3aaf8155e584c6469fc6fb1744db9",
+      "upstream_sha256": "97723c18a06777401dcb21fbd5b3ca3eb3b3aaf8155e584c6469fc6fb1744db9"
+    },
+    "jshERP-web/src/views/system/modules/FunctionTreeModal.vue": {
+      "sha256": "7f39851d6f0fa998564b5b9bb72f295269b544a957129dcca37b1211634236f6",
+      "upstream_sha256": "7f39851d6f0fa998564b5b9bb72f295269b544a957129dcca37b1211634236f6"
+    },
+    "jshERP-web/src/views/system/modules/InOutItemModal.vue": {
+      "sha256": "0faac0b8dbc4fb773fb20472603fa886e523121cd8e47334dafe73212ae3279f",
+      "upstream_sha256": "0faac0b8dbc4fb773fb20472603fa886e523121cd8e47334dafe73212ae3279f"
+    },
+    "jshERP-web/src/views/system/modules/MemberModal.vue": {
+      "sha256": "e738256a65d990aef661870ffab6405d3e631306260aaf36c267c96ae8328e76",
+      "upstream_sha256": "e738256a65d990aef661870ffab6405d3e631306260aaf36c267c96ae8328e76"
+    },
+    "jshERP-web/src/views/system/modules/OrganizationModal.vue": {
+      "sha256": "3828a3abfc525c46985b306aa56653c15e71411cfd5d9e49cac052f236771506",
+      "upstream_sha256": "3828a3abfc525c46985b306aa56653c15e71411cfd5d9e49cac052f236771506"
+    },
+    "jshERP-web/src/views/system/modules/PersonModal.vue": {
+      "sha256": "c6e6a986f050cb7e51362f6c269386a485e1896c28a2edbbcc5efa92fd17877a",
+      "upstream_sha256": "c6e6a986f050cb7e51362f6c269386a485e1896c28a2edbbcc5efa92fd17877a"
+    },
+    "jshERP-web/src/views/system/modules/PlatformConfigModal.vue": {
+      "sha256": "28ca431b257d1e762deac9eb499733763d0af5860706624682a07ed2e01e3a33",
+      "upstream_sha256": "28ca431b257d1e762deac9eb499733763d0af5860706624682a07ed2e01e3a33"
+    },
+    "jshERP-web/src/views/system/modules/PluginAppModal.vue": {
+      "sha256": "00554be81f96a0809a47abfe4e9993ad11d94dcf6cca5e1abdb007e50aab3c94",
+      "upstream_sha256": "00554be81f96a0809a47abfe4e9993ad11d94dcf6cca5e1abdb007e50aab3c94"
+    },
+    "jshERP-web/src/views/system/modules/PluginModal.vue": {
+      "sha256": "28c1644e49ce8a5760982b69b6e1d9347ba7c3c9f0e98e7ebfdbce941bcacb5a",
+      "upstream_sha256": "28c1644e49ce8a5760982b69b6e1d9347ba7c3c9f0e98e7ebfdbce941bcacb5a"
+    },
+    "jshERP-web/src/views/system/modules/RoleFunctionModal.vue": {
+      "sha256": "f3d58ef46b1bc51edc27e1aebb2bb3a4edb16383f0f7013f65871e943ba68765",
+      "upstream_sha256": "f3d58ef46b1bc51edc27e1aebb2bb3a4edb16383f0f7013f65871e943ba68765"
+    },
+    "jshERP-web/src/views/system/modules/RoleModal.vue": {
+      "sha256": "c7e4505e49f7941e44a535d87977ee990129f0ab977d2cb2e4c3f4aeed253146",
+      "upstream_sha256": "c7e4505e49f7941e44a535d87977ee990129f0ab977d2cb2e4c3f4aeed253146"
+    },
+    "jshERP-web/src/views/system/modules/RolePushBtnModal.vue": {
+      "sha256": "233b2933eb57040fe09cc5956657e98b0b63bb380b895dd735441283e2f11597",
+      "upstream_sha256": "233b2933eb57040fe09cc5956657e98b0b63bb380b895dd735441283e2f11597"
+    },
+    "jshERP-web/src/views/system/modules/TenantModal.vue": {
+      "sha256": "5aa61d8d642204bd9769d0bc11b29b794f83a5890426d51798e59e2fe687ba13",
+      "upstream_sha256": "5aa61d8d642204bd9769d0bc11b29b794f83a5890426d51798e59e2fe687ba13"
+    },
+    "jshERP-web/src/views/system/modules/UnitModal.vue": {
+      "sha256": "8fe2b857dbf318177fa743fd703f0c2a9c8a4753a8762404a95f710085a35d83",
+      "upstream_sha256": "8fe2b857dbf318177fa743fd703f0c2a9c8a4753a8762404a95f710085a35d83"
+    },
+    "jshERP-web/src/views/system/modules/UserCustomerModal.vue": {
+      "sha256": "94910d4d5787da9940e24375018c9ddbcd5e54fea66625d4ebd4f05832c723fa",
+      "upstream_sha256": "94910d4d5787da9940e24375018c9ddbcd5e54fea66625d4ebd4f05832c723fa"
+    },
+    "jshERP-web/src/views/system/modules/UserDepotModal.vue": {
+      "sha256": "65344c2a257d0ae622bed3a7c0bdf852970acc9b568da62fc04a4711b076555a",
+      "upstream_sha256": "65344c2a257d0ae622bed3a7c0bdf852970acc9b568da62fc04a4711b076555a"
+    },
+    "jshERP-web/src/views/system/modules/UserModal.vue": {
+      "sha256": "1a023ef04af1c21cb1f4494293383d609eaa9f4edf87d26b40c9f1e4b7676382",
+      "upstream_sha256": "1a023ef04af1c21cb1f4494293383d609eaa9f4edf87d26b40c9f1e4b7676382"
+    },
+    "jshERP-web/src/views/system/modules/UserResetModal.vue": {
+      "sha256": "d6bd459c123ea7034e2be064c60eee8cff3588f76cd84580275936e5310aa487",
+      "upstream_sha256": "d6bd459c123ea7034e2be064c60eee8cff3588f76cd84580275936e5310aa487"
+    },
+    "jshERP-web/src/views/system/modules/VendorModal.vue": {
+      "sha256": "430710aab1b2baa1ceb4d3ddf0935e38e2a3328bde49ee48d6d48da819c7007b",
+      "upstream_sha256": "430710aab1b2baa1ceb4d3ddf0935e38e2a3328bde49ee48d6d48da819c7007b"
+    },
+    "jshERP-web/src/views/system/modules/icon/Icon.less": {
+      "sha256": "24942ce21bef50b53b001f92604825d8682faba989cc96305b3a5c38578aa044",
+      "upstream_sha256": "24942ce21bef50b53b001f92604825d8682faba989cc96305b3a5c38578aa044"
+    },
+    "jshERP-web/src/views/system/modules/icon/Icons.vue": {
+      "sha256": "0cc8c094ef17fbecb1569af5e20e576a7aa5077200de4aa848fd09e98cd0608d",
+      "upstream_sha256": "0cc8c094ef17fbecb1569af5e20e576a7aa5077200de4aa848fd09e98cd0608d"
+    },
+    "jshERP-web/src/views/user/Login.vue": {
+      "sha256": "da5891d093ba78ab0822161545c37722d1c09330af6c02f4b8c8c7d056cf3424",
+      "upstream_sha256": "da5891d093ba78ab0822161545c37722d1c09330af6c02f4b8c8c7d056cf3424"
+    },
+    "jshERP-web/src/views/user/Register.vue": {
+      "sha256": "998c0b4ba3496f0cd776eb1609088ba63ee1e0e36ff0a2c87d1506eaaf960198",
+      "upstream_sha256": "998c0b4ba3496f0cd776eb1609088ba63ee1e0e36ff0a2c87d1506eaaf960198"
+    },
+    "jshERP-web/vue.config.js": {
+      "sha256": "55e3128ef59ebfda5b4fe26db6238e47742bee36cf32fa8dbfe602314ae8b90e",
+      "upstream_sha256": "4491e9b6cbc82d2bb3ab30c4c2963c8db4180973928a14d5a0165236fd702b8a"
+    }
+  }
+}

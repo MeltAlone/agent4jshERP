@@ -1,0 +1,11 @@
+FROM maven:3.9-eclipse-temurin-8 AS build
+WORKDIR /build
+COPY deploy/maven-settings.xml /root/.m2/settings.xml
+COPY third_party/jshERP/jshERP-boot ./
+RUN --mount=type=cache,target=/root/.m2/repository mvn -B -q package -DskipTests
+FROM eclipse-temurin:8-jre
+WORKDIR /app
+RUN mkdir -p /tmp/tomcat /opt/jshERP/upload /opt/jshERP/export /app/plugins /app/pluginConfig
+COPY --from=build /build/target/jshERP.jar /app/jshERP.jar
+EXPOSE 9999
+CMD ["java", "-jar", "/app/jshERP.jar"]

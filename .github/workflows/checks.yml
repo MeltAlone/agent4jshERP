@@ -1,0 +1,54 @@
+name: Checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:18
+        env:
+          POSTGRES_DB: assistant_test
+          POSTGRES_USER: assistant
+          POSTGRES_PASSWORD: ci-only-synthetic-password
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U assistant -d assistant_test"
+          --health-interval 3s --health-timeout 3s --health-retries 15
+    env:
+      A4J_RUN_PG_TESTS: "1"
+      A4J_DATABASE_URL: postgresql+psycopg://assistant:ci-only-synthetic-password@127.0.0.1:5432/assistant_test
+      A4J_ERP_BASE_URL: http://127.0.0.1:19999/jshERP-boot
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      - run: uv python install 3.14
+      - run: uv sync --project backend --locked
+      - name: Generate ephemeral CI encryption key
+        run: uv run --project backend python -c 'from cryptography.fernet import Fernet; import os; f=open(os.environ["GITHUB_ENV"],"a"); f.write("A4J_SESSION_KEY="+Fernet.generate_key().decode()+"\n"); f.close()'
+      - run: python3 scripts/check_vendor.py
+      - run: python3 scripts/test_init_stack.py
+      - run: uv run --project backend ruff check backend
+      - run: uv run --project backend ruff format --check backend
+      - run: uv run --project backend ruff check --config backend/pyproject.toml scripts/verify_purchase_faults.py
+      - run: uv run --project backend ruff format --check --config backend/pyproject.toml scripts/verify_purchase_faults.py
+      - run: uv run --project backend pytest backend/tests
+  frontend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "26"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci --prefix frontend --no-audit --no-fund
+      - run: npm run typecheck --prefix frontend
+      - run: npm test --prefix frontend
+      - run: npm run build --prefix frontend

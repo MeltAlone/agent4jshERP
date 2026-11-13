@@ -1,0 +1,209 @@
+{
+  "contract": "jsh-38ad91e-v1",
+  "environment": "bundled-synthetic-only",
+  "started_at": "2026-11-13T09:46:41.427671+00:00",
+  "cases": [
+    {
+      "scenario": "response_lost",
+      "execution_id": "c9da4e56-705d-4743-8049-2f312948a239",
+      "erp_number": "CGDD00000001002",
+      "status": "succeeded",
+      "create_attempts": 1,
+      "actual_orders": [
+        {
+          "id": 278,
+          "paid": 0.0,
+          "type": "其它",
+          "lines": [
+            {
+              "tax": 0.0,
+              "unit": "箱",
+              "basic": 12.0,
+              "depot": null,
+              "price": 30.125,
+              "amount": 30.13,
+              "extend": 20111,
+              "quantity": 1.0
+            }
+          ],
+          "total": -30.13,
+          "number": "CGDD00000001002",
+          "remark": "synthetic recovery acceptance: response_lost",
+          "status": "0",
+          "tenant": 9101,
+          "creator": 9101,
+          "deposit": null,
+          "discount": 0.0,
+          "sub_type": "采购订单",
+          "supplier": 4101
+        }
+      ],
+      "elapsed_ms": 1779,
+      "model_calls": 0
+    },
+    {
+      "scenario": "crash_after_post",
+      "execution_id": "09afccf6-297c-4dbb-9658-5269584f64b3",
+      "erp_number": "CGDD00000001003",
+      "status": "succeeded",
+      "create_attempts": 1,
+      "actual_orders": [
+        {
+          "id": 279,
+          "paid": 0.0,
+          "type": "其它",
+          "lines": [
+            {
+              "tax": 0.0,
+              "unit": "箱",
+              "basic": 12.0,
+              "depot": null,
+              "price": 30.125,
+              "amount": 30.13,
+              "extend": 20111,
+              "quantity": 1.0
+            }
+          ],
+          "total": -30.13,
+          "number": "CGDD00000001003",
+          "remark": "synthetic recovery acceptance: crash_after_post",
+          "status": "0",
+          "tenant": 9101,
+          "creator": 9101,
+          "deposit": null,
+          "discount": 0.0,
+          "sub_type": "采购订单",
+          "supplier": 4101
+        }
+      ],
+      "elapsed_ms": 2389,
+      "model_calls": 0
+    },
+    {
+      "scenario": "crash_after_mark",
+      "execution_id": "182901b6-21b7-464e-89f2-c4820d9bb7aa",
+      "erp_number": "CGDD00000001004",
+      "status": "needs_attention",
+      "create_attempts": 0,
+      "actual_orders": [],
+      "elapsed_ms": 2053,
+      "model_calls": 0
+    }
+  ],
+  "passed": true,
+  "before": {
+    "heads": 1,
+    "items": 1,
+    "stocks": [
+      [
+        3001,
+        6001,
+        120.0
+      ],
+      [
+        3001,
+        6002,
+        48.0
+      ],
+      [
+        3002,
+        6001,
+        120.0
+      ],
+      [
+        3002,
+        6002,
+        48.0
+      ],
+      [
+        3003,
+        6001,
+        120.0
+      ],
+      [
+        3003,
+        6002,
+        48.0
+      ],
+      [
+        3101,
+        6101,
+        24.0
+      ],
+      [
+        3102,
+        6101,
+        24.0
+      ],
+      [
+        3103,
+        6101,
+        24.0
+      ]
+    ],
+    "payments": 0,
+    "payment_items": 0
+  },
+  "after": {
+    "heads": 3,
+    "items": 3,
+    "stocks": [
+      [
+        3001,
+        6001,
+        120.0
+      ],
+      [
+        3001,
+        6002,
+        48.0
+      ],
+      [
+        3002,
+        6001,
+        120.0
+      ],
+      [
+        3002,
+        6002,
+        48.0
+      ],
+      [
+        3003,
+        6001,
+        120.0
+      ],
+      [
+        3003,
+        6002,
+        48.0
+      ],
+      [
+        3101,
+        6101,
+        24.0
+      ],
+      [
+        3102,
+        6101,
+        24.0
+      ],
+      [
+        3103,
+        6101,
+        24.0
+      ]
+    ],
+    "payments": 0,
+    "payment_items": 0
+  },
+  "source_commit": "38ad91e197185847d14c33e86219557480f00db4",
+  "method": {
+    "erp": "real bundled synthetic jshERP, through localhost same-origin proxy",
+    "assistant": "real FastAPI routes via TestClient and real PostgreSQL isolated schema",
+    "response_loss": "discard real ERP write response at HTTP transport boundary, then raise ReadError",
+    "worker_crash": "os._exit(73) in separate worker process at persisted boundary / after POST",
+    "recovery": "advance only test schema lease deadlines; launch a new worker process with writes disabled",
+    "model": "disabled"
+  }
+}

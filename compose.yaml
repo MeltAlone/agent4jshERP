@@ -1,0 +1,120 @@
+name: agent4jsherp
+x-assistant: &assistant
+  image: agent4jsherp-api:local
+  build:
+    context: .
+    dockerfile: deploy/Dockerfile.api
+  env_file: .env
+  environment: &assistant-environment
+    A4J_DATABASE_URL: postgresql+psycopg://assistant:${A4J_POSTGRES_PASSWORD:?Generate .env first}@database:5432/assistant
+    A4J_ERP_BASE_URL: http://erp-backend:9999/jshERP-boot
+    A4J_ERP_CONTRACT: jsh-38ad91e-v1
+    A4J_CONNECTION_ID: jsh-bundled-38ad91e
+  restart: unless-stopped
+services:
+  database:
+    image: postgres:18
+    environment:
+      POSTGRES_DB: assistant
+      POSTGRES_USER: assistant
+      POSTGRES_PASSWORD: ${A4J_POSTGRES_PASSWORD:?Generate .env first}
+    ports: ["127.0.0.1:15432:5432"]
+    volumes: ["assistant-postgres:/var/lib/postgresql"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U assistant -d assistant"]
+      interval: 3s
+      timeout: 3s
+      retries: 30
+    restart: unless-stopped
+  erp-mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: ${A4J_ERP_DB_PASSWORD:?Run scripts/init_stack.py first}
+      MYSQL_DATABASE: jsh_erp
+      TZ: Asia/Shanghai
+    command: ["--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci", "--performance-schema=OFF", "--innodb-buffer-pool-size=128M"]
+    volumes:
+      - erp-mysql:/var/lib/mysql
+      - ./.runtime/erp/init.sql:/docker-entrypoint-initdb.d/01-fixture.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", 'MYSQL_PWD="$$MYSQL_ROOT_PASSWORD" mysqladmin ping -h 127.0.0.1 -uroot --silent']
+      interval: 3s
+      timeout: 3s
+      retries: 40
+    restart: unless-stopped
+  erp-redis:
+    image: redis:7
+    command: ["redis-server", "--save", "", "--appendonly", "no", "--requirepass", "${A4J_ERP_REDIS_PASSWORD:?Run scripts/init_stack.py first}"]
+    environment:
+      REDISCLI_AUTH: ${A4J_ERP_REDIS_PASSWORD}
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+  erp-backend:
+    image: agent4jsherp-erp:38ad91e
+    build:
+      context: .
+      dockerfile: deploy/Dockerfile.erp
+    environment:
+      SPRING_DATASOURCE_PASSWORD: ${A4J_ERP_DB_PASSWORD}
+      SPRING_REDIS_PASSWORD: ${A4J_ERP_REDIS_PASSWORD}
+      JAVA_TOOL_OPTIONS: "-Xmx384m -Xms128m -XX:+UseSerialGC"
+      TZ: Asia/Shanghai
+    depends_on:
+      erp-mysql: { condition: service_healthy }
+      erp-redis: { condition: service_healthy }
+    volumes:
+      - erp-upload:/opt/jshERP/upload
+      - erp-export:/opt/jshERP/export
+    healthcheck:
+      test: ["CMD-SHELL", 'test "$$(curl -s --max-time 3 http://localhost:9999/jshERP-boot/user/getUserSession)" = "loginOut"']
+      start_period: 60s
+      interval: 5s
+      timeout: 4s
+      retries: 30
+    restart: unless-stopped
+  migrate:
+    <<: *assistant
+    command: ["sh", "-c", "alembic -c backend/alembic.ini upgrade head && python -m app.orchestration.checkpoints"]
+    depends_on:
+      database: { condition: service_healthy }
+    restart: "no"
+  api:
+    <<: *assistant
+    depends_on:
+      database: { condition: service_healthy }
+      erp-backend: { condition: service_healthy }
+      migrate: { condition: service_completed_successfully }
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:18000/assistant/api/v1/health/ready', timeout=4)"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+      start_period: 10s
+  worker:
+    <<: *assistant
+    command: ["python", "-m", "app.worker"]
+    depends_on:
+      api: { condition: service_healthy }
+  proxy:
+    image: agent4jsherp-web:local
+    build:
+      context: .
+      dockerfile: deploy/Dockerfile.web
+    ports: ["127.0.0.1:18081:80"]
+    depends_on:
+      api: { condition: service_healthy }
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O /dev/null http://127.0.0.1/assistant/api/v1/health/live"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+volumes:
+  assistant-postgres:
+  erp-mysql:
+  erp-upload:
+  erp-export:
